@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+
+    <!-- luannt26 End PagerSlidingTabStrip -->
+
+
+    <!-- luannt26 new color -->
+
+    <color name="COLOR_BUTTON">#2680F6</color>
+    <color name="COLOR_BUTTON_AlPHA">#662680F6</color>
+    <color name="COLOR_BLUE">#2680F6</color>
+    <color name="COLOR_MENU_CLICK">#4675b9</color>
+    <color name="COLOR_GRAY">#969696</color>
+    <color name="color_black">#000000</color>
+    <color name="color_black50">#80000000</color>
+    <color name="COLOR_BLUE_BG_ITEM_SELECT">#DCDCDC</color>
+    <color name="COLOR_gray">#F0F0F0</color>
+    <!-- End luannt26 new color -->
+    <color name="COLOR_TEXT_BLACK">#000000</color>
+    <color name="COLOR_TEXT_TITLE_BLACK">#000000</color>
+    <color name="black">#000000</color>
+    <color name="GRAY_COLOR">#B4B4B4</color>
+    <color name="GRAY_COLOR2">#efefef</color>
+    <color name="RED_COLOR">#b11116</color>
+    <color name="GREY">#dddddd</color>
+    <color name="BLACK_COLOR">#000000</color>
+    <color name="GREY_HINT">#cdcdcd</color>
+    <color name="WHITE_COLOR">#FFFFFF</color>
+    <color name="WHITE_BG_FR">#E6eeeff1</color>
+    <color name="TRANSPARENT">#00000000</color>
+    <color name="BLUE_COLOR">#2680F6</color>
+    <color name="COLOR_TIME_DITAIL_CALENDAR">#ff0000</color>
+    <!-- @author datnv5 colortext form  defign 14/7/2013. -->
+
+
+    <!-- Form Login -->
+    <!-- danh bạ -->
+
+    <!-- tex tìm kiếm -->
+    <!-- Cong viec -->
+    <!-- Lịch họp -->
+    <color name="calendar_menu">#ececec</color>
+    <!-- Văn bản trình ký -->
+    <!-- doc list -->
+    <!-- bottom -->
+    <!-- buttom -->
+
+    <!-- [START BACKGROUND COMMON] -->
+    <color name="background_page">#ffffff</color>
+    <color name="linespace">#d1d1d1</color>
+    <color name="title_layout_left">#ebebeb</color>
+    <color name="bg_row_doc">#2680F6</color>
+    <!-- [END BACKGROUND COMMON] -->
+
+
+    <!-- [START BUTTOM COMMON] -->
+    <color name="btn_cm_default">#2680F6</color>
+    <color name="btn_cm_default_new">#3C66A0</color>
+    <color name="toolbar_title_color">#3C66A0</color>
+
+    <color name="btn_cm_pressed">#777777</color>
+    <!-- [END BUTTOM COMMON] -->
+
+
+    <!-- [START TEXT COMMON -->
+    <color name="TextColorCommon">#929292</color>
+    <!-- mau chu chung -->
+    <!-- mau chu chung -->
+    <color name="TextColorHomeMenu">#58595b</color>
+    <!-- mau chu menu trang chu -->
+    <color name="TextColorTitleCommon">#555555</color>
+    <!-- mau chu chung nhãn -->
+    <color name="TextColorTitleCommon_Green">#2680F6</color>
+    <!-- mau chu chung nhãn -->
+    <color name="TextColorTitleCommon_Gray_New">#999ea6</color>
+    <!-- mau chu chung nhãn -->
+    <color name="TextColorContenCommon">#555555</color>
+
+    <!-- [END TEXT COMMON -->
+
+
+    <!-- [START ACTIONBAR -->
+    <color name="actionbar_menu_title">#555555</color>
+    <color name="actionbar_background">#e8e8e8</color>
+    <color name="barmenu">#777777</color>
+    <!-- [END ACTIONBAR -->
+
+
+    <!-- color alert -->
+    <color name="BLUE">#2680F6</color>
+    <color name="BLUE_DARK">#222B3F</color>
+    <color name="red">#ff4444</color>
+    <color name="GRAY_COLOR_1">#BABABA</color>
+    <color name="BG_SOLIEU">#DCE8FD</color>
+    <color name="BG_ADD_MISSION">#388E3C</color>
+    <color name="BG_RESET_ADD_MISSION">#F20000</color>
+    <color name="YELLOW_COLOR">#ffff00</color>
+    <color name="Green_color">#14440A</color>
+    <color name="Green_tran">#40acabab</color>
+    <!-- touchID -->
+    <color name="color_43">#43AE1D</color>
+
+    <!-- bant4 thang 7 -->
+    <color name="stpi_default_circle_color">#b3bdc2</color>
+    <color name="barColor">#39B54A</color>
+    <color name="textinactive">#C2C2C2</color>
+    <color name="colorBackground">#FF4081</color>
+    <color name="colorText">#FFFFFF</color>
+
+</resources>

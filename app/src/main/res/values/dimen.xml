@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="padding_layout_title">2dp</dimen>
+    <dimen name="margin_loginlogo">30dp</dimen>
+    <dimen name="size_check">20dp</dimen>
+    <!-- danh cho nhung man hinh chua chua danh sach thumbnail hinh anh -->
+    <dimen name="icon_image_thumb_height_size">68dp</dimen>
+    <dimen name="padding_left_buttom">10dp</dimen>
+    <dimen name="padding_border_image_view">1dp</dimen>
+    <dimen name="padding_small">2dp</dimen>
+    <dimen name="padding_nomal">5dp</dimen>
+    <dimen name="width_edt_land">300dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="margin5">5dp</dimen>
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="margin15">15dp</dimen>
+    <dimen name="padding_left">5dp</dimen>
+    <dimen name="padding_top">5dp</dimen>
+    <dimen name="padding_bottom">5dp</dimen>
+    <dimen name="padding_small_lag">10dp</dimen>
+    <dimen name="padding_small_left_lag">10dp</dimen>
+    <dimen name="padding_lag">15dp</dimen>
+    <dimen name="size_progresbar">30dp</dimen>
+    <dimen name="padding_left_lag">15dp</dimen>
+    <dimen name="padding_bottom_lag">15dp</dimen>
+    <dimen name="padding_big">20dp</dimen>
+    <dimen name="padding_big1">25dp</dimen>
+    <dimen name="padding_big2">30dp</dimen>
+    <dimen name="padding_big3">40dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_bottom_small">2dp</dimen>
+    <dimen name="margin_tiny">3dp</dimen>
+    <dimen name="margin">5dp</dimen>
+
+    <dimen name="margin_left">5dp</dimen>
+    <dimen name="margin_right">5dp</dimen>
+    <dimen name="margin_nomal">10dp</dimen>
+    <dimen name="margin_lag">15dp</dimen>
+    <dimen name="margin_big">25dp</dimen>
+    <dimen name="margin_big_1">28dp</dimen>
+    <dimen name="margin_big_2">32dp</dimen>
+    <dimen name="margin_top">5dp</dimen>
+    <dimen name="margin_bottom">5dp</dimen>
+    <dimen name="avatar_heigh">50dp</dimen>
+    <dimen name="avatar_width">50dp</dimen>
+    <dimen name="feed_image_width">70dp</dimen>
+    <dimen name="gallery_item_height">60dp</dimen>
+    <dimen name="height_bt_login">30dp</dimen>
+    <dimen name="padding10">10dp</dimen>
+    <!-- datnv5 thiết kế actionbar -->
+    <dimen name="actionbar_height">48dp</dimen>
+    <dimen name="actionbar_height_textsearch">40dp</dimen>
+    <dimen name="barmenu_height">42dp</dimen>
+    <dimen name="actionbar_item_height">32dp</dimen>
+    <dimen name="icon_menu_height">40dp</dimen>
+    <dimen name="icon_menu_height_left">40dp</dimen>
+    <dimen name="line_mini">0.1dp</dimen>
+    <dimen name="icon_toolbar_height">30dp</dimen>
+    <!-- kích cỡ chữ chung -->
+    <dimen name="text_notif_layout_left">12sp</dimen>
+    <dimen name="text_size_bigmore_common">25sp</dimen>
+    <dimen name="text_size_big_common">20sp</dimen>
+    <dimen name="text_size_large_common">18sp</dimen>
+    <dimen name="text_size_common">16sp</dimen>
+    <dimen name="text_size_common_day_calendar">14sp</dimen>
+    <dimen name="text_size_title_group">14sp</dimen>
+    <dimen name="text_size_titlelayout_left">16sp</dimen>
+    <dimen name="text_size_item_doc_lag">16sp</dimen>
+    <dimen name="text_size_item_doc_small">14sp</dimen>
+    <dimen name="text_size_small_common">14sp</dimen>
+    <dimen name="text_size_infor_document_sign">14sp</dimen>
+    <dimen name="text_size_smaller_common">13sp</dimen>
+    <dimen name="text_size_smaller_common_day">12sp</dimen>
+    <dimen name="text_size_tab_12">12sp</dimen>
+    <dimen name="text_size_tiny_common">11sp</dimen>
+    <dimen name="text_size_tiny_common1">9sp</dimen>
+    <dimen name="border_notif_left">7dp</dimen>
+    <!-- height menu task -->
+    <dimen name="line_space">1dip</dimen>
+    <dimen name="line_notif_left">0.5dip</dimen>
+    <dimen name="task_menu_height">50dp</dimen>
+
+    <!-- item danh sach ky -->
+
+    <!-- khoang cac menu home -->
+    <dimen name="padding_menu_home">5dp</dimen>
+    <dimen name="padding_icon_menu">8dp</dimen>
+    <dimen name="height_progress">10dp</dimen>
+    <dimen name="height_multitext_lag">120dp</dimen>
+    <dimen name="width_edit_pass">185dp</dimen>
+    <dimen name="height_multitext_large">100dp</dimen>
+    <dimen name="width_bottom">113dp</dimen>
+    <dimen name="width_bottom_lag">130dp</dimen>
+    <!-- set up pull to refresh -->
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="header_pull_to_refresh_image_padding">10px</dimen>
+    <!-- vinhnq13 add chieu cao ô tìm kiếm đơn vị -->
+    <dimen name="height_choose_depart">30dp</dimen>
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="img_search_height">30dp</dimen>
+    <dimen name="img_search_width">30dp</dimen>
+    <dimen name="padding3dp">3dp</dimen>
+
+    <!-- touchId -->
+    <dimen name="viewpager_circleindicator_radius">4.5dp</dimen>
+    <dimen name="size80dp">80dp</dimen>
+    <dimen name="color_swatch_large">64dip</dimen>
+    <dimen name="color_swatch_small">48dip</dimen>
+    <dimen name="color_swatch_margins_large">8dip</dimen>
+    <dimen name="color_swatch_margins_small">4dip</dimen>
+
+    <!-- bant4 -->
+
+    <dimen name="stpi_default_circle_radius">24dp</dimen>
+    <dimen name="stpi_default_circle_stroke_width">4dp</dimen>
+    <dimen name="stpi_default_indicator_radius">4dp</dimen>
+    <dimen name="stpi_default_line_stroke_width">1dp</dimen>
+    <dimen name="stpi_default_line_margin">0dp</dimen>
+
+
+</resources>

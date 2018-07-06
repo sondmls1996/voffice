@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlTabWork"
+    android:layout_width="wrap_content"
+    android:padding="@dimen/padding_icon_menu"
+
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imvTabWork"
+        android:layout_width="@dimen/icon_menu_height"
+        android:layout_height="@dimen/icon_menu_height"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/margin"
+        android:contentDescription="@string/logologin_alt"
+        android:scaleType="fitStart"
+        android:src="@drawable/menu_congviec_w" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_title_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imvTabWork"
+        android:gravity="top|center_horizontal"
+        android:layout_marginTop="@dimen/margin10"
+        android:textColor="@color/WHITE_BG_FR"
+
+        android:textStyle="normal" />
+
+</RelativeLayout>

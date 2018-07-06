@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlTabSearch"
+    android:layout_width="wrap_content"
+    android:padding="@dimen/padding_icon_menu"
+    android:gravity="center"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imvTabSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin"
+        android:contentDescription="@string/logologin_alt"
+        android:scaleType="fitStart"
+        android:src="@drawable/ic_search_gray" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_title_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imvTabSearch"
+        android:gravity="top|center_horizontal"
+
+        android:textColor="@color/WHITE_BG_FR"
+        android:textSize="@dimen/text_size_tiny_common"
+        android:textStyle="normal" />
+
+</RelativeLayout>

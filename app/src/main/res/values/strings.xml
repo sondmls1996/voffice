@@ -1,0 +1,2951 @@
+<resources>
+
+    <string name="metrotext_Help">Hướng dẫn sử dụng</string>
+    <string name="metrotext_chart">Số liệu điều hành</string>
+    <!-- END [InterFace Home] [Phan giao dien home] -->
+
+
+    <!-- ===================================================== -->
+    <!-- START [Contactlist] [Danh sach nhan vien] -->
+    <!-- ===================================================== -->
+    <string name="contacts_manhanvienlabel">Mã nhân viên:&#160; </string>
+    <string name="contacts_ngaysinhlabel">Năm sinh:&#160; </string>
+    <string name="contacts_donvilabel">Đơn vị:&#160; </string>
+    <string name="contacts_status">Trạng thái:&#160; </string>
+    <string name="contacts_status_content">Đang làm việc</string>
+    <string name="contacts_chucvulabel">Chức danh:&#160; </string>
+    <string name="contact_detail_title_upcase">CHI TIẾT DANH BẠ</string>
+    <string name="TEXT_NO_CONTACT">Không có dữ liệu</string>
+
+    <!-- END [Contacklist] -->
+
+
+    <!-- ===================================================== -->
+    <!-- START [Task][Cong viec] -->
+    <!-- ===================================================== -->
+    <!-- canh bao loi -->
+    <string name="task_assigntaskuser_alert_emty">Đồng chí chưa chọn người giao việc.</string>
+    <string name="text_notext">Không có</string>
+    <string name="text_notext_vn">Không có</string>
+    <string name="text_notext_en">Not exist</string>
+    <!-- tim kiem cong viec -->
+    <!-- Công việc được giao (cập nhật tiến độ công việc) -->
+    <string name="task_received_progresstitle">Chi tiết công việc</string>
+    <string name="task_received_progress_task_title_ex_person">Người thực hiện:&#160; </string>
+    <string name="task_received_progress_task_title_ex_person_html"><Data><![CDATA[Người thực hiện<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="task_received_progress_task_hint_progress">Tiến độ </string>
+    <string name="task_received_progress_task_complate_progress">Hoàn thành</string>
+
+    <!-- task common -->
+
+    <!-- giao viec tao viec -->
+    <!-- task buttom -->
+    <!-- chuyển tiếp công việc -->
+    <!-- tạo công việc -->
+    <string name="task_create_selectdepart">Đơn vị thực hiện</string>
+    <string name="task_create_selectdepart_html"><Data><![CDATA[Đơn vị thực hiện<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="task_create_phoi_hop">Đơn vị phối hợp</string>
+    <string name="send_sms_title">Gửi tin nhắn</string>
+
+    <!-- chi tiết công việc common -->
+    <string name="task_item_time">Thời gian:&#160; </string>
+    <string name="task_item_category"><Data><![CDATA[Loại công việc<font color="#FF0000">*</font>:]]></Data></string>
+    <!-- menu lọc công việc -->
+
+    <!-- menu tao bao cao cong viec -->
+    <string name="task_menu_report_day">Theo ngày&#160;</string>
+    <string name="task_menu_report_week">Theo tuần&#160;</string>
+    <string name="task_menu_report_month">Theo tháng&#160;</string>
+    <string name="task_menu_report_3month">Theo quý&#160;</string>
+    <!-- menu tao loại công việc cong viec -->
+
+    <!-- menu công việc -->
+    <string name="taskitem_taskreceived">Việc giao đi&#160;</string>
+    <!-- de xuat cong viec -->
+    <string name="taskrank_itemstatus">Trạng thái:&#160; </string>
+    <string name="taskrank_createtasksucess">Tạo việc thành công</string>
+    <string name="taskrank_seflcommentmytask">Tự đánh giá công việc</string>
+    <string name="taskrank_mytaskcheck">Đánh giá công việc</string>
+    <string name="taskrank_updatetask">Cập nhật tiến độ</string>
+    <string name="taskrank_btn_popupsubmitcommentall">Đánh giá</string>
+    <!-- vinhnq13 không có dữ liệu công việc -->
+    <string name="TEXT_NO_TASK">Không có việc nào.</string>
+
+    <!-- END [Task][Cong viec] -->
+
+
+    <!-- ===================================================== -->
+    <!-- START [Document][Van ban] -->
+    <!-- ===================================================== -->
+
+    <!-- thông báo -->
+    <string name="document_alert_error_savefile">Lưu văn bản không thành công.</string>
+    <string name="document_alert_error_readfile">Lỗi đọc file</string>
+    <string name="document_alert_error_downloadfile">File không tồn tại</string>
+    <string name="error_downloadfile">Lỗi tải File, đồng chí vui lòng tải lại sau</string>
+    <string name="document_alert_save">Đã chuyển công văn thành đã lưu</string>
+    <string name="document_alert_unsave">Đã chuyển công văn thành chưa lưu</string>
+    <string name="documentlist">Tất cả</string>
+    <string name="documentdetail">Nội dung công văn</string>
+    <string name="taskdetail">Nội dung nhiệm vụ</string>
+    <string name="document_item_listtaskcreate">Phân công thực hiện&#160;</string>
+    <string name="document_item_title_list_departreceived">Danh sách đơn vị đã chuyển&#160;</string>
+    <string name="document_item_title_list_depart_group_user_received">Danh sách nhóm đã chuyển&#160;</string>
+    <string name="document_item_title_list_userreceived">Danh sách cá nhân đã chuyển&#160;</string>
+    <string name="document_item_title_list_userfolowreceived">Danh sách cá nhân cùng nhận văn bản&#160;</string>
+    <string name="document_item_list_userfolowreceived">&#160;Danh sách cùng nhận văn bản&#160;</string>
+    <string name="document_item_list_userreceived">&#160;Danh sách cá nhân đã chuyển&#160;</string>
+    <string name="document_item_list_groupreceived">&#160;Danh sách đơn vị đã chuyển&#160;</string>
+    <string name="tv_viewall">Hiển thị tất cả</string>
+
+    <!-- popup search -->
+    <string name="popupSearch_titleSearch">Tìm kiếm</string>
+    <string name="popupSearch_titleSearch_staff">Họ tên, email</string>
+    <string name="popupSearch_titleSearch_group_personal">Tên nhóm</string>
+
+    <!-- vinhnq13 group document by time -->
+
+    <!-- datnv5 phan tao va giao viec -->
+
+    <string name="documentsendocgroup_alert_emty">Đồng chí chưa chọn đơn vị</string>
+    <string name="documentsendoc_alert_emty">Đồng chí chưa chọn cá nhân</string>
+    <string name="documentsendoc_alert_emty_group_user">Đồng chí chưa chọn nhóm</string>
+    <string name="documentsendocgroupsearch_alert_emty">Đồng chí chưa chọn đơn vị</string>
+    <string name="no_search">Đồng chí chưa nhập tên người cần tìm</string>
+    <!-- Tạo công việc từ văn bản -->
+    <!-- send document -->
+    <!-- user -->
+    <string name="documentsend">CHUYỂN CÔNG VĂN</string>
+    <string name="documentsend_targetuser">Cá nhân</string>
+    <string name="documentsend_target_group_user">Nhóm cá nhân</string>
+    <string name="documentusersend">Người gửi:&#160; </string>
+    <string name="documentdatepublic">Ngày ban hành:&#160; </string>
+    <string name="lock">Khóa</string>
+    <string name="unlock">Chưa khóa</string>
+    <!-- group -->
+    <string name="documentsend_targetgroup">Đơn vị</string>
+
+    <!-- vinhnq13 không có dữ liệu -->
+    <string name="TEXT_NO_DOCUMENT_SIGN">Không có văn bản nào.</string>
+
+    <!-- END [Document][Van ban] -->
+
+
+    <!-- ===================================================== -->
+    <!-- START [SignDocument][ký điện tử][datnv5] -->
+    <!-- ===================================================== -->
+
+    <!-- ===================================================== -->
+    <!-- START [SignDocument][phê duyệt văn bản][vinhnq13] -->
+    <!-- ===================================================== -->
+    <string name="documetReviewSign_nemu_all">Tất cả</string>
+
+    <!-- chi tiet ky van ban -->
+    <string name="title_file_attath">File đính kèm</string>
+    <string name="no_file_attath">Không tồn tại file </string>
+    <string name="title_file_attath_in_doc">File công văn đính kèm</string>
+    <string name="title_file_infor_doc">Thông tin trình ký</string>
+    <string name="title_file_list_mail_sign">Danh sách trình ký</string>
+    <string name="title_file_list_flash_sign">Danh sách ký nháy</string>
+    <string name="doc_sign_detail_title">NỘI DUNG TRÌNH KÝ</string>
+    <string name="lable_trich_dan">Trích yếu nội dung văn bản:</string>
+    <string name="documetSign_itemdetail_titledetail">Chi tiết văn bản</string>
+    <string name="documetSign_itemdetail_titledetail_search">Chi tiết văn bản ❯</string>
+    <string name="documetSign_assignerName_flash_sign"><Data>
+<![CDATA[
+			<b>Người chuyển ký:&#160;</b><font color="#2680F6"> %1$s</font>
+
+        ]]>
+</Data></string>
+    <string name="documetSign_assignerComment_flash_sign"><Data>
+<![CDATA[
+			 <br><b>Chỉ đạo ký nháy:&#160;</b> %1$s <br>
+
+        ]]>
+</Data></string>
+    <string name="documetSign_itemdetail_infor1"><Data>
+<![CDATA[
+			<b>Đơn vị trình ký:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="documetSign_itemdetail_infor2"><Data>
+<![CDATA[
+			 <b>Người tạo:&#160;</b> <font color="#2680F6">%1$s</font>
+        ]]>
+</Data></string>
+    <string name="documetSign_itemdetail_infor"><Data>
+<![CDATA[
+			<b>Ngày tạo:&#160;</b> %1$s <br> <br>
+			<b>Số, ký hiệu văn bản:&#160;</b> %2$s <br> <br>
+			<b>Độ mật:&#160;</b> %3$s <br> <br>
+			<b>Độ khẩn:&#160;</b> %4$s <br> <br>
+			<b>Lĩnh vực:&#160;</b> %5$s <br> <br>
+			<b>Hình thức văn bản:&#160;</b> %6$s <br> <br>
+       		<b>Số đăng ký:&#160;</b> %7$s <br> <br>
+         	<b>Đơn vị ban hành:&#160;</b> %8$s <br> <br>
+            <b>Nơi nhận văn bản:&#160;</b> %9$s<br>
+        ]]>
+</Data></string>
+    <string name="documetSign_infor"><Data>
+<![CDATA[
+			<b>Nội dung:&#160;</b> %1$s <br> <br>
+       		<b>Ngày trình ký:&#160;</b> %2$s <br>
+
+        ]]>
+</Data></string>
+    <string name="documetSign_title"><Data>
+<![CDATA[
+			<b>Trích yếu nội dung văn bản:&#160;</b> %1$s <br>
+        ]]>
+</Data></string>
+    <string name="txt_file_sign">File trình ký:&#160;</string>
+    <string name="documetSign_itemdetail_titledetail_departregister">Đơn vị trình ký:&#160;</string>
+    <string name="documetSign_itemdetail_titledetail_documentcode">Số, ký hiệu văn bản:&#160;</string>
+    <string name="documetSign_itemdetail_titledetail_document_title">Trích yếu nội dung văn bản:&#160;</string>
+    <string name="documetSign_itemdetail_titledetail_numberregis">Số đăng ký:&#160;</string>
+    <string name="documetSign_itemdetail_titledetail_fileattach">File đính kèm&#160;</string>
+    <string name="documetSign_itemdetail_titledetail_info">Thông tin công văn&#160;</string>
+    <string name="documetSign_itemdetail_titledetail_listuserfashingsign">Danh sách ký nháy&#160;</string>
+    <string name="documetSign_itemdetail_alert_emtynotenotsign">Đồng chí phải ghi lý do từ chối ký</string>
+    <string name="documetSign_itemdetail_alert_emtynotenotreview">Đồng chí chưa nhập lý do từ chối phê duyệt</string>
+    <string name="documetSign_reviewdoing">Văn bản đang trong quá trình phê duyệt</string>
+    <string name="document_show_comment_first">Chỉ đạo trực tiếp</string>
+    <string name="document_show_comment_second">Chỉ đạo gián tiếp</string>
+    <string name="documetSign_itemdetail_titledetail_flashsign">CHUYỂN KÝ NHÁY</string>
+    <string name="documetSign_itemdetail_titledetail_assignercomment">Chỉ đạo ký nháy:&#160; </string>
+
+    <!-- alert sign -->
+    <string name="documentSign_alert_signsucess">Đồng chí đã thực hiện ký thành công</string>
+    <string name="documentSign_alert_signunsucess">Đồng chí đã thực hiện ký không thành công</string>
+    <string name="documentSign_alert_rejectsucsess">Đ/c đã thực hiện từ chối ký thành công!</string>
+    <string name="documentSign_alert_rejectnotsucsess">Đ/c thực hiện từ chối ký không thành công, vui lòng thử lại sau!</string>
+    <string name="documentSign_alert_rejectnotsucsess31">[Mã 31] Từ chối ký không thành công. Văn bản này đã được ký hoặc từ chối, vui lòng về trang chủ để làm mới dữ liệu.</string>
+    <string name="documentSign_alert_confirmrejectsign">Đồng chí có chắc chắn muốn từ chối ký không?</string>
+    <string name="documentSign_alert_confirmrejectreview">Đồng chí có chắc chắn muốn từ chối phê duyệt!</string>
+    <string name="documentSign_alert_rejectsignsucsess">Đồng chí từ chối phê duyệt thành công.</string>
+    <!-- Trinh ky van ban -->
+    <string name="document_sign_title">Ký văn bản</string>
+    <string name="document_signlist_title">Ký điện tử</string>
+    <string name="document_sign_approval_title">Xét duyệt</string>
+    <string name="document_sign_label_reject">Từ chối ký</string>
+    <string name="document_sign_label_note">Ý kiến chỉ đạo</string>
+    <string name="document_sign_btn_reload_whenSigned">Đóng</string>
+    <string name="document_sign_flashsign_success">Chuyển ký nháy thành công</string>
+    <string name="document_sign_flashsign_fail">Chuyển ký nháy thất bại</string>
+
+    <!-- Danh sach trinh ky -->
+    <string name="document_sign_overdate">Thời gian trình:</string>
+    <!-- End phê duyệt và đánh giá công việc -->
+
+
+    <!-- vinhnq13  Các câu thông báo khi thực hiện ký điện tử -->
+    <string name="DOCUMENT_SIGN_ERR_DOCNOTEXIST">[Mã 02] Ký không thành công. File văn bản ký không tồn tại. Đề nghị đ/c từ chối để trình ký lại.</string>
+    <string name="DOCUMENT_SIGN_ERR_CONNECT_SIM">[Mã 03] Ký không thành công. Lỗi kết nối đến dịch vụ kí trên SIM. Vui lòng thử lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERR_VERIFY_UNSUCCESS">[Mã 04] Ký không thành công. Xác thực chữ ký không hợp lệ. Vui lòng thử lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERR_UPDATE_DATA">[Mã 05] Ký không thành công. Lỗi cập nhật dữ liệu. Vui lòng thử lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERR_INACTIVE_VOFFICE">[Mã 06] Đồng chí chưa kích hoạt chứng thư trên VOffice, vui lòng liên hệ CSKH (%1$s) để kích hoạt.</string>
+    <string name="DOCUMENT_SIGN_ERR_UNRERISTER_PERSONALID">[Mã 07] Ký không thành công. Đồng chí chưa đăng ký số CMND, vui lòng liên hệ CSKH (%1$s) để được cập nhật.</string>
+    <string name="DOCUMENT_SIGN_ERR_RERISTER_SERI_SIM">[Mã 08] Đồng chí chưa đăng ký số serial SIM, vui lòng liên hệ CSKH (%1$s) để được kích hoạt.</string>
+    <string name="DOCUMENT_SIGN_ERR_DOC_SIGNED">[Mã 09] Văn bản này đã được ký hoặc từ chối, vui lòng về trang chủ để làm mới dữ liệu.</string>
+    <string name="DOCUMENT_SIGN_ERR_NOT_CREATE_CERTIFICATE">[Mã 10] Đồng chí chưa được tạo chứng thư, vui lòng liên hệ CSKH (%1$s) để được hướng dẫn cấp chứng thư.</string>
+    <string name="DOCUMENT_SIGN_ERR_CONFIRM_PHONENUMBER">[Mã 11] Ký không thành công. Đồng chí chưa xác nhận đồng ý ký. Vui lòng thực hiện lại sau ít phút hoặc  liên hệ CSKH (%1$s) để kiểm tra lại.</string>
+    <string name="DOCUMENT_SIGN_ERR_CERTIFICATE_OUTOFDATE">[Mã 12] Chứng thư hết hạn, vui lòng liên hệ cửa hàng Viettel để gia hạn hoặc gọi CSKH (%1$s) để được tư vấn.</string>
+    <string name="DOCUMENT_SIGN_ERR_CERTIFICATE_REVOKE">[Mã 13] Ký không thành công. Chứng thư bị thu hồi, liên hệ CSKH (%1$s) để được tư vấn cấp lại chứng thư.</string>
+    <string name="DOCUMENT_SIGN_ERR_DISCONECT_SYSTEM">[Mã 14] Ký không thành công. Không kết nối được đến hệ thống ký điện tử. Đ/c vui lòng thực hiện lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERR_TIMEOUT">[Mã 15] Ký không thành công. Hết thời gian xử lý. Đ/c vui lòng thực hiện lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERR_MULTIDOCUMENT_SIGN">[Mã 16] Ký không thành công. Đ/c không có quyền ký nhiều văn bản. Liên hệ P.CNTT Tập đoàn để được giải đáp.</string>
+    <string name="DOCUMENT_SIGN_UNSUCCESS_ALL_DOC">[Mã 17] Ký không thành công tất cả các văn bản, vui lòng ký lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERR_NOTEXIT_SIMINFO">[Mã 18] Có lỗi tại hệ thống SIM (có thể chứng thư hết hạn). Vui lòng liên hệ CSKH (%1$s) để được hỗ trợ.</string>
+    <string name="DOCUMENT_SIGN_ERR_OUT_OF_MEMORY">[Mã 19] Hệ thống đang bận,  vui lòng thực hiện lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERR_UNCONFIRM">[Mã 20] Ký không thành công. Hết thời gian xử lý. Đ/c vui lòng thực hiện lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERR_UNFOMART_FILE">[Mã 21] Ký không thành công. Định dạng file ký không đúng. Đề nghị đ/c từ chối để trình ký lại.</string>
+    <string name="DOCUMENT_SIGN_ERR_PROCESS_SIGNATURE">[Mã 22] Ký không thành công. Lỗi khi xử lý chữ ký, vui lòng thực hiện lại.</string>
+    <string name="DOCUMENT_SIGN_ERR_UNSIGN_FILE">[Mã 23] Ký không thành công. File chưa được ký, vui lòng thực hiện lại.</string>
+    <string name="DOCUMENT_SIGN_ERR_CERTIFICATE_OUTOFDATE24">[Mã 24] Chứng thư hết hạn, vui lòng liên hệ cửa hàng Viettel để gia hạn.</string>
+    <string name="DOCUMENT_SIGN_ERR_CERTIFICATE_REVOKE25">[Mã 25] Ký không thành công. Chứng thư bị thu hồi, liên hệ Viettel CA để được cấp lại.</string>
+    <string name="DOCUMENT_SIGN_ERR_CERTIFICATE_UNSUPPORT_ONLINE">[Mã 26] Ký không thành công. Chứng thư không được hỗ trợ kiểm tra online, vui lòng sử dụng chứng thư Viettel CA.</string>
+    <string name="DOCUMENT_SIGN_CERTIFICATE_UNSUPPORT_VIETTELCA">[Mã 27] Ký không thành công. Chứng thư không được hỗ trợ bởi ViettelCA, vui lòng sử dụng chứng thư Viettel CA.</string>
+    <string name="DOCUMENT_SIGN_CERTIFICATE_CONNECT_VIETTELCA">[Mã 28] Ký không thành công. Chứng thư không kết nối được đến ViettelCA, vui lòng thử lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERROR_VIETTELCA">[Mã 29] Ký không thành công. Quá trình ký xảy ra lỗi . Vui lòng thử lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERR_DOCSINGED_VIETTELCA">[Mã 31] Văn bản này đã được ký hoặc từ chối, vui lòng về trang chủ để làm mới dữ liệu.</string>
+    <string name="DOCUMENT_SIGN_ERR_PHONENUMBERMISS">[Mã 208] Giao dịch ký hết hạn. Vui lòng thực hiện lại sau ít phút hoặc liên hệ CSKH (%1$s) để được hỗ trợ.</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT">[Mã 401] Ký không thành công. Đồng chí đã huỷ giao dịch ký.</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_1581111">[Mã 1581111] Ký không thành công. Đồng chí chưa được tạo chứng thư, vui lòng liên hệ CSKH (%1$s) để được kích hoạt.</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_1581112">[Mã 1581112] Ký không thành công. Đồng chí chưa được tạo chứng thư, vui lòng liên hệ CSKH (%1$s) để được kích hoạt.</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_1581113">[Mã 1581113] Ký không thành công. File văn bản đã được ký từ trước.</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_1581114">[Mã 1581114] Ký không thành công. File văn bản ký không tồn tại. Đề nghị đ/c từ chối để trình ký lại.</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_1581115">[Mã 1581115] Ký không thành công. Đồng chí chưa được tạo chứng thư, vui lòng liên hệ CSKH (%1$s) để được kích hoạt.</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_1581117">[Mã 1581117] Ký không thành công. Đồng chí chưa được tạo chứng thư, vui lòng liên hệ CSKH (%1$s) để được kích hoạt.</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_1581118">[Mã 1581118] Ký không thành công. Lỗi khi xử lý chữ ký, vui lòng thực hiện lại.</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_1581119">[Mã 1581119] Ký không thành công. Quá trình ký xảy ra lỗi . Vui lòng thử lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_15811110">[Mã 15811110] Ký không thành công. Quá trình ký xảy ra lỗi . Vui lòng thử lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_15811111">[Mã 15811111] Ký không thành công. Quá trình ký xảy ra lỗi . Vui lòng thử lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_15811112">[Mã 15811112] Ký không thành công. Quá trình ký xảy ra lỗi . Vui lòng thử lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_15811113">[Mã 15811113] Ký không thành công. Quá trình ký xảy ra lỗi . Vui lòng thử lại sau.</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_15811116">[Mã 15811116] Ký không thành công. Chứng thư bị tạm ngưng sử dụng. Đ/c vui lòng liên hệ CSKH (%1$s).</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_15811117">[Mã 15811117] Ký không thành công. Chứng thư bị thu hồi. Đ/c vui lòng liên hệ CSKH (%1$s).</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_15811118">[Mã 15811118] Ký không thành công. Chứng thư hết hạn, liên hệ cửa hàng Viettel để gia hạn</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_AM_1">Người dùng đang thực hiện một giao dịch ký khác</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_1002">[Mã 1002] Ký không thành công. Văn bản đang có người ký song song khác đang thực hiện ký, đề nghị đ/c thực hiện ký lại trong vài phút tiếp theo</string>
+    <string name="DOCUMENT_SIGN_ERR_SIGNRERECT_1003">[Mã 1003] Ký không thành công do văn bản đã bị hủy luồng ký</string>
+    <string name="DOCUMENT_REJECT_ERR_SIGNRERECT_1002">[Mã 1002] Từ chối ký không thành công. Văn bản đang có người ký song song khác đang thực hiện ký, đề nghị đ/c thực hiện ký lại trong vài phút tiếp theo</string>
+    <string name="DOCUMENT_REJECT_ERR_SIGNRERECT_1003">[Mã 1003] Từ chối ký không thành công do văn bản đã bị hủy luồng ký</string>
+    <string name="DOCUMENT_SIGN_ERR">[Mã %s] Ký không thành công. Quá trình ký xảy ra lỗi. Vui lòng thử lại sau.</string>
+
+    <!-- vinhnq13  CHUYỂN KÝ NHÁY -->
+    <string name="document_sign_arlert_choose_user">Đồng chí chưa chọn cá nhân</string>
+
+    <!-- END [SignDocument][ký điện tử][datnv5] -->
+
+
+    <!-- ===================================================== -->
+    <!-- START [Setting][phan cai dat] -->
+    <!-- ===================================================== -->
+    <string name="setting_title">Cài đặt</string>
+    <!-- setting - timeout -->
+    <string name="setting_changepass_title">Đổi mật khẩu</string>
+    <string name="setting_changeprogressbar_title">Cấu hình Progress bar</string>
+    <string name="setting_progressbar">Trạng thái tải file theo tiến trình</string>
+    <string name="setting_changepass_oldpass">Mật khẩu cũ:</string>
+    <string name="enter_oldpass">Nhập mật khẩu cũ</string>
+    <string name="setting_changepass_newpass">Mật khẩu mới:</string>
+    <string name="enter_newpass">Nhập mật khẩu mới</string>
+    <string name="setting_changepass_confirmpass">Nhập lại mật khẩu:</string>
+    <string name="title_changepass_confirmpass">Nhập lại mật khẩu:</string>
+    <string name="note">(*)</string>
+    <string name="enterconfirmpass">Nhập lại mật khẩu mới</string>
+    <string name="setting_changepass_alertoldpass">Đồng chí chưa nhập mật khẩu cũ</string>
+    <string name="setting_changepass_alertnewpasslengerr">Mật khẩu không đủ mạnh. Mật khẩu tối thiểu 8 kí tự và tối đa 50 ký tự, bao gồm kí tự số, kí tự đặc biệt và kí tự chữ</string>
+    <string name="setting_changepass_alertnewpass">Đồng chí chưa nhập mật khẩu mới</string>
+    <string name="setting_changepass_minlenght8">Mật khẩu phải có ít nhất 8 ký tự</string>
+    <string name="setting_changepass_alertconfirmpass">Đồng chí chưa nhập lại mật khẩu mới</string>
+    <string name="setting_changepass_alertnotaspass">Mật khẩu mới nhập vào không trùng nhau</string>
+    <string name="setting_changepass_alertnotsucess">Mật khẩu cũ không đúng</string>
+    <string name="setting_changepass_alertsucess">Đổi mật khẩu thành công</string>
+    <string name="setting_changepass_alertduplicatepass">Mật khẩu mới không được trùng với mật khẩu cũ</string>
+
+    <!-- setting - mode security -->
+    <string name="setting_modesecurity_username">Tên đăng nhập</string>
+    <string name="setting_modesecurity_pass">Mật khẩu</string>
+    <string name="setting_infoandroid">Thông tin phiên bản</string>
+    <string name="setting_support">Hỗ trợ khách hàng</string>
+    <!-- END [Setting][phan cai dat] -->
+
+
+    <!-- ===================================================== -->
+    <!-- START [CalendarMeeting][Lich hop] -->
+    <!-- Chuỗi dùng trong phần lịch họp -->
+    <!-- ===================================================== -->
+    <string name="calendar_dayofweek">Thứ&#160;</string>
+    <string name="strDay2">Thứ hai&#160;</string>
+    <string name="strDay3">Thứ ba&#160;</string>
+    <string name="strDay4">Thứ tư&#160;</string>
+    <string name="strDay5">Thứ năm&#160;</string>
+    <string name="strDay6">Thứ sáu&#160;</string>
+    <string name="strDay7">Thứ bảy&#160;</string>
+    <string name="strDaycn">Chủ nhật&#160;</string>
+
+    <!-- Calendar -->
+    <string name="calendar_detail_title">CHI TIẾT CUỘC HỌP</string>
+    <string name="calendar_detail_title_woork">CHI TIẾT LỊCH CÔNG TÁC</string>
+    <string name="calendar_detail_nguoichutri">Chủ trì:&#160;</string>
+    <string name="calendar_detail_nguoichuanbi">Chuẩn bị:&#160;</string>
+    <string name="calendar_detail_phonghop">Phòng họp:</string>
+    <string name="calendar_detail_dia_diem">Địa điểm:</string>
+    <string name="calendar_detail_thanhphanthamgia">Tham gia:&#160;</string>
+    <string name="calendar_detail_cv_chuanbi">C/v chuẩn bị:&#160;</string>
+    <string name="calendar_detail_daumoi">Đầu mối liên hệ:&#160;</string>
+
+    <!-- vinhnq13 không có dữ liệu lịch họp -->
+    <!-- END [CalendarMeeting][Lich hop] -->
+
+
+    <!-- ===================================================== -->
+    <!-- START [Common] [datnv5] -->
+    <!-- Các biến dùng chung cho cả chương trình -->
+    <!-- ===================================================== -->
+    <!-- gui mai -->
+    <string name="choose_an_email">Chọn một email</string>
+    <string name="no_email_client">Chưa cài đặt email</string>
+    <string name="str_mailtitle">Gửi email đến CSKH</string>
+    <string name="str_phonetitle">Gọi điện thoại đến CSKH</string>
+    <!-- end gui mai -->
+    <string name="popup_title_choosetree">Hiển thị cây đơn vị Tập đoàn</string>
+    <string name="popup_title_choosetree_no_group">Hiển thị cây đơn vị</string>
+    <string name="alert_connect">Có lỗi xảy ra khi kết nối tới server</string>
+    <string name="alert_textemtytitle">Đồng chí chưa nhập tên công việc</string>
+    <string name="alert_textemtyconten">Đồng chí chưa nhập nội dung công việc</string>
+    <string name="alert_isNotSendSMS">Gửi tin nhắn thất bại</string>
+    <string name="alert_phone_error">Số điện thoại không đúng</string>
+    <string name="timeoutrequest">Phiên làm việc đã hết hạn. Đ/c vui lòng đăng nhập lại.</string>
+    <string name="text_EmptyValue">Không có</string>
+    <string name="text_EmptyValueUserSign">Không có người ký</string>
+    <string name="text_Enter">\n</string>
+    <string name="text_maxlengthcomment">&#160;(2000)&#160;</string>
+    <string name="logologin_alt">Logo viettel</string>
+    <string name="space_two">&#160;&#160;&#160;&#160;&#160;&#160;</string>
+    <string name="popup_listcontact">Chọn cá nhân</string>
+    <!-- buttom -->
+    <string name="btn_chose">Đồng ý</string>
+    <string name="btn_save_change_pass">Lưu thay đổi</string>
+    <string name="btn_close">Đóng</string>
+    <string name="btn_delete">Hủy</string>
+    <string name="btn_close_select_send_doc">Đóng</string>
+    <string name="btn_send">Chuyển</string>
+    <string name="TEXT_LOGOUT">Đăng xuất</string>
+    <string name="TEXT_WARNING_LOGOUT">Đồng chí có chắc chắn muốn đăng xuất khỏi chương trình?</string>
+    <string name="TEXT_CF_SEEALL">Nếu tải tất cả các file, dung lượng tải có thể lớn và thời gian tải có thể sẽ lâu. Đ/c có muốn tiếp tục không?</string>
+    <string name="TEXT_BACK_PRESSED">Đồng chí có chắc chắn muốn thoát khỏi chương trình không?</string>
+    <string name="TEXT_FAIL_LOGIN">Đ/c nhập sai tài khoản</string>
+    <string name="TEXT_NO_DOCUMENT">Không có dữ liệu</string>
+    <string name="TEXT_NO_DOCUMENT_PERSON">Không tìm thấy cá nhân</string>
+    <string name="TEXT_NO_DEPART">Không tìm thấy đơn vị</string>
+    <string name="phienbanhientai">Phiên bản hiện tại:</string>
+    <string name="phienbanmoi">Phiên bản mới:</string>
+    <string name="cactinhnangcapnhap">Mô tả: </string>
+    <string name="capnhap">Cập nhật</string>
+    <string name="APP_PERMISSION_NAME">Private broadcast</string>
+    <string name="EXECUTING">Đang xử lý</string>
+    <string name="OK">Đồng ý</string>
+    <string name="YES">Có</string>
+    <string name="NO">Không</string>
+    <string name="CANCEL">Hủy</string>
+    <!-- END [Common] -->
+
+
+    <!-- ===================================================== -->
+    <!-- START [version] -->
+    <!-- ===================================================== -->
+    <string name="versiondescription">Thông tin cập nhật:</string>
+
+    <!-- END [version] -->
+
+
+    <!-- ===================================================== -->
+    <!-- START [data array] -->
+    <!-- ===================================================== -->
+    <!-- du lieu mang loai nhiem vu tao cong viec -->
+    <!-- END [data array] -->
+    <!-- end datnv5 -->
+
+    <!-- End Calendar -->
+
+
+    <!-- Công việc tôi giao (phê duyệt công việc) -->
+    <!-- End Cong viec -->
+
+    <string name="ERROR_DATA">Đã có lỗi xảy ra, vui lòng thử lại.</string>
+    <string name="ERROR_COMMON">Không kết nối được đến máy chủ, vui lòng kiểm tra kết nối và thử lại.</string>
+    <string name="LOADING">Đang tải&#8230;</string>
+    <string name="viewMore">Xem thêm chỉ đạo</string>
+    <string name="TEXT_ERROR_NO_CONNECTION">Kết nối thất bại vui lòng thử lại.</string>
+    <string name="no_internet">Không có kết nối mạng, vui lòng kiểm tra kết nối và thử lại.</string>
+    <string name="TEXT_LOADING">Đang xử lý &#8230;</string>
+    <string name="TEXT_LOADING_VN">Đang xử lý &#8230;</string>
+    <string name="TEXT_LOADING_EN">Processing &#8230;</string>
+    <string name="TEXT_DOWNLOADING">Đang tải &#8230;</string>
+    <string name="TEXT_USERSIGNATURE">Người ký:&#160; </string>
+    <string name="TEXT_LOGIN">Đăng nhập</string>
+    <string name="TEXT_INPUT_CONTENT">Nhập nội dung </string>
+    <string name="txt_chi_tiet">THÔNG TIN CHI TIẾT</string>
+    <string name="txt_list_user">DANH SÁCH CÁ NHÂN</string>
+    <string name="txt_title_list_group_user">CHỌN NHÓM</string>
+    <!-- Menu chọn đơn vị gửi văn bản -->
+    <string name="choose_depart_type">CHỌN ĐƠN VỊ</string>
+    <string name="content_chidao">Nội dung chỉ đạo</string>
+    <string name="hint_content_chidao_send_doc">Nội dung chỉ đạo</string>
+    <!-- End menu chọn đơn vị -->
+
+
+    <!-- Phê duyệt và đánh giá công việc -->
+    <!-- End phê duyệt và đánh giá công việc -->
+
+    <!-- luannt26 -->
+
+    <!-- Bieu do -->
+    <string name="err_viewchart">Đồng chí chưa được phân quyền để xem biểu đồ!</string>
+    <string name="backtohome">Quay trở lại trang chủ</string>
+    <string name="chart_title">Biểu đồ điều hành</string>
+    <string name="chart_depart">Đơn vị:&#160;</string>
+    <string name="chart_choose_field">CHỌN KHỐI NGÀNH</string>
+    <string name="chart_choose_depart">CHỌN ĐƠN VỊ</string>
+    <string name="chart_choose_indicator">CHỌN BIỂU ĐỒ</string>
+    <string name="chart_nodata">Không có dữ liệu biểu đồ</string>
+    <string name="indicator_nodata">Không có tiêu chí</string>
+
+    <!-- Thong ke van ban -->
+    <string name="statistic_user_refuse">Cá nhân</string>
+    <string name="statistic_doc_refuse">Văn bản</string>
+    <string name="statistic_title">Thống kê</string>
+    <string name="statistic_title_listuser">Danh sách cá nhân đã ký văn bản bị từ chối</string>
+    <string name="statistic_title_listdoc">Danh sách văn bản đã bị từ chối</string>
+    <string name="statistic_commentreject">Lý do từ chối:&#160;</string>
+    <string name="statistic_commentreject_statistic">Lý do từ chối:&#160;</string>
+    <string name="statistic_commentreject_title">Lý do từ chối&#160;</string>
+    <string name="statistic_nodata">Không có dữ liệu thống kê.</string>
+    <string name="statistic_chart_title_general">SỐ LƯỢNG VĂN BẢN TỪ CHỐI TRONG NĂM</string>
+    <string name="statistic_chart_title_to">đến tháng&#160;</string>
+
+    <!-- Lich cong tac -->
+    <string name="title_sex">Giới tính:&#160;</string>
+    <string name="title_calendar_meeting_week">Lịch họp tuần</string>
+    <string name="title_calendar_woork_week">Lịch công tác tuần</string>
+
+    <!-- Language -->
+    <string name="title_english">Tiếng Anh</string>
+    <string name="title_vietnamese">Tiếng Việt</string>
+
+    <!-- Trạng thái ký văn bản -->
+    <string name="sign_status_unsigned">Chưa xử lý</string>
+    <string name="sign_status_secretary_refuse">Văn thư đã từ chối</string>
+    <string name="sign_status_refused">Đã từ chối</string>
+    <string name="sign_status_reviewed">Đã xét duyệt</string>
+    <string name="sign_status_signed">Đã ký duyệt</string>
+    <string name="sign_status_initial_signed">Đã ký nháy</string>
+    <string name="title_viettel_group">Tập đoàn Viettel</string>
+
+    <!-- Bổ sung ds ngày trong tuần -->
+
+    <string name="not_calendar_meeting">Không có lịch họp</string>
+    <string name="not_calendar_work">Không có lịch công tác</string>
+    <string name="calendar_dayofweek_monday">TH 2</string>
+    <string name="calendar_dayofweek_tuesday">TH 3</string>
+    <string name="calendar_dayofweek_wednesday">TH 4</string>
+    <string name="calendar_dayofweek_thursday">TH 5</string>
+    <string name="calendar_dayofweek_friday">TH 6</string>
+    <string name="calendar_dayofweek_saturday">TH 7</string>
+    <string name="calendar_dayofweek_saturday_CN">CN</string>
+    <string name="statistic">năm&#160;</string>
+    <string name="calendar_jan">Tháng 1&#160;</string>
+    <string name="calendar_feb">Tháng 2&#160;</string>
+    <string name="calendar_mar">Tháng 3&#160;</string>
+    <string name="calendar_apr">Tháng 4&#160;</string>
+    <string name="calendar_may">Tháng 5&#160;</string>
+    <string name="calendar_jun">Tháng 6&#160;</string>
+    <string name="calendar_jul">Tháng 7&#160;</string>
+    <string name="calendar_aug">Tháng 8&#160;</string>
+    <string name="calendar_sep">Tháng 9&#160;</string>
+    <string name="calendar_oct">Tháng 10&#160;</string>
+    <string name="calendar_nov">Tháng 11&#160;</string>
+    <string name="calendar_dec">Tháng 12&#160;</string>
+    <string name="statistic_daterefuse">Ngày từ chối:&#160;</string>
+    <string name="statistic_document">văn bản&#160;</string>
+    <string name="document_that">Văn bản đ/c&#160;</string>
+    <string name="document_refuse">&#160;đã bị từ chối ký&#160;</string>
+    <string name="number_document_that">Số lượng văn bản đ/c&#160;</string>
+    <string name="document_refuse_inyear">&#160;bị từ chối ký trong năm&#160;</string>
+    <string name="app_name">VOffice_TABLET</string>
+    <string name="lable_congvan">Công văn</string>
+    <string name="lable_danhba">Danh bạ</string>
+    <string name="lable_lich">Lịch họp</string>
+    <string name="lable_them">Xem thêm</string>
+    <string name="lable_read_more">Xem thêm</string>
+
+    <!-- pull to refresh new -->
+    <string name="pull_to_refresh_pull_label">Pull to refresh…</string>
+    <string name="pull_to_refresh_release_label">Release to refresh…</string>
+    <string name="pull_to_refresh_refreshing_label">Loading…</string>
+    <!-- Just use standard Pull Down String when pulling up. These can be set for languages which require it -->
+    <string name="pull_to_refresh_from_bottom_pull_label">@string/pull_to_refresh_pull_label</string>
+    <string name="pull_to_refresh_from_bottom_release_label">@string/pull_to_refresh_release_label</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label">@string/pull_to_refresh_refreshing_label</string>
+    <!-- Tiêu đề các tab -->
+    <string-array name="tab_electronic_sign">
+        <item>Chờ ký duyệt</item>
+        <item>Chờ ký nháy</item>
+        <item>Đã ký duyệt</item>
+        <item>Đã ký nháy</item>
+        <item>Từ chối ký duyệt</item>
+        <item>Từ chối ký nháy</item>
+        <item>Văn bản người ký sau từ chối</item>
+        <item>Tất cả</item>
+    </string-array>
+    <!-- Tiêu đề các tab -->
+    <string-array name="tab_electronic_sign_manager">
+        <item>Chờ ký duyệt</item>
+        <item>Chờ ký nháy</item>
+        <item>Đã ký duyệt</item>
+        <item>Đã ký nháy</item>
+        <item>Từ chối ký duyệt</item>
+        <item>Từ chối ký nháy</item>
+        <item>Văn bản người ký sau từ chối</item>
+        <item>Văn bản ban hành</item>
+        <item>Tất cả</item>
+    </string-array>
+    <string-array name="tab_electronic_sign_review">
+        <item>Chờ xét duyệt</item>
+        <item>Đã xét duyệt</item>
+        <item>Từ chối xét duyệt</item>
+        <item>Văn bản ban hành</item>
+        <item>Tất cả</item>
+    </string-array>
+
+    <!-- Tiêu đề các tab Document -->
+    <string-array name="tab_electronic_document">
+        <item>Chưa xử lý</item>
+        <item>Chưa đọc</item>
+        <item>Đã xử lý</item>
+        <item>Đã lưu</item>
+        <item>Tất cả</item>
+    </string-array>
+
+    <!-- Tiêu đề các tab Calendar -->
+    <string-array name="tab_electronic_calendar">
+        <item>Lịch tuần</item>
+        <item>Lịch tuần BGĐ</item>
+        <item>Lịch tuần ban TGĐ</item>
+        <item>Lịch công tác tuần BGĐ</item>
+        <item>Lịch công tác tuần ban TGĐ</item>
+    </string-array>
+
+    <!-- Tiêu đề các tab Calendar -->
+    <string-array name="tab_electronic_calendar_tgd">
+        <item>Lịch tuần</item>
+        <item>Lịch tuần ban TGĐ</item>
+        <item>Lịch công tác tuần ban TGĐ</item>
+    </string-array>
+
+    <string name="count_type_string">(%1$s)</string>
+    <string name="metrotext_Language">Thiết lập ngôn ngữ</string>
+    <string name="txt_chidao"><Data><![CDATA[ Chỉ đạo ký nháy:&#160; %1$s]]></Data></string>
+    <string name="txt_chidao_notext"><Data><![CDATA[ Chỉ đạo ký nháy:&#160; <i>không có</i>]]></Data></string>
+    <string name="info_document_detail1"><Data><![CDATA[ <br><b>Yêu cầu thực hiện:&#160;</b> %1$s ]]></Data></string>
+    <string name="info_document_detail_new1"><Data>
+<![CDATA[ <b>Độ mật:&#160;</b> %1$s <br> <br>
+        	<b>Độ khẩn:&#160;</b> %2$s <br> <br>
+         	<b>Số đăng ký:&#160;</b> %3$s <br>   <br>
+       		<b>Thời gian nhận:&#160;</b>%4$s <br><br>
+            <b>Ngày đến:&#160;</b> %5$s <br><br>
+            <b>Hạn cuối:&#160;</b> %6$s <br>
+        ]]>
+</Data></string>
+    <string name="info_document_detail_new2"><Data><![CDATA[  <b>Số, ký hiệu văn bản:&#160;</b> %1$s ]]></Data></string>
+    <string name="info_document_detail1_user_send"><Data>
+<![CDATA[  <b>Người gửi:&#160;</b><font color="#2680F6">%1$s</font>
+        ]]>
+</Data></string>
+    <string name="info_document_detail1_user_send2"><Data>
+<![CDATA[  <b>Người gửi:&#160;</b>%1$s
+        ]]>
+</Data></string>
+    <string name="info_document_detail1_user_send3"><Data>
+<![CDATA[  <b>Người nhận: </b> %1$s
+        ]]>
+</Data></string>
+    <string name="info_document_detail1_button"><Data>
+<![CDATA[  <br><b>Nơi gửi:&#160;</b> %1$s <br><br>
+ 			   <b>Lĩnh vực:&#160;</b> %2$s <br><br>
+               <b>Trạng thái khóa:&#160;</b> %3$s <br>
+        ]]>
+</Data></string>
+    <!--  -->
+    <string name="info_document_detail3_comment"><Data>
+<![CDATA[      <b>Nội dung chỉ đạo:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="info_document_detail3_signer"><Data>
+<![CDATA[
+			<b>Người Ký:&#160;</b><font color="#2680F6"> %1$s
+        ]]>
+</Data></string>
+    <string name="info_document_detail4_signer"><Data>
+<![CDATA[
+			<b>Người Ký:&#160;</b><font color="#555555"> %1$s
+        ]]>
+</Data></string>
+    <string name="info_document_detail3_signer_noname"><Data>
+<![CDATA[
+			<b>Người Ký:&#160;</b> <font color="#999ea6"> <i> %1$s </i>
+        ]]>
+</Data></string>
+    <string name="info_document_detail3_date"><Data>
+<![CDATA[
+			<b>Ngày ban hành:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="info_document_sing_detail_dialog"><Data>
+<![CDATA[
+<br><b>Đơn vị:&#160;</b> %1$s <br><br>
+<b>Trạng thái:&#160;</b> %2$s <br><br>
+<b>Ngày ký:&#160;</b> %3$s <br><br>
+<b>Ghi chú:&#160;</b> %4$s <br>
+        ]]>
+</Data></string>
+    <string name="info_document_sing_detail_dialog_chidao"><Data>
+<![CDATA[
+<br><b>Đơn vị:&#160;</b> %1$s <br><br>
+<b>Trạng thái:&#160;</b> %2$s <br><br>
+<b>Ngày ký:&#160;</b> %3$s <br><br>
+<b>Ghi chú:&#160;</b> %4$s <br><br>
+<b>Chỉ đạo:&#160;</b> %5$s <br>
+        ]]>
+</Data></string>
+    <string name="info_document_sing_detail_dialog_chidao_top"><Data>
+<![CDATA[
+<b>Người ký:&#160;</b><font color="#2680F6"> %1$s
+        ]]>
+</Data></string>
+    <string name="info_document_user_receiver"><Data>
+<![CDATA[
+<b>Đơn vị: </b> %1$s <br><br>
+<b>Thời gian chuyển: </b> %2$s <br><br>
+<b>Nội dung chỉ đạo: </b> %3$s <br>
+        ]]>
+</Data></string>
+    <string name="info_document_user_receiver_top"><Data>
+<![CDATA[
+<b>Người nhận: </b><font color="#2680F6"> %1$s <br>
+        ]]>
+</Data></string>
+    <string name="info_document_user2"><Data>
+<![CDATA[
+<b>Đơn vị: </b> %1$s <br><br>
+<b>Thời gian chuyển: </b> %2$s <br><br>
+        ]]>
+</Data></string>
+    <string name="no_chidao"><Data>
+<![CDATA[
+<i>Không có nội dung chỉ đạo</i>
+        ]]>
+</Data></string>
+    <string name="str_commander"><Data>
+<![CDATA[
+Trực chỉ huy:&#160;%1$s
+        ]]>
+</Data></string>
+    <string name="str_chuc_danh"><Data>
+<![CDATA[
+<i>&#160;%1$s</i>
+        ]]>
+</Data></string>
+    <string name="str_mail"><Data>
+<![CDATA[
+<i>&#160;%1$s</i>
+        ]]>
+</Data></string>
+    <string name="document_comment"><Data><![CDATA[  <font color="#555555">Nội dung chỉ đạo:</font> <i>%1$s</i>]]></Data></string>
+    <string name="document_comment_show_more"><Data><![CDATA[  <font color="black"><b>Nội dung chỉ đạo:</b></font>&#160;%1$s]]></Data></string>
+    <string name="document_cf_sign_doc"><Data><![CDATA[  <font color="black"><b>Đang xử lý văn bản...</b></font><br> Nếu muốn thực hiện thao tác khác trong lúc chờ xử lý vui lòng nhấn \"Ẩn\"]]></Data></string>
+    <string name="hide">Ẩn</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="no_comment">Không có</string>
+    <string name="setting_sussec">Thiết lập thành công</string>
+    <string name="document_detail_title"><Data><![CDATA[  <b>Trích yếu nội dung văn bản:</b> \n%1$s]]></Data></string>
+    <string name="recipient_name">%1$s.&#160;%2$s</string>
+    <string name="recipient_name_rating"><Data><![CDATA[ %1$s.&#160;%2$s ]]></Data></string>
+    <string name="day_string"> ngày</string>
+    <string name="h_string"> giờ</string>
+    <string name="title_electronic_sign">Ký văn bản</string>
+    <string name="title_money_transfer_sign">Ký chuyển tiền</string>
+    <string name="task_time">Thời gian: %1$s -  %2$s</string>
+    <string name="title_document_review">Xét duyệt văn bản</string>
+    <string name="title_tab_sign">Ký điện tử</string>
+    <string name="setting_custom_tab">Sắp xếp Menu</string>
+    <string name="setting_sign">Cấu hình ký</string>
+    <string name="data_usage_text">Thống kê lưu lượng</string>
+    <string name="setting_check_version_update">Kiểm tra phiên bản cập nhật</string>
+    <string name="title_file_attack"> %1$s trang  -  %2$s MB</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="updatenewversion">Cập nhật phiên bản mới</string>
+    <string name="txt_new_version_update">Đã có phiên bản mới đồng chí có muốn cập nhật không ?</string>
+    <string name="txt_no_new_version_update">Chưa có phiên bản cập nhập</string>
+    <string name="produc_info">VOffice 3.3.5 - Copyright © 2015\nPhát triển bởi Trung tâm Phần mềm Viettel 1\nBản quyền thuộc Tập đoàn Công nghiệp - Viễn thông Quân đội</string>
+    <string name="doc_signning">Văn bản này đang trong quá trình ký điện tử</string>
+    <string name="cf_multi_signdoc">Đang trong quá trình ký văn bản khác, đồng chí vui lòng đợi xử lý</string>
+    <string name="server_norespon">Không có phản hồi từ server cho ký văn bản. Vui lòng vào chức năng ký văn bản để kiểm tra trạng thái</string>
+    <string name="isMainSign"><Data><![CDATA[ %1$s<i><font color="#777777"> &#160;(Đã nằm trong danh sách ký )</font></i>]]></Data></string>
+    <string name="isReviewSign"><Data><![CDATA[ %1$s<i><font color="#777777"> &#160;(Đã nằm trong danh sách xét duyệt)</font></i>]]></Data></string>
+    <string name="isFlashSign"><Data><![CDATA[ %1$s<i><font color="#777777"> &#160;(Đã chuyển ký nháy)</font></i>]]></Data></string>
+    <string name="changepass_regular">Quy tắc đặt mật khẩu bao gồm:</string>
+    <string name="changepass_regular_1">&#160;- Ký tự, chữ số</string>
+    <!-- <string name="changepass_regular_2">&#160;- Các ký tự đặc biệt:</string> -->
+    <string name="changepass_regular_2"><Data>
+<![CDATA[
+ &#160;- Các ký tự đặc biệt: <font color="#2680F6"> %1$s
+        ]]>
+</Data></string>
+    <string name="changepass_regular_3"><Data>
+<![CDATA[
+ &#160;- Ví dụ về mật khẩu đúng và mạnh: <font color="#2680F6"> %1$s <br>
+        ]]>
+</Data></string>
+    <string name="changepass_regular_4">&#160;- Độ dài tối thiểu là 8</string>
+    <string name="txt_mes">Thông báo</string>
+    <string name="no_depart">Không có đơn vị</string>
+    <string name="app_description">+ Tài liệu đính kèm cuộc họp\n+ Văn thư đổi đơn vị ban hành, độ khẩn và ảnh chữ ký</string>
+    <string name="info_send">Chi tiết thông tin chuyển</string>
+    <string name="about_setting_menu">Giữ biểu tượng, di chuyển đến vị trí cần sắp xếp</string>
+    <string name="txt_no_user_in_group">Không tìm thấy cá nhân</string>
+    <string name="page_content">Trang %1$s / %2$s</string>
+    <string name="data_usage_title">THỐNG KÊ LƯU LƯỢNG</string>
+    <string name="month">Tháng %1$s </string>
+    <string name="wifi">Wifi: %1$s MB</string>
+    <string name="not_wifi">3G: %1$s MB</string>
+    <string name="wifi_text">Wifi</string>
+    <string name="not_wifi_text">3G</string>
+    <string name="date">Ngày</string>
+    <string name="data_usage_note">*Thống kê chỉ mang tính chất tham khảo, không làm cơ sở để thanh toán cước phí hàng tháng</string>
+    <string name="curr_month_text">Tháng này</string>
+    <string name="viet_nam_text">Tiếng Việt</string>
+    <string name="english_text">English</string>
+    <string name="y_kien_chidao">Ý kiến chỉ đạo:</string>
+    <string name="description_button_sign">Ký văn bản</string>
+    <string name="description_button_sign_review">Xét duyệt văn bản</string>
+    <string name="description_button_fowad_sign">Chuyển ký nháy</string>
+    <string name="description_button_see_all">Xem tất cả văn bản</string>
+    <string name="description_button_save_doc">Lưu công văn</string>
+    <string name="description_button_create_task">Tạo việc</string>
+    <string name="description_button_send_doc">Chuyển công văn</string>
+    <string name="description_button_save_menu">Lưu vị trí menu</string>
+    <string name="txt_subject_send_mail_sign">Về văn bản&#160;</string>
+    <string name="txt_subject_send_mail_document">Về công văn&#160;</string>
+    <string name="txt_subject_send_mail_statistic">Về văn bản&#160;</string>
+    <string name="txt_choose_phone_num">Chọn số điện thoại</string>
+    <string name="alert_title">Nhắc tôi sau: </string>
+    <string name="once_day">1 ngày</string>
+    <string name="three_day">3 ngày</string>
+    <string name="five_day">5 ngày</string>
+    <string name="mat_khau_qua_han">Mật khẩu hiện tại đã quá hạn hoặc chưa đổi lần nào</string>
+    <string name="mat_khau_chua_manh">Mật khẩu của đồng chí chưa đủ mạnh, để đảm bảo an toàn đồng chí cần đổi mật khẩu khác</string>
+    <string name="LOADING_vn">Đang tải&#8230;</string>
+    <string name="LOADING_en">Loading&#8230;</string>
+    <string name="error_openfile">Lỗi trong quá trình mở file, vui lòng thử lại!</string>
+    <string name="txt_filter_ktts">Văn bản kho tàng tài sản</string>
+    <string name="txt_filter_all">Tất cả văn bản</string>
+    <string name="txt_filter_vof">Văn bản VOffice</string>
+    <string name="voffice_version">VOffice phiên bản 3.3.5</string>
+    <string name="sendmail">Gửi email</string>
+    <string name="sendmessage">Gửi tin nhắn</string>
+    <string name="call">Gọi điện</string>
+    <string name="simca">Sim CA</string>
+    <string name="digitalca">Chứng thư</string>
+    <string name="titlesettingsign">Chọn cách ký văn bản</string>
+    <string name="title_cmt"><Data><![CDATA[  <b>Số CMT:&#160;</b> %1$s]]></Data></string>
+    <string name="title_time_ca"><Data><![CDATA[  <b>Thời hạn:&#160;</b> %1$s - %2$s]]></Data></string>
+    <string name="custom_cmt">Sửa</string>
+    <string name="add_time_ca">Gia hạn</string>
+    <string name="serial_device"><Data><![CDATA[  <b>Serial Máy:&#160;</b> %1$s]]></Data></string>
+    <string name="register_ca">Cấp phát chứng thư</string>
+    <string name="active_ca">Kích hoạt chứng thư</string>
+    <string name="confirm_root">Chức năng này không hỗ trợ máy Root</string>
+    <string name="title_change_cmt">Thay đổi số CMT</string>
+    <string name="title_enter_otp">Nhập mã OTP xác nhận yêu cầu (Mã OTP đã được gửi về tin nhắn theo số điện thoại của đ/c)</string>
+    <string name="title_setting_ca">Đ/c vui lòng đặt mật khẩu lưu chứng thư</string>
+    <string name="title_setting_ca_content">(Mật khẩu phải bao gồm chữ, số và ký tự đặc biệt. Tối thiểu 8 ký tự)</string>
+    <string name="title_tab_work">Nhiệm vụ đơn vị</string>
+
+    <!-- begin vinhnq13 noi dung bien ban -->
+    <string name="conclusion_detail_title">Nội dung biên bản</string>
+    <string name="list_conclusion">Danh sách nhiệm vụ</string>
+    <string name="lstconclusion_title">Tiêu đề:&#160;</string>
+    <string name="lstconclusion_assign_depart">Đơn vị giao việc:&#160;</string>
+    <string name="lstconclusion_received_depart">Đơn vị thực hiện:&#160;</string>
+    <string name="lstconclusion_time">Thời gian:&#160;</string>
+    <string name="lstconclusion_result">Kết quả thực hiện:&#160;</string>
+    <string name="lstconclusion_status">Trạng thái:&#160;</string>
+    <string name="lstconclusion_overdate">Đã quá hạn thời gian:&#160;</string>
+    <string name="create_task">Tạo nhiệm vụ</string>
+    <string name="create_task_depart">Đơn vị giao:</string>
+    <string name="create_task_depart_html"><Data><![CDATA[Đơn vị giao<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="create_task_assigner">Người giao:</string>
+    <string name="create_task_assigner_html"><Data><![CDATA[Người giao<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="create_task_field">Ngành:</string>
+    <string name="create_task_field_html"><Data><![CDATA[Ngành<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="create_task_frequency_html"><Data><![CDATA[Tần suất báo cáo<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="create_task_origin">Nguồn gốc nhiệm vụ:&#160;</string>
+    <string name="create_task_name">Tên nhiệm vụ:</string>
+    <string name="create_task_name_html"><Data><![CDATA[Tên nhiệm vụ(%1$s)<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="create_task_content">Nội dung:</string>
+    <string name="create_task_content_html"><Data><![CDATA[Nội dung(%1$s)<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="create_task_startdate">Ngày bắt đầu:</string>
+    <string name="create_task_startdate_html"><Data><![CDATA[Ngày bắt đầu<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="create_task_enddate">Ngày hoàn thành:</string>
+    <string name="create_task_enddate_html"><Data><![CDATA[Ngày hoàn thành<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="create_task_target">Mục tiêu:</string>
+    <string name="create_task_target_html"><Data><![CDATA[Mục tiêu(%1$s)<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="mission_chua_thuc_hien">Chưa thực hiện</string>
+    <string name="mission_dang_thuc_hien">Đang thực hiện</string>
+    <string name="mission_da_hoan_thanh">Đã hoàn thành</string>
+    <string name="mission_dong_ket_luan">Đóng kết luận</string>
+    <string name="info_mission_1"><Data>
+<![CDATA[
+         <br><b>Tiêu đề biên bản:&#160;</b> %1$s <br><br>
+         <b>Quán triệt chung:&#160;</b> %2$s <br><br>
+         <b>Mã biên bản họp:&#160;</b> %3$s <br>
+
+        ]]>
+</Data></string>
+    <string name="info_conclusionname"><Data>
+<![CDATA[  <br><b>Người kết luận:&#160;</b> <font color="#2680F6">%1$s</font> <br>
+        ]]>
+</Data></string>
+    <string name="info_mission_2"><Data>
+<![CDATA[    <b>Đơn vị kết luận:&#160;</b> %1$s <br><br>
+			 <b>Loại kết luận:&#160;</b> %2$s <br><br>
+             <b>Ngày ra kết luận:&#160;</b> %3$s <br><br>
+             <b>Trạng thái:&#160;</b> %4$s <br>
+        ]]>
+</Data></string>
+    <!-- end vinhnq13 noi dung bien ban -->
+
+    <string name="text_no_ca_comfirm">Tài khoản của đ/c chưa có chứng thư trên thiết bị này. Đ/c có muốn gửi yêu cầu cấp phát chứng thư mới.</string>
+    <string name="setting_sign_title">Cấu hình ký</string>
+    <string name="cmt_invalid">Số CMT không hợp lệ</string>
+    <string name="cmt_as_old">Số CMT không thay đổi</string>
+
+    <string-array name="tab_work">
+        <item>Nhiệm vụ</item>
+        <item>Biên bản họp</item>
+    </string-array>
+
+    <string name="title_depart_work">Việc giao</string>
+    <string name="title_my_work">Việc nhận</string>
+    <string name="text_status">Trạng thái:</string>
+    <string name="text_from">Từ:</string>
+    <string name="text_to">đến</string>
+    <string name="people_conclusion">Người kết luận:</string>
+    <string name="conclusion_type">Loại kết luận:</string>
+
+    <!-- cong viec -->
+    <string name="srt_history_update_progress">Lịch sử cập nhật tiến độ&#160;</string>
+    <string name="srt_progress_subtask">Tiến độ nhiệm vụ con&#160;</string>
+    <string name="srt_list_dipart">Danh sách đơn vị phối hợp&#160;</string>
+    <string name="srt_history_send_task">Lịch sử chuyển nhiệm vụ&#160;</string>
+    <string name="srt_starget">Mục tiêu:&#160;</string>
+    <string name="srt_task_title_update_prosess_assigned">Cập nhật tiến độ nhiệm vụ</string>
+    <string name="str_title_direct_task">Chỉ đạo công việc</string>
+    <string name="str_btn_reject_task">Từ chối</string>
+    <string name="str_btn_reject_task2">Từ chối ❯</string>
+    <string name="str_title_assign_task">Giao nhiệm vụ</string>
+    <string name="str_task_depart_title">Đơn vị*:&#160;</string>
+    <string name="str_direct_task"><Data>
+<![CDATA[
+			Nội dung phê duyệt:&#160;( %1$s)
+        ]]>
+</Data></string>
+    <string name="srt_tv_task_detail_top"><Data>
+<![CDATA[
+			<b>Tên nhiệm vụ:&#160;</b> %1$s <br><br>
+       		<b>Nội dung:&#160;</b> %2$s <br><br>
+       		<b>Mục tiêu:&#160;</b> %3$s <br><br>
+       		<b>Loại nhiệm vụ:&#160;</b> %4$s <br><br>
+       		<b>Trọng số:&#160;</b> %5$s <br>
+        ]]>
+</Data></string>
+    <string name="srt_tv_task_detail_top1"><Data>
+<![CDATA[
+     <b>Đơn vị giao việc:&#160;</b> %1$s <br><br>
+     <b>Đơn vị thực hiện:&#160;</b> %2$s <br><br>
+     <b>Ngành:&#160;</b> %3$s <br>
+     ]]>
+</Data></string>
+    <string name="srt_tv_task_detail_bottom"><Data>
+<![CDATA[
+			<b>Thời gian:&#160;</b> %1$s <br><br>
+       		<b>Trạng thái:&#160;</b> %2$s <br><br>
+       		<b>Kết quả:&#160;</b> %3$s <br>
+        ]]>
+</Data></string>
+    <string name="srt_task_tv_user_creator"><Data>
+<![CDATA[
+			<b>Người giao:&#160;</b> <font color="#2680F6">%1$s</font>
+        ]]>
+</Data></string>
+    <string name="srt_task_proposals"><Data>
+<![CDATA[
+			Đề xuất:&#160;(%1$s)
+        ]]>
+</Data></string>
+    <string name="srt_task_difficult"><Data>
+<![CDATA[
+			Khó khăn:&#160;(%1$s)
+        ]]>
+</Data></string>
+    <string name="srt_task_result_update_task"><Data>
+<![CDATA[
+			Kết quả:&#160;(%1$s)
+        ]]>
+</Data></string>
+    <string name="srt_title_task_assign"><Data>
+<![CDATA[
+			<b>Tiêu đề:&#160;</b>(%1$s)*
+        ]]>
+</Data></string>
+    <string name="srt_content_task_assign"><Data>
+<![CDATA[
+			<b>Nội dung:&#160;</b>(%1$s)*
+        ]]>
+</Data></string>
+    <string name="str_task_date_done"><Data>
+<![CDATA[
+			<b>Ngày hoàn thành:&#160;</b>(%1$s)
+        ]]>
+</Data></string>
+    <string name="srt_content_target"><Data>
+<![CDATA[
+			<b>Mục tiêu:&#160;</b>(%1$s)*
+        ]]>
+</Data></string>
+
+    <!-- end string cong viec -->
+
+    <string-array name="array_status_word">
+        <item>Tất cả trạng thái</item>
+        <item>Chưa thực hiện</item>
+        <item>Đang thực hiện</item>
+        <item>Chậm tiến độ</item>
+        <item>Chờ phê duyệt</item>
+        <item>Đã hoàn thành</item>
+        <item>Đã phê duyệt hoàn thành</item>
+        <item>Yêu cầu đóng</item>
+        <item>Đã phê duyệt đóng</item>
+        <item>Đã từ chối</item>
+    </string-array>
+
+    <string name="title_choose_status">Chọn trạng thái</string>
+    <string name="in_value_send_doc">Đồng chí chưa chọn cá nhân, nhóm cá nhân và đơn vị để chuyển công văn.</string>
+    <string name="depart_execu"><Data>
+<![CDATA[
+			<b>Đơn vị thực hiện:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="depart_assign"><Data>
+<![CDATA[
+			<b>Đơn vị giao:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="time_execu"><Data>
+<![CDATA[
+			 <b>Thời gian:&#160;</b> %1$s - %2$s
+        ]]>
+</Data></string>
+    <string name="mission_status_comment"><Data>
+<![CDATA[
+			 <b>Trạng thái:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="time_execu_red"><Data>
+<![CDATA[
+			 <b>Thời gian:&#160;</b> <font color="#FF0000">%1$s - %2$s</font>
+        ]]>
+</Data></string>
+    <string name="str_task_tv_perform_name"><Data>
+<![CDATA[
+				<b>%1$s.</b>&#160;<b>%2$s</b>
+        ]]>
+</Data></string>
+    <string name="str_task_tv_perform_name_link"><Data>
+<![CDATA[
+				<b>%1$s.</b>&#160;<b><font color="#2680F6">%2$s</font></b>
+        ]]>
+</Data></string>
+    <string name="str_task_tv_perform_name_lick"><Data>
+<![CDATA[
+				<b>%1$s.</b>&#160;<b><font color="#2680F6">%2$s</font></b>
+        ]]>
+</Data></string>
+    <string name="str_task_tv_name_submissions"><Data>
+<![CDATA[
+				<b>Nhiệm vụ:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="str_task_tv_action_submissions"><Data>
+<![CDATA[
+				<b>Kết quả:&#160;</b>%1$s
+        ]]>
+</Data></string>
+    <string name="str_task_tv_status_submissions"><Data>
+<![CDATA[
+				<b>Trạng thái:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="str_task_tv_date_complete"><Data>
+<![CDATA[
+				<b>Hạn Hoàn thành:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="str_task_tv_date_update_process"><Data>
+<![CDATA[
+				<b>Thời gian:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="str_task_tv_date_update_process2"><Data>
+<![CDATA[
+				%1$s
+        ]]>
+</Data></string>
+    <string name="alert_value_from_date">Ngày bắt đầu không được lớn hơn ngày kết thúc.</string>
+    <string name="alert_value_to_date">Ngày kết thúc không được nhỏ hơn ngày bắt đầu.</string>
+    <string name="alert_value_date">Từ ngày không được lớn hơn Đến ngày.</string>
+    <string name="str_task_not_access">Đồng chí chưa được phân quyền để xem chức năng này</string>
+    <string name="str_task_approvaled">Đã phê duyệt hoàn thành</string>
+    <string name="str_task_request_close">Yêu cầu đóng</string>
+    <string name="str_task_closed">Đã phê duyệt đóng</string>
+    <string name="conclusion_type_week">Kết luận giao ban tuần </string>
+    <string name="conclusion_type_month">Kết luận giao ban tháng </string>
+    <string name="conclusion_type_quater">Kết luận giao ban quý </string>
+    <string name="conclusion_type_chuyende">Kết luận chuyên đề</string>
+    <string name="conclusion_type_soket">Kết luận sơ kết</string>
+    <string name="conclusion_type_chidao">Chỉ đạo</string>
+    <string name="conclusion_type_other">Khác</string>
+    <string name="conclusion_type_day">Kết luận giao ban ngày</string>
+    <string name="text_data_xml"><Data>
+<![CDATA[
+			<i>Không có</i>
+
+        ]]>
+</Data></string>
+    <string name="content_approve"><Data>
+<![CDATA[
+			Nội dung phê duyệt (%1$s)<font color="#b11116">*</font>
+
+        ]]>
+</Data></string>
+    <string name="tv_str_detail_sub_mission_task"><Data>
+<![CDATA[
+			<b>Tên nhiệm vụ:&#160;</b> %1$s <br><br>
+       		<b>Đơn vị thực hiện:&#160;</b> %2$s <br><br>
+       		<b>Trạng thái:&#160;</b> %3$s <br><br>
+       		<b>Kết quả:&#160;</b> %4$s <br><br>
+       		<b>Khó khăn:&#160;</b> %5$s <br><br>
+       		<b>Đề xuất:&#160;</b> %6$s <br><br>
+         	<b>Hạn hoàn thành:&#160;</b> %7$s
+        ]]>
+</Data></string>
+    <string name="input_content_reject">Nhập lý do từ chối</string>
+    <string name="input_content_approve">Nhập nội dung phê duyệt</string>
+    <string name="content">Nội dung:</string>
+    <string name="nguon_goc_cv">Nguồn gốc công việc&#160;</string>
+    <string name="title_approve_work">Phê duyệt tiến độ</string>
+    <string name="title_reject_work">Từ chối tiến độ</string>
+    <string name="send_perform_depart_title">Chuyển đơn vị thực hiện</string>
+    <string name="title_detail_sub_misson">Thông tin chi tiết nhiệm vụ con</string>
+    <string name="title_detail_process">Thông tin chi tiết tiến độ</string>
+    <string name="str_task_tv_content_combeni"><Data>
+<![CDATA[
+				<b>Nội dung:&#160;</b> %1$s<br>
+
+        ]]>
+</Data></string>
+    <string name="str_task_tv_action_combeni"><Data>
+<![CDATA[
+
+				<b>Kết quả:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="title_detail_depart_combination">Thông tin chi tiết nhiệm vụ đơn vị phối hợp</string>
+    <string name="title_detail_tranferen_history">Thông tin chi tiết lịch sử chuyển nhiệm vụ</string>
+    <string name="title_detail_more_souce_other">Chi tiết theo nguồn gốc khác</string>
+    <string name="str_task_detail_tranferen_history"><Data>
+<![CDATA[
+			<b>Đơn vị phối hợp:&#160;</b> %1$s <br><br>
+       		<b>Thời gian:&#160;</b> %2$s <br><br>
+       		<b>Trạng thái:&#160;</b> %3$s <br><br>
+       		<b>Kết quả thực hiện:&#160;</b> %4$s
+        ]]>
+</Data></string>
+    <string name="str_task_date_to_date"><Data>
+<![CDATA[
+			 <b>Thời gian:&#160;</b> %1$s &#160;-&#160; %2$s</font>
+        ]]>
+</Data></string>
+    <string name="origin_nguon_goc"><Data>
+<![CDATA[
+			<b>Theo nguồn gốc khác</b>
+        ]]>
+</Data></string>
+    <string name="origin_van_ban"><Data>
+<![CDATA[
+			<b>Theo văn bản</b>
+        ]]>
+</Data></string>
+    <string name="origin_de_xuat"><Data>
+<![CDATA[
+			<b>Theo đề xuất của phòng kế hoạch</b>
+        ]]>
+</Data></string>
+    <string name="origin_bien_ban_hop"><Data>
+<![CDATA[
+			<b>Theo biên bản họp</b>
+        ]]>
+</Data></string>
+    <string name="origin_dinh_huong"><Data>
+<![CDATA[
+			<b>Theo định hướng</b>
+        ]]>
+</Data></string>
+    <string name="str_title_follow_meeting">Theo biên bản họp</string>
+    <string name="str_title_follow_doc">Theo văn bản</string>
+    <string name="str_title_follow_plan">Theo đề xuất của phòng kế hoạch</string>
+    <string name="str_title_follow_orther">Theo nguồn gốc khác</string>
+    <string name="str_title_follow_oriented">Theo định hướng</string>
+    <string name="str_title_follow_miss">Theo nhiệm vụ</string>
+    <string name="add_mission">Thêm mới</string>
+    <string name="title_add_mission">Tạo nhiệm vụ</string>
+    <string name="enter_content_coordiration">Nhập nội dung phối hợp</string>
+    <string name="TEXT_NO_DATA">Không có dữ liệu</string>
+    <string name="str_title_content_combine">Nội dung phối hợp</string>
+    <string name="str_title_action_combine">Kết quả thực hiện</string>
+    <string name="str_task_detail_depart_combination"><Data>
+<![CDATA[
+			<b>Đơn vị phối hợp:&#160;</b><br> %1$s
+
+        ]]>
+</Data></string>
+    <string name="str_task_detail_combination"><Data>
+<![CDATA[
+			 %1$s
+
+        ]]>
+</Data></string>
+    <string name="no_unit">Đồng chí chưa chọn đơn vị</string>
+    <string name="str_edit_mission">Sửa nhiệm vụ</string>
+    <string name="str_edit_task">Sửa công việc</string>
+    <string name="str_task_detail_history_process"><Data>
+<![CDATA[
+			<b>Người cập nhật:&#160;</b> %1$s <br><br>
+       		<b>Ngày cập nhật:&#160;</b> %2$s <br><br>
+       		<b>Trạng thái:&#160;</b> %3$s <br><br>
+       		<b>Kết quả thực hiện:&#160;</b> %4$s <br><br>
+       		<b>Khó khăn:&#160;</b> %5$s <br><br>
+       		<b>Đề xuất:&#160;</b> %6$s <br>
+        ]]>
+</Data></string>
+    <string name="str_task_detail_history_process_comment"><Data>
+<![CDATA[
+			<b>Trạng thái:&#160;</b> %1$s <br><br>
+       		<b>Đánh giá:&#160;</b> %2$s
+        ]]>
+</Data></string>
+    <string name="srt_dipart_assig_miss1">Đơn vị giao nhiệm vụ</string>
+    <string name="title_coordination_content"><Data>
+<![CDATA[
+			<b>Nội dung phối hợp:</b><br><font color="#555555"> %1$s</font>
+
+        ]]>
+</Data></string>
+    <string name="title_coordination_work">Cập nhật tiến độ công việc phối hợp</string>
+    <string name="str_delete_mission">Xóa nhiệm vụ</string>
+    <string name="str_delete_task">Xóa công việc</string>
+    <string name="str_guide_mission">Chỉ đạo nhiệm vụ</string>
+    <string name="str_send_dipart_perform_mission">Chuyển đơn vị thực hiện</string>
+    <string name="str_send_reject_mission">Từ chối nhiệm vụ</string>
+    <string name="str_approve_mission">Phê duyệt tiến độ</string>
+    <string name="str_assign_mission">Giao nhiệm vụ</string>
+    <string name="str_update_process_perform_unsuccess">Cập nhật tiến độ nhiệm vụ không thành công</string>
+    <string name="str_update_process_perform_success">Cập nhật tiến độ nhiệm vụ thành công</string>
+    <string name="confirm_delete">Đồng chí có muốn xóa nhiệm vụ \"%1$s\" khỏi danh sách?</string>
+    <string name="delete_mission_success">Xóa nhiệm vụ thành công</string>
+    <string name="delete_mission_unsuccess">Xóa nhiệm vụ không thành công</string>
+    <string name="create_mission_success">Tạo nhiệm vụ thành công</string>
+    <string name="create_mission_unsuccess">Tạo nhiệm vụ không thành công</string>
+    <string name="approve_process_success">Phê duyệt thành công</string>
+    <string name="approve_process_unsuccess">Phê duyệt không thành công</string>
+    <string name="rejecct_process_unsuccess">Từ chối không thành công</string>
+    <string name="rejecct_process_success">Từ chối thành công</string>
+    <string name="text_approve">Phê duyệt</string>
+    <string name="text_approve_2">Phê duyệt ❯</string>
+    <string name="not_input_content_reject">Đồng chí phải nhập lý do từ chối</string>
+    <string name="str_strtus_mission">Trạng thái</string>
+    <string name="str_not_resulf_mission">Đồng chí chưa nhập vào nội dung kết quả thực hiện</string>
+    <string name="str_not_difficult_mission">Đồng chí chưa nhập vào nội dung khó khăn thực hiện</string>
+    <string name="str_not_propose_mission">Đồng chí chưa nhập vào nội dung đề xuất thực hiện</string>
+    <string name="tranfer_dipart_perform_success">Chuyển đơn vị thực hiện thành công</string>
+    <string name="tranfer_dipart_perform_unsuccess">Chuyển đơn vị thực hiện không thành công</string>
+    <string name="not_input_dipart_combine">Đồng chí chưa chọn đơn vị</string>
+    <string name="update_process_unsuccess">Cập nhật không thành công</string>
+    <string name="update_process_success">Cập nhật thành công</string>
+    <string name="edit_mission">Sửa nhiệm vụ</string>
+    <string name="str_validate_assigner">Đồng chí chưa chọn cá nhân giao nhiệm vụ</string>
+    <string name="str_validate_field">Đồng chí chưa chọn ngành</string>
+    <string name="str_validate_missionName">Đồng chí chưa nhập tên nhiệm vụ</string>
+    <string name="str_validate_missionContent">Đồng chí chưa nhập nội dung nhiệm vụ</string>
+    <string name="str_validate_missionTarget">Đồng chí chưa nhập mục tiêu nhiệm vụ</string>
+    <string name="str_validate_missionStart">Đồng chí chưa chọn ngày bắt đầu</string>
+    <string name="str_validate_missionEnd">Đồng chí chưa chọn ngày hoàn thành</string>
+    <string name="str_validate_perform">Đồng chí chưa chọn đơn vị thực hiện</string>
+    <!-- <string name="str_validate_date_now">Ngày bắt đầu và ngày hoàn thành không được nhỏ hơn ngày hiện tại</string> -->
+    <string name="str_validate_before">Ngày bắt đầu không được lớn hơn ngày hoàn thành</string>
+    <string name="str_validate_depart">Đơn vị phối hợp không được trùng với đơn vị thực hiện</string>
+    <string name="edit_mission_success">Sửa nhiệm vụ thành công</string>
+    <string name="edit_mission_unsuccess">Sửa nhiệm vụ không thành công</string>
+    <string name="edit_task_success">Sửa việc thành công</string>
+    <string name="edit_task_unsuccess">Sửa việc không thành công</string>
+    <string name="title_origin_doc">Văn bản sở cứ</string>
+    <string name="source_from_document_info"><Data>
+<![CDATA[  <br><b>Trích yếu nội dung văn bản:&#160;</b> %1$s <br><br>
+        <b>Loại văn bản:&#160;</b> %2$s <br><br>
+        <b>Ngày ban hành:&#160;</b> %3$s <br><br>
+        <b>Người ký:&#160;</b> %4$s <br><br>
+        <b>Yêu cầu thực hiện:&#160;</b> %5$s <br><br>
+        <b>Số, ký hiệu văn bản:&#160;</b> %6$s <br><br>
+        <b>Số đăng ký:&#160;</b> %7$s <br><br>
+        <b>Thời gian nhận:&#160;</b> %8$s <br><br>
+        <b>Hạn cuối:&#160;</b> %9$s <br><br>
+        <b>Nơi gửi:&#160;</b> %10$s <br><br>
+        ]]>
+</Data></string>
+    <string name="content_orientde_title">Thông tin định hướng</string>
+    <string name="title_origin_orien">Nguồn gốc định hướng&#160;</string>
+    <string name="str_task_source_content_orient1"><Data>
+<![CDATA[
+			<b>Đơn vị định hướng:&#160;</b> %1$s <br>
+        ]]>
+</Data></string>
+    <string name="str_task_source_content_orient_user"><Data>
+<![CDATA[
+       		<b>Người định hướng:&#160;</b><font color="#2680F6"> %1$s </font><br>
+        ]]>
+</Data></string>
+    <string name="str_task_source_content_orient2"><Data>
+<![CDATA[
+       		<b>Nội dung:&#160;</b> %1$s <br><br>
+       		<b>Ngành:&#160;</b> %2$s <br><br>
+       		<b>Loại định hướng:&#160;</b> %3$s <br><br>
+       		<b>Ngày ban hành:&#160;</b> %4$s
+        ]]>
+</Data></string>
+    <string name="field_origin_orien_0">Định hướng chiến lược</string>
+    <string name="field_origin_orien_1">Chế độ nề nếp</string>
+    <string name="field_origin_orien_2">Nhận thức mới</string>
+    <string name="field_origin_orien_3">Kinh nghiệm</string>
+    <string name="update_process_nocontent">Đồng chí chưa nhập nội dung cập nhật</string>
+    <string name="input_content_update">Nhập nội dung cập nhật</string>
+    <string name="text_notext_html"><Data><![CDATA[<i>Không có</i>]]></Data></string>
+    <string name="string_mo_rong">Mở rộng</string>
+    <string name="confirm_changpass_sso">Vui lòng nhấn vào link bên dưới để đổi mật khẩu:\n "http://10.60.7.126:8660/passportv3/changePassword"</string>
+
+    <!-- Search engin -->
+    <string name="search_count_title"><Data>
+<![CDATA[
+			<b>Tìm thấy&#160;<font color="#FF0000">%1$s</font>&#160;kết quả</b>
+
+        ]]>
+</Data></string>
+
+    <string-array name="array_filter_search">
+        <item>Tất cả</item>
+        <item>Văn bản cá nhân</item>
+        <item>Văn bản quản lý</item>
+    </string-array>
+    <string-array name="array_filter_search_value">
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="search_title">Tìm kiếm văn bản</string>
+    <string name="search_title_detail">Nội dung văn bản</string>
+    <string name="cf_read_document">Đ/c không được phân quyền để xem văn bản này</string>
+
+    <!-- cong viec ca nhan -->
+
+    <string name="task_persion_list_request_title">Danh sách yêu cầu&#160;</string>
+    <string name="task_persion_list_task_from_miss_title">Danh sách công việc từ nhiệm vụ&#160;</string>
+    <string name="task_persion_detail_content">Nội dung chi tiết&#160;</string>
+    <string name="task_persion_detail_count"><Data><![CDATA[(%1$s)]]></Data></string>
+    <string name="task_persion_name_content"><Data>
+<![CDATA[
+			<b>Tên công việc:&#160;</b> %1$s <br><br>
+			<b>Mục tiêu:&#160;</b> %2$s
+
+        ]]>
+</Data></string>
+    <string name="task_persion_user_asign"><Data>
+<![CDATA[
+			<b>Người giao việc:&#160;</b> <font color="#2680F6">%1$s</font>
+        ]]>
+</Data></string>
+    <string name="task_persion_user_asign_conbina"><Data>
+<![CDATA[
+			<b>Người tạo việc:&#160;</b> <font color="#2680F6">%1$s</font>
+        ]]>
+</Data></string>
+    <string name="task_persion_note_asign"><Data>
+<![CDATA[
+			<br><b>Phiếu giao việc:&#160;
+        ]]>
+</Data></string>
+    <string name="task_persion_rate_asign"><Data>
+<![CDATA[
+			<br><b>Phiếu đánh giá:&#160;
+        ]]>
+</Data></string>
+    <string name="task_persion_result"><Data>
+<![CDATA[
+			<br><b>Kết quả:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="task_persion_time"><Data>
+<![CDATA[
+			<br><b>Thời gian:&#160;</b> %1$s <br>
+        ]]>
+</Data></string>
+    <string name="task_persion_user_perform"><Data>
+<![CDATA[
+			<b>Người thực hiện:&#160;</b> <font color="#2680F6">%1$s</font>&#160;(%2$s)
+        ]]>
+</Data></string>
+    <string name="task_persion_user_perform_other"><Data>
+<![CDATA[
+			<b>Người thực hiện:&#160;</b> <font color="#2680F6">%1$s</font> <br>
+        ]]>
+</Data></string>
+    <string name="task_persion_user_perform_other_font"><Data>
+<![CDATA[
+			<b>Người thực hiện:&#160;</b><font color="#777777">%1$s</font>
+        ]]>
+</Data></string>
+    <string name="task_persion_user_perform_combina"><Data>
+<![CDATA[
+			<b>Người phối hợp:&#160;</b> <font color="#2680F6">%1$s</font>
+        ]]>
+</Data></string>
+    <string name="task_persion_depart_to_status_task"><Data>
+<![CDATA[
+			<b>Đơn vị:&#160;</b> %1$s <br><br>
+			<b>Nhóm công việc:&#160;</b> %2$s <br><br>
+			<b>Loại công việc:&#160;</b> %3$s <br><br>
+			<b>Trọng số:&#160;</b> %4$s <br><br>
+			<b>Tần suất cập nhật:&#160;</b> %5$s <br><br>
+			<b>Ngành:&#160;</b> %6$s <br><br>
+			<b>Trạng thái công việc:&#160;</b> %7$s <br>
+        ]]>
+</Data></string>
+    <string name="task_persion_status_comment"><Data>
+<![CDATA[
+			<b>Trạng thái phê duyệt:&#160;</b> %1$s <br>
+        ]]>
+</Data></string>
+    <string name="task_persion_status"><Data>
+<![CDATA[
+			<b>Trạng thái:&#160;</b> %1$s <br>
+        ]]>
+</Data></string>
+    <string name="task_persion_status_get"><Data>
+<![CDATA[
+			<b>Trạng thái tiếp nhận:&#160;</b> %1$s <br>
+        ]]>
+</Data></string>
+    <string name="task_persion_comment"><Data>
+<![CDATA[
+			<b>Ý kiến đánh giá:&#160;</b> %1$s <br>
+        ]]>
+</Data></string>
+    <string name="work_personal_title">Công việc cá nhân</string>
+
+    <string-array name="tab_work_personal">
+        <item>Công việc cá nhân</item>
+        <item>Kiến nghị đề xuất</item>
+        <item>Phiếu giao việc</item>
+        <item>Đánh giá</item>
+        <item>Tự đánh giá</item>
+    </string-array>
+    <string-array name="tab_work_personal_ldtd">
+        <item>Công việc cá nhân</item>
+        <item>Phiếu giao việc</item>
+        <item>Đánh giá</item>
+        <item>Tự đánh giá</item>
+    </string-array>
+    <string-array name="tab_work_personal_staff">
+        <item>Công việc cá nhân</item>
+        <item>Kiến nghị đề xuất</item>
+        <item>Tự đánh giá</item>
+    </string-array>
+
+    <string name="text_type">Loại việc:</string>
+
+    <string-array name="type_work_array">
+        <item>Việc tôi giao</item>
+        <item>Việc được giao</item>
+        <item>Việc phối hợp</item>
+        <item>Việc cá nhân</item>
+        <item>Việc của cá nhân khác</item>
+    </string-array>
+
+    <integer-array name="type_work_array_value">
+        <item>2</item>
+        <item>1</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+    </integer-array>
+
+    <string-array name="array_status_word_personal1">
+        <item>Tất cả</item>
+        <item>Chưa thực hiện</item>
+        <item>Đang thực hiện</item>
+        <item>Đã hoàn thành</item>
+        <item>Đã quá hạn</item>
+        <item>Chưa đánh giá</item>
+        <item>Đã đánh giá</item>
+        <item>Đã phê duyệt</item>
+        <item>Từ chối phê duyệt</item>
+        <item>Đã đóng</item>
+    </string-array>
+
+    <integer-array name="array_value_word_personal1">
+        <item>0</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </integer-array>
+
+    <string-array name="array_status_word_personal2">
+        <item>Tất cả</item>
+        <item>Chưa thực hiện</item>
+        <item>Đang thực hiện</item>
+        <item>Đã hoàn thành</item>
+        <item>Đã quá hạn</item>
+    </string-array>
+
+    <integer-array name="array_value_word_personal2">
+        <item>0</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </integer-array>
+
+    <string-array name="array_status_word_personal4">
+        <item>Tất cả</item>
+        <item>Chưa tiếp nhận</item>
+        <item>Đã tiếp nhận</item>
+        <item>Từ chối tiếp nhận</item>
+        <item>Chưa thực hiện</item>
+        <item>Đang thực hiện</item>
+        <item>Đã hoàn thành</item>
+        <item>Đã quá hạn</item>
+        <item>Đã đóng</item>
+    </string-array>
+
+    <integer-array name="array_value_word_personal4">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>12</item>
+    </integer-array>
+
+    <string name="str_task_detail_history_process_persion"><Data>
+<![CDATA[
+			<b>Tác động:&#160;</b> %1$s <br><br>
+       		<b>Người tác động:&#160;</b> %2$s <br><br>
+       		<b>Thời gian tác động:&#160;</b> %3$s <br><br>
+       		<b>Kết quả thực hiện:&#160;</b> %4$s <br><br>
+       		<b>Tiến độ:&#160;</b> %5$s <br><br>
+       		<b>Đánh giá:&#160;</b> %6$s <br><br>
+       		<b>Trạng thái:&#160;</b> %7$s <br>
+        ]]>
+</Data></string>
+    <string name="title_detail_update_tasj_persion">Thông tin chi tiết cập nhật</string>
+    <string name="str_tas_persion_type_task2_1">Thường xuyên</string>
+    <string name="str_tas_persion_type_task2_2">Đột xuất</string>
+    <string name="str_tas_persion_reciver_1">Chưa tiếp nhận</string>
+    <string name="str_tas_persion_reciver_2">Đã tiếp nhận</string>
+    <string name="str_tas_persion_reciver_3">Đã từ chối</string>
+    <string name="str_tas_persion_source_type1">Theo đề xuất cá nhân</string>
+    <string name="str_tas_persion_source_type3">Theo công việc phối hợp</string>
+    <string name="str_tas_persion_source_type4">Theo văn bản</string>
+    <string name="str_tas_persion_source_meet">Theo biên bản họp</string>
+    <string name="str_tas_persion_source_chithi">Theo chỉ thị</string>
+    <string name="str_tas_persion_source_type5">Theo nguồn gốc khác</string>
+    <string name="str_tas_persion_source_type7">Theo kiến nghị đề xuất</string>
+    <string name="str_tas_persion_source_type8">Theo nhiệm vụ đơn vị</string>
+    <string name="str_tas_persion_object_type1">Công việc cá nhân</string>
+    <string name="str_tas_persion_object_type2">Nhiệm vụ đơn vị</string>
+    <string name="str_tas_persion_object_type3">Biên bản/kết luận</string>
+    <string name="str_tas_persion_object_type4">Định hướng</string>
+    <string name="str_tas_persion_process_type0">Thêm mới</string>
+    <string name="str_tas_persion_process_type1">Cập nhật tiến độ</string>
+    <string name="str_tas_persion_process_type2">Chia nhỏ</string>
+    <string name="str_tas_persion_process_type3">Chuyển</string>
+    <string name="str_tas_persion_process_type4">Phê duyệt tiến độ</string>
+    <string name="str_tas_persion_process_type5">Từ chối</string>
+    <string name="str_tas_persion_process_type6">Tự động cập nhật</string>
+    <string name="str_tas_persion_process"><Data>
+<![CDATA[
+				<b>Tác động:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="str_task_persion_his_recive"><Data>
+<![CDATA[
+			<b>Trạng thái tiếp nhận:&#160;</b> %1$s <br><br>
+       		<b>Người phản hồi:&#160;</b> %2$s <br><br>
+       		<b>Người giao việc:&#160;</b> %3$s <br><br>
+       		<b>Thời gian phản hồi:&#160;</b> %4$s <br><br>
+       		<b>Nội dung phản hồi:&#160;</b> %5$s <br>
+        ]]>
+</Data></string>
+    <string name="str_task_persion_his_recive_title">THÔNG TIN TIẾP NHẬN CÔNG VIỆC</string>
+    <string name="str_task_persion_title_update_task">Cập nhật tiến độ công việc</string>
+    <string name="text_title_work"><Data><![CDATA[Tên công việc(%1$s)<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="text_title_content_work"><Data><![CDATA[Mục tiêu(%1$s)<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="text_title_group"><Data><![CDATA[Nhóm công việc<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="text_title_frequency"><Data><![CDATA[Tần suất cập nhập<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="date_assign">Ngày bắt đầu*:</string>
+    <string name="date_assign_html"><Data><![CDATA[Ngày bắt đầu<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="date_end">Ngày hoàn thành*:</string>
+    <string name="date_end_html"><Data><![CDATA[Ngày hoàn thành<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="text_title_status"><Data><![CDATA[Trạng thái<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="text_title_input_feild">Chọn ngành</string>
+
+    <string-array name="menu_frequencey">
+        <item>Cập nhật theo ngày</item>
+        <item>Cập nhật theo tuần</item>
+        <item>Cập nhật theo tháng</item>
+    </string-array>
+    <string-array name="menu_status">
+        <item>Chưa thực hiện</item>
+        <item>Đang thực hiện</item>
+        <item>Đã hoàn thành</item>
+    </string-array>
+    <string-array name="menu_typeOfWork">
+        <item>Công việc thường xuyên</item>
+        <item>Công việc đột xuất</item>
+    </string-array>
+
+    <string name="lable_combina">phối hợp</string>
+    <string name="lable_chu_tri">chủ trì</string>
+    <string name="user_process_empty">Đồng chí chưa chọn người thực hiện</string>
+    <string name="title_chair_html2"><Data>
+<![CDATA[
+			<b>Chủ trì:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="title_chair_html1"><Data>
+<![CDATA[
+			<b>Phối hợp:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="title_chair_html"><Data>
+<![CDATA[
+			<b>Người giao:&#160;</b> %1$s
+        ]]>
+</Data></string>
+
+    <string name="title_source"><Data><![CDATA[%1$s <br><i>(%2$s)</i>]]></Data></string>
+    <string name="task_persion_status_timeout">(Đã quá hạn)</string>
+    <string name="task_persion_status_timeout_h">Đã quá hạn </string>
+    <string name="task_persion_approval_state3">Đã phê duyệt đánh giá</string>
+    <string name="task_persion_approval_state4">Đã từ chối đánh giá</string>
+    <string name="task_persion_approval_state_null">Chưa đánh giá</string>
+    <string name="title_rating_work">Công việc đăng ký trong tháng</string>
+    <string name="title_rating_work_more">Công việc đăng ký bổ sung</string>
+    <string name="taskrank_createtask_unsucess">Tạo việc không thành công</string>
+    <string name="task_persion_rating1">Kém</string>
+    <string name="task_persion_rating2">Cần cố gắng</string>
+    <string name="task_persion_rating3">Đạt yêu cầu</string>
+    <string name="task_persion_rating4">Khá</string>
+    <string name="task_persion_rating5">Tốt</string>
+    <string name="task_persion_rating6">Xuất sắc</string>
+    <string name="task_persion_title_his_reciver">Lịch sử tiếp nhận công việc&#160;</string>
+    <string name="text_input_work_name">Nhập tên công việc</string>
+    <string name="process_is_empty">Đ/c chưa nhập tiến độ công việc</string>
+    <string name="result_is_empty">Đ/c chưa nhập kết quả thực hiện</string>
+    <string name="nguon_goc_cv_new">Nguồn gốc:</string>
+    <string name="task_persion_str_reciver">Tiếp nhận</string>
+    <string name="task_persion_str_unreciver">Từ chối tiếp nhận</string>
+    <string name="task_persion_create_task">Tạo công việc</string>
+    <string name="position">Chức vụ: </string>
+    <string name="task_persion_request_sourcetype1">Nguồn gốc chung</string>
+    <string name="task_persion_request_sourcetype2">Công việc</string>
+    <string name="task_persion_request_status1">Gửi đề xuất</string>
+    <string name="task_persion_request_status2">Đã được giải quyết</string>
+    <string name="task_persion_request_status3">Đã chuyển lên cấp trên</string>
+    <string name="task_persion_title_detail_source">Chi tiết nguồn gốc</string>
+    <string name="str_task_persion_content_other_source"><Data>
+<![CDATA[
+			<b>Loại nguồn gốc:&#160;</b> %1$s <br><br>
+       		<b>Nội dung:&#160;</b> %2$s
+        ]]>
+</Data></string>
+    <string name="delete_task_unsuccess">Xoá không thành công</string>
+    <string name="delete_task_success">Xóa thành công</string>
+    <string name="task_persion_not_prcess">Đồng chí chưa nhập vào tiến độ thực hiện</string>
+    <string name="task_persion_not_result">Đồng chí chưa nhập vào kết quả thực hiện</string>
+
+    <string-array name="array_position_process">
+        <item>Chủ trì</item>
+        <item>Phối hợp</item>
+    </string-array>
+
+    <string name="assigner_processer_is_same">Người thực hiện không được trùng với người giao việc</string>
+
+    <string name="create_work_persional">Tạo việc</string>
+    <string name="edit_work_persional">Sửa việc</string>
+    <string name="srt_task_comment"><Data>
+<![CDATA[
+			Ý kiến phản hồi:&#160;(%1$s)<font color="#b11116">%2$s</font>
+        ]]>
+</Data></string>
+    <string name="receive_status_not_result">Đồng chí chưa nhập ý kiến phản hồi</string>
+    <string name="close_task_unsuccess">Đồng chí đã đóng công việc thất bại</string>
+    <string name="close_task_success">Đồng chí đã đóng công việc thành công</string>
+    <string name="reject_not_input">Đồng chí chưa nhập lý do từ chối</string>
+    <string name="receive_task_unsuccess">Tiếp nhận công việc không thành công</string>
+    <string name="receive_task_success">Tiếp nhận công việc thành công</string>
+    <string name="reject_task_unsuccess">Từ chối tiếp nhận công việc không thành công</string>
+    <string name="reject_task_success">Từ chối tiếp nhận công việc thành công</string>
+    <string name="assign_task_again_unsuccess">Giao việc lại không thành công</string>
+    <string name="assign_task_again_success">Giao việc lại thành công</string>
+    <string name="confirm_close_task_persion">Đồng chí có muốn đóng công việc này?</string>
+    <string name="confirm_delete_task_persion">Đ/c có muốn xóa công việc?</string>
+    <string name="title_receive_task">Tiếp nhận công việc</string>
+    <string name="title_reject_task">TỪ chối tiếp nhận công việc</string>
+    <string name="text_time">Giờ: </string>
+    <string name="process_is_not_number">Tiến độ công việc phải là số</string>
+    <string name="process_invalid">Tiến độ công việc phải nằm trong khoảng từ 0 đến 100</string>
+    <string name="task_persion_update_process_success">Cập nhật tiến độ thành công</string>
+    <string name="task_persion_update_process_unsuccess">Cập nhật tiến độ thất bại</string>
+    <string name="don_vi_type">Đơn vị</string>
+    <string name="task_persion_approve_success">Phê duyệt tiến độ công việc thành công</string>
+    <string name="task_persion_approve_unsuccess">Phê duyệt tiến độ công việc thất bại</string>
+    <string name="task_persion_reject_success">Từ chối tiến độ công việc thành công</string>
+    <string name="task_persion_reject_unsuccess">Từ chối tiến độ công việc thất bại</string>
+    <string name="tao_nhieu_viec">( Tạo nhiều việc </string>
+    <string name="ket_qua">Kết quả</string>
+    <string name="ket_qua_html"><Data><![CDATA[Kết quả (%1$s)<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="tien_do_html"><Data><![CDATA[Tiến độ<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="danh_gia">Đánh giá:</string>
+    <string name="danh_gia_html"><Data><![CDATA[Đánh giá<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="work_persional_title">Việc cá nhân</string>
+    <string name="create_work_assigner"><Data><![CDATA[Người giao việc<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="work_received_progress_task_title_ex_person"><Data><![CDATA[Người thực hiện<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="processer_ismajor_1_is_only">Đ/c chỉ có thể chọn duy nhất một chủ trì cho công việc này</string>
+    <string name="processer_ismajor_1_is_empty">Đ/c phải chọn một người chủ trì cho công việc này</string>
+    <string name="ket_qua_hint">Nhập kết quả</string>
+    <string name="task_persion_reject_comment"><Data>
+<![CDATA[
+			Lý do từ chối:&#160;(%1$s)
+        ]]>
+</Data></string>
+    <string name="y_kien_chidao_comment"><Data>
+<![CDATA[
+			Ý kiến chỉ đạo:&#160;(%1$s)
+        ]]>
+</Data></string>
+    <string name="lstconclusion_status2">Trạng thái duyệt:&#160;</string>
+    <string name="request_his_precess2">Lịch sử quá trình xử lý</string>
+    <string name="request_chuyen_cap_tren">Chuyển lên cấp trên</string>
+    <string name="linh_vuc">Ngành*:</string>
+    <string name="linh_vuc_html"><Data><![CDATA[Ngành<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="nguoi_yeu_cau_dau_tien">Người yêu cầu đầu tiên: </string>
+    <string name="nguoi_yeu_cau">Người yêu cầu: </string>
+    <string name="srt_title_request_update_commant">Cập nhật ý kiến chỉ đạo</string>
+    <string name="srt_request_update_comment"><Data>
+<![CDATA[
+			Ý kiến chỉ đạo:&#160;(%1$s)
+        ]]>
+</Data></string>
+    <string name="expiredDate"><Data>
+<![CDATA[  <b>Hạn xử lý:&#160;</b><font color="#777777">%1$s
+        ]]>
+</Data></string>
+    <string name="chuyen_tiep_yeu_cau">Chuyển tiếp yêu cầu</string>
+    <string name="title_change_status_work">Chọn phê duyệt</string>
+    <string name="tieu_de"><Data>
+<![CDATA[
+			Tiêu đề (%1$s/500)<font color="#b11116">*</font>:
+
+        ]]>
+</Data></string>
+    <string name="noi_dung"><Data>
+<![CDATA[
+			Nội dung (%1$s/2000)<font color="#b11116">*</font>:
+
+        ]]>
+</Data></string>
+    <string name="nhap_trich_yeu_noi_dung">Nhập trích yếu nội dung</string>
+    <string name="ngay_bat_dau"><Data>
+<![CDATA[
+			Ngày bắt đầu:
+
+        ]]>
+</Data></string>
+    <string name="han_xu_ly"><Data>
+<![CDATA[
+			Hạn xử lý:
+
+        ]]>
+</Data></string>
+    <string name="cap_do">Cấp độ:</string>
+    <string name="nguoi_nhan_yeu_cau"><Data>
+<![CDATA[
+			Người nhận yêu cầu <font color="#b11116">*</font>:
+
+        ]]>
+</Data></string>
+    <string name="chuyen_tiep_kien_nghi_dx_thanh_cong">Đ/c đã chuyển yêu cầu lên cấp trên thành công</string>
+    <string name="chuyen_tiep_kien_nghi_dx_that_bai">Đ/c đã chuyển yêu cầu lên cấp trên thất bại</string>
+    <string name="chua_nhap_tieu_de">Đồng chí chưa nhập tiêu đề</string>
+    <string name="request_update_solotion_success">Đồng chí cập nhật ý kiến chỉ đạo thành công</string>
+    <string name="request_update_solotion_unsuccess">Đồng chí cập nhật ý kiến chỉ đạo thất bại</string>
+    <string name="state_sign"><Data>
+<![CDATA[
+			<b>Trạng thái ký duyệt:&#160;</b><font color="#777777">Chưa ký</font>
+        ]]>
+</Data></string>
+    <string name="file_sign_work">File phê duyệt công việc:</string>
+    <string name="str_validate_before_forward">Ngày bắt đầu không được lớn hơn hạn xử lý</string>
+    <string name="nhap_giai_phap">Nhập giải pháp</string>
+    <string name="chua_nhap_giai_phap">Đồng chí chưa nhập giải pháp giải quyết yêu cầu</string>
+    <string name="giai_quyet_yeu_cau_thanh_cong">Giải quyết yêu cầu thành công</string>
+    <string name="giai_quyet_yeu_cau_that_bai">Giải quyết yêu cầu không thành công</string>
+    <string name="request_commant_not_input">Đồng chí chưa nhập ý kiến chỉ đạo</string>
+    <string name="chua_chon_nguoi_nhan_yeu_cau">Đồng chí chưa chọn người nhận yêu cầu </string>
+    <string name="request_title_detail">CHI TIẾT KIẾN NGHỊ - ĐỀ XUẤT</string>
+    <string name="rating_point"><Data>
+<![CDATA[
+			<b>Điểm đánh giá:&#160;</b> %1$s<br>
+        ]]>
+</Data></string>
+    <string name="rating_percent"><Data>
+<![CDATA[
+			<b>Tiến độ:&#160;</b> %1$s &#37;<br>
+        ]]>
+</Data></string>
+    <string name="signTime">Thời gian ký chốt phiếu giao việc từ ngày %1$s đến ngày %2$s hàng tháng</string>
+    <string name="title_choose_unit">Chọn đơn vị</string>
+    <string name="title_choose_type">Chọn loại yêu cầu</string>
+    <string name="title_sign_work">Ký duyệt công việc</string>
+    <string name="title_sign">Ký duyệt</string>
+    <string name="title_comment">Ý kiến</string>
+    <string name="title_request_reciver">Yêu cầu nhận</string>
+    <string name="title_request_send">Yêu cầu gửi</string>
+    <string name="comfirm_no_chosse">Đồng chí chưa chọn công việc</string>
+    <string name="title_work_personal">Danh sách công việc cá nhân</string>
+    <string name="error_create_file">Lỗi trong quá trình sinh file</string>
+    <string name="file_rating_title">File đánh giá công việc:</string>
+    <string name="title_reason_html"><Data><![CDATA[Lý do (%1$s)<font color="#FF0000">*</font>]]></Data></string>
+    <string name="title_popup_rating">Ký đánh giá công việc</string>
+    <string name="txt_task_send_mail_statistic">Về nhiệm vụ&#160;</string>
+    <string name="txt_tasks_send_mail_statistic">Về công việc&#160;</string>
+    <string name="title_chair2_lick_contact"><Data>
+<![CDATA[
+			<b>Chủ trì:&#160;</b> <font color="#2680F6">%1$s</font>
+        ]]>
+</Data></string>
+    <string name="title_chair1_lick_contact"><Data>
+<![CDATA[
+			<b>Phối hợp:&#160;</b> <font color="#2680F6">%1$s</font>
+        ]]>
+</Data></string>
+    <string name="title_doc_lick_contact"><Data>
+<![CDATA[
+			<b>Người thực hiện:&#160;</b> <font color="#2680F6">%1$s</font>
+        ]]>
+</Data></string>
+    <string name="title_doc_no_lick_contact"><Data>
+<![CDATA[
+			<b>Người thực hiện:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="request_lever"><Data>
+<![CDATA[
+			<b>Cấp độ:&#160;</b> %1$s<br>
+        ]]>
+</Data></string>
+    <string name="status_approved_orgA_asign_name1">Chờ phê duyệt</string>
+    <string name="status_approved_orgA_asign_name3">Đã từ chối</string>
+    <string name="textsend_alert_sucsess">Chuyển văn bản thành công</string>
+    <string name="textsend_alert_notsucsess">Chuyển văn bản không thành công</string>
+    <string name="lable_request_close">Yêu cầu đóng</string>
+    <string name="supportCustomerInfoDefaut">1789 nhánh 2</string>
+
+    <!-- thang 1 -->
+    <string name="txt_rate_send_mail_statistic">Về đánh giá công việc</string>
+    <string name="doi_nguoi_ky_that_bai">Đổi người ký không thành công</string>
+    <string name="doi_nguoi_ky_thanh_cong">Đổi người ký thành công</string>
+    <string name="doi_nguoi_ky_confirm">Đ/c có muốn đổi người ký \"%1$s\" thành \"%2$s\" không?</string>
+    <string name="srt_history_impact_task">Lịch sử tác động&#160;</string>
+    <string name="str_task_tv_impact"><Data>
+<![CDATA[
+				<b>Tác động:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="str_task_tv_comman_impact"><Data>
+<![CDATA[
+				<b>Ý kiến:&#160;</b>%1$s
+        ]]>
+</Data></string>
+    <string name="view_all">Hiển thị tất cả người thực hiện</string>
+    <string name="title_detail_miss_log">Thông tin chi tiết tác động</string>
+    <string name="detail_miss_log"><Data>
+<![CDATA[
+			<b>Người tác động:&#160;</b> %1$s <br><br>
+			<b>Thời gian tác động:&#160;</b> %2$s <br><br>
+			<b>Tác động:&#160;</b> %3$s <br><br>
+			<b>Trạng thái tác động:&#160;</b> %4$s <br><br>
+			<b>Ý kiến:&#160;</b> %5$s <br>
+        ]]>
+</Data></string>
+    <string name="miss_has_delete">Nhiệm vụ không tồn tại</string>
+    <string name="srt_tv_resion"><Data>
+<![CDATA[
+			<b>Lý do từ chối:&#160;</b> %1$s <br>
+
+        ]]>
+</Data></string>
+    <string name="title_ditail_chithi">Chi tiết chỉ thị</string>
+    <string name="miss_cham_tien_do">Chậm tiến độ</string>
+    <string name="roaming_text">Roaming</string>
+    <string name="roaming">R: %1$s MB</string>
+
+    <!-- touchId -->
+    <string name="touch_id_setting_title">Đăng nhập bằng vân tay</string>
+    <!-- send mail lich hop -->
+    <string name="txt_subject_send_mail_calendar">V/v tham gia cuộc họp: &#160;</string>
+    <string name="lable_infor_sedmail_calendar">Thông tin cuộc họp:&#160;</string>
+    <string name="roaming_toast">Thiết bị đang ở trạng thái roaming, lưu ý khi sử dụng có thể phát sinh chi phí lưu lượng lớn</string>
+    <string name="active_touchid">Đăng nhập bằng vân tay đã được kích hoạt</string>
+    <string name="enter_pass">Nhập mật khẩu</string>
+    <string name="enter_confirmpass">Nhập lại mật khẩu</string>
+    <string name="re_enter">Nhập lại</string>
+
+    <!-- Ky mem -->
+    <string name="title_enter_active_code">Đ/c vui lòng nhập mã kích hoạt chứng thư!</string>
+    <string name="title_confirm_after_enter_otp">Vui lòng chờ admin cấp chứng thư, khi cấp thành công hệ thống sẽ gửi tin nhắn Mã kích hoạt về số điện thoại của đ/c</string>
+    <string name="error_enter_otp">[Mã %1$s] Không xác thực được mã OTP. Đ/c vui lòng liên hệ CSKH %2$s</string>
+    <string name="text_add_contact">Thêm vào danh bạ</string>
+    <string name="confirm_addContact">Đ/c đã chọn %1$s người để thêm vào danh bạ. Đ/c có muốn tiếp tục?</string>
+    <string name="confirm_NoContact">Đ/c chưa chọn người thêm vào danh bạ.</string>
+    <string name="confirm_addContactDone">Đã thêm %1$s người vào danh bạ</string>
+    <string name="ca_state_5">Chứng thư bị tạm ngưng sử dụng. Đ/c vui lòng liên hệ CSKH (%1$s).</string>
+    <string name="error_change_cmt">Không cập nhật được số CMT</string>
+    <string name="title_content_docname">Đ/c đang ký văn bản: %1$s</string>
+    <string name="text_hint_enter_pass_ca">Mật khẩu chứng thư</string>
+
+    <string name="title_template_comment">Nội dung chỉ đạo</string>
+    <string name="text_save">Lưu</string>
+    <string name="text_template">Mẫu</string>
+    <string name="text_edit">Sửa</string>
+    <string name="text_finish">Xong</string>
+    <string name="save_to_template_success">Đã lưu nội dung chỉ đạo vào danh sách mẫu </string>
+    <string name="save_to_template_unsuccess">Lưu nội dung chỉ đạo thất bại</string>
+    <string name="no_templace">Chưa có mẫu</string>
+    <string name="add_template">Thêm mẫu</string>
+    <string name="edit_template">Sửa mẫu</string>
+    <string name="not_input_content">Đ/c chưa nhập nội dung</string>
+    <string name="max_template">Đ/c đã lưu đủ giới hạn 20 mẫu. Để lưu thêm đ/c vui lòng xoá bớt mẫu</string>
+    <string name="phienbanhienthaydoi">Đã có phiên bản cập nhật %1$s thay cho phiên bản hiện tại %2$s </string>
+    <string name="confirm_delete_template">Đ/c có chắc chắn muốn xóa các nội dung đã chọn?</string>
+    <string name="text_guide_edit_template">Di chuyển nội dung để sắp xếp thứ tự</string>
+    <string name="not_select_template">Đ/c chưa chọn mẫu cần xóa</string>
+    <string name="active_ca_5">Giao dịch bị hủy do nhập 5 lần không thành công. Đ/c nhấn vào \"Cấp phát chứng thư\" để xin cấp lại từ đầu</string>
+    <string name="active_ca_count">(Đ/c còn %1$s lần nhập)</string>
+    <string name="otp_unsuccess">Mã OTP của đ/c không đúng. Vui lòng nhập lại!</string>
+    <string name="no_otp">Đ/c chưa nhập mã OTP. Nhập mã OTP xác nhận yêu cầu (mã OTP đã được gửi vào tin nhắn theo số điện thoại nhắn tin của đ/c)</string>
+    <string name="no_active">Đ/c chưa nhập mã kích hoạt. Nhập mã kích hoạt chứng thư!</string>
+    <string name="active_error">[Mã %1$s] Không kích hoạt được chứng thư.\nĐ/c vui lòng liên hệ CSKH %2$s</string>
+    <string name="validate_active_ca">Mã kích hoạt của đ/c không chính xác. Đ/c vui lòng thực hiện lại</string>
+    <string name="title_change_pw_ca">Đổi mật khẩu chứng thư</string>
+    <string name="setting_changepass_unsuccess">Đổi mật khẩu không thành công</string>
+    <string name="active_ca_success">Chứng thư của đ/c kích hoạt thành công</string>
+    <string name="create_ca_unsuccess">Yêu cầu của đ/c được gửi không thành công. Đ/c không được gửi yêu cầu cấp phát chứng thư mới khi đang chờ cấp phát chứng thư trên thiết bị khác</string>
+    <string name="pw_fail">Sai mật khẩu. Vui lòng nhập lại!</string>
+    <string name="title_addtime">Đ/c đã chọn gia hạn chứng thư. Chứng thư cũ sẽ bị hồi và sẽ thực hiện cấp chứng thư mới. Đ/c có muốn tiếp tục?</string>
+    <string name="enter_otp_5">Giao dịch bị hủy do nhập 5 lần không thành công. Đ/c nhấn vào \"Cấp phát chứng thư\" để xin cấp lại từ đầu</string>
+    <string name="validate_pass_ca">Mật khẩu chưa đủ mạnh. Đ/c vui lòng đặt mật khẩu phải bao gồm: chữ, số và kí tự đặc biệt, tối thiểu 8 kí tự</string>
+    <string name="no_pw">Đ/c chưa nhập mật khẩu hoặc chưa đủ 8 ký tự, vui lòng nhập lại.</string>
+    <string name="pw_not_same">Mật khẩu không khớp, vui lòng nhập lại!</string>
+    <string name="sign_ca_pw_fail">Ký không thành công. Đ/c nhập sai mật khẩu chứng thư</string>
+    <string name="title_comfrim_save_ca">Đ/c vui lòng nhập mật khẩu chứng thư</string>
+
+    <!-- noi dung thang 4 -->
+    <!--  -->
+    <string name="request_detail_content">Thông tin chi tiết yêu cầu&#160;</string>
+    <string name="request_titledetail_fileattach">File đính kèm yêu cầu&#160;</string>
+    <string name="request_detail_top"><Data>
+<![CDATA[
+			<b>Tiêu đề:&#160;</b> %1$s <br><br>
+			<b>Lý do:&#160;</b> %2$s <br><br>
+			<b>Nội dung:&#160;</b> %3$s <br><br>
+			<b>Trạng thái:&#160;</b> %4$s <br><br>
+			<b>Giải pháp:&#160;</b> %5$s <br>
+        ]]>
+</Data></string>
+    <string name="request_detail_top_nosolu"><Data>
+<![CDATA[
+			<b>Tiêu đề:&#160; %1$s </b><br><br>
+			<b>Lý do:&#160;</b> %2$s <br><br>
+			<b>Nội dung:&#160;</b> %3$s <br><br>
+			<b>Trạng thái:&#160;</b> %4$s <br>
+        ]]>
+</Data></string>
+    <string name="user_requirement_link"><Data>
+<![CDATA[
+			<b>Người yêu cầu:&#160;</b> <font color="#2680F6">%1$s</font><br>
+        ]]>
+</Data></string>
+    <string name="user_requirement_nolink"><Data>
+<![CDATA[
+			<b>Người yêu cầu:&#160;</b> %1$s<br>
+        ]]>
+</Data></string>
+    <string name="dv_user_requirement"><Data>
+<![CDATA[
+			<b>Đơn vị người y/c:&#160;</b> %1$s<br>
+        ]]>
+</Data></string>
+    <string name="user_perform_link"><Data>
+<![CDATA[
+			<b>Người giải quyết:&#160;</b> <font color="#2680F6">%1$s</font><br>
+        ]]>
+</Data></string>
+    <string name="user_perform_nolink"><Data>
+<![CDATA[
+			<b>Người giải quyết:&#160;</b> %1$s <br>
+        ]]>
+</Data></string>
+    <string name="request_detail_botton"><Data>
+<![CDATA[
+			<b>Đơn vị người giải quyết :&#160;</b> %1$s <br><br>
+			<b>Cấp độ:&#160;</b> %2$s <br><br>
+			<b>Thời gian xử lý:&#160;</b> %3$s
+        ]]>
+</Data></string>
+    <string name="str_request_note">(Quá hạn xử lý nếu yêu cầu chưa được giải quyết thì hệ thống sẽ tự động chuyển lên lãnh đạo trên một cấp)</string>
+    <string name="request_status1">Chưa gửi</string>
+    <string name="request_status2">Chưa giải quyết</string>
+    <string name="request_status3">Đang giải quyết</string>
+    <string name="request_status4">Đã giải quyết</string>
+    <string name="request_status6">Đã đóng</string>
+    <string name="process_action1">Gửi yêu cầu</string>
+    <string name="process_action2">Tự giải quyết</string>
+    <string name="process_action3">Đẩy lên cấp trên</string>
+    <string name="process_action4">Tự động đẩy lên cấp trên</string>
+    <string name="process_action5">Giao cho cá nhân</string>
+    <string name="process_action6">Giao cho đơn vị</string>
+    <string name="process_action7">Đóng yêu cầu</string>
+    <string name="process_action8">Từ chối kết quả giải quyết</string>
+    <string name="str_process_type"><Data>
+<![CDATA[
+				<b>Loại tác động:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="str_history_process_request"><Data>
+<![CDATA[
+			<b>Cấp độ xử lý:&#160;</b> %1$s <br><br>
+       		<b>Tác động:&#160;</b> %2$s <br><br>
+       		<b>Người tác động:&#160;</b> %3$s <br><br>
+       		<b>Ngày tác động:&#160;</b> %4$s <br><br>
+       		<b>Trạng thái yêu cầu:&#160;</b> %5$s <br><br>
+       		<b>Hạn xử lý:&#160;</b> %6$s <br><br>
+       		<b>Nội dung:&#160;</b> %7$s <br>
+        ]]>
+</Data></string>
+    <string name="title_detail_process_request">CHI TIẾT XỬ LÝ</string>
+    <string name="srt_create_new_request">Tạo mới yêu cầu</string>
+    <string name="srt_edit_request">Sửa yêu cầu</string>
+    <string name="srt_title_create_request"><Data>
+<![CDATA[
+			<b>Tiêu đề:</b>&#160;(%1$s)
+        ]]>
+</Data></string>
+    <string name="srt_reson_create_request"><Data>
+<![CDATA[
+			<b>Lý do:</b>&#160;(%1$s)
+        ]]>
+</Data></string>
+    <string name="srt_content_create_request"><Data>
+<![CDATA[
+			<b>Nội dung:</b>&#160;(%1$s)
+        ]]>
+</Data></string>
+    <string name="lable_edit">Sửa kiến nghị - đề xuất</string>
+    <string name="lable_send_request">Gửi</string>
+    <string name="lable_tu_gq">Giải quyết yêu cầu</string>
+    <string name="lable_giao_cn">Giao cá nhân</string>
+    <string name="lable_giao_dv">Giao đơn vị</string>
+    <string name="lable_delete">Xóa</string>
+    <string name="srt_lable_create_name"><Data>
+<![CDATA[
+			<b>Người yêu cầu:</b>&#160;%1$s
+        ]]>
+</Data></string>
+    <string name="srt_lable_user_perform"><Data>
+<![CDATA[
+			<b>Người giải quyết:</b>&#160; <font color="#2680F6">%1$s</font>
+        ]]>
+</Data></string>
+    <string name="end_nho_3">Hạn xử lý tối thiểu 3 ngày kể từ ngày gửi</string>
+    <string name="end_nho_3_end">Hạn xử lý tối thiểu 3 ngày kể từ ngày gửi và không tính ngày thứ 7 và chủ nhật</string>
+    <string name="note_title_empty">Đồng chí chưa nhập tiêu đề</string>
+    <string name="note_content_empty">Đồng chí chưa nhập nội dung</string>
+    <string name="note_propose_empty">Đồng chí chưa chọn người giải quyêt</string>
+    <string name="note_date_empty">Đồng chí chưa hạn xử lý</string>
+    <string name="request_access">Đồng ý</string>
+    <string name="request_reject">Từ chối</string>
+    <string name="request_close">Đóng yêu cầu</string>
+    <string name="note_send_succes">Đồng chí đã lưu và gửi yêu cầu thành công</string>
+    <string name="note_save_succes">Đồng chí đã lưu yêu cầu thành công</string>
+    <string name="note_send_error">Đồng chí đã lưu và gửi yêu cầu thất bại</string>
+    <string name="note_save_error">Đồng chí đã lưu yêu cầu thất bại</string>
+    <string name="request_save">Lưu</string>
+    <string name="request_send">Lưu và gửi</string>
+    <string name="confirm_delete_request">Đồng chí có muốn xóa yêu cầu này?</string>
+    <string name="delete_request_success">Xóa yêu cầu thành công</string>
+    <string name="delete_request_unsuccess">Xóa kiến yêu cầu thất bại</string>
+    <string name="title_fillter_doc">Lọc công văn</string>
+    <string name="select_all_doc">Hiển thị tất cả công văn</string>
+    <string name="add_user_send">Thêm người gửi</string>
+    <string name="choose_user_send">Chọn người gửi</string>
+    <string name="lable_color">Màu nhãn:</string>
+    <string name="chon_mau">Chọn màu</string>
+    <string name="chua_chon_nguoi_gui">Đ/c chưa chọn người gửi</string>
+    <string name="template_exist">Mẫu đã tồn tại trên hệ thống</string>
+    <string name="edit_template_unsuccess">Sửa mẫu không thành công</string>
+    <string name="lable_consolution_request"><Data>
+<![CDATA[
+			<b>Giải pháp (%1$s)*:</b>
+
+        ]]>
+</Data></string>
+    <string name="edit_template_success">Sửa mẫu thành công</string>
+    <string name="delete_template_unsuccess">Xóa mẫu không thành công</string>
+    <string name="delete_template_success">Xóa mẫu thành công</string>
+    <string name="update_pos_template_success">Sắp xếp mẫu thành công</string>
+    <string name="update_pos_template_unsuccess">Sắp xếp mẫu không thành công</string>
+    <string name="doc_type">Loại văn bản:</string>
+    <string name="doc_status">Trạng thái:</string>
+    <string name="cho_ban_hanh">Chờ ban hành </string>
+    <string name="da_ban_hanh">Đã ban hành </string>
+    <string name="da_huy_ban_hanh">Đã hủy ban hành </string>
+    <string name="ban_hanh_van_ban">Ban hành văn bản</string>
+    <string name="trich_yeu_noi_dung">Trích yếu nội dung (%1$s/500)*:</string>
+    <string name="so_dang_ky">Số đăng ký*:</string>
+    <string name="so_ky_hieu_vb">Số, ký hiệu v/b*:</string>
+    <string name="loai_cong_van">Loại công văn:</string>
+    <string name="hinh_thuc">Hình thức:</string>
+    <string name="do_mat">Độ mật*:</string>
+    <string name="do_khan">Độ khẩn*:</string>
+    <string name="ngay_ban_hanh">Ngày ban hành :</string>
+    <string name="ngay_den">Ngày đến :</string>
+    <string name="han_cuoi">Hạn cuối :</string>
+    <string name="so_ban_luu">Số bản lưu :</string>
+    <string name="pham_vi">Phạm vi :</string>
+    <string name="co_quan_gui">Cơ quan gửi* :</string>
+    <string name="noi_nhan_van_ban_luu">Nơi nhận bản lưu :</string>
+    <string name="noi_nhan_van_ban">Nơi nhận văn bản :</string>
+    <string name="noi_dung_ban_hanh">Nội dung (%1$s/2000):</string>
+    <!-- kien nghi de xuat -->
+    <string-array name="array_status_motional">
+        <item>Tất cả trạng thái</item>
+        <item>Chưa gửi</item>
+        <item>Chưa giải quyết</item>
+        <item>Đang giải quyết</item>
+        <item>Đã giải quyết</item>
+        <item>Đã đóng</item>
+    </string-array>
+
+    <string name="lable_process_2"><Data>
+<![CDATA[
+			<i><font color="#B4B4B4">Giải quyết lần 2:</font></i> <font color="#5c5c5c">&#160;Nếu người yêu cầu không đồng ý với giải pháp này, hệ thống sẽ đẩy kiến nghị này lên lãnh đạo cấp cao hơn.</font>
+
+        ]]>
+</Data></string>
+    <string name="content_forwar"><Data>
+<![CDATA[
+			<b>Ý kiến bổ sung (%1$s)<font color="#b11116">*</font>:</b>
+
+        ]]>
+</Data></string>
+    <string name="lable_get_propose_error">Không lấy được danh sách lãnh đạo</string>
+    <string name="text_title_access">Đ/c có đồng ý với giải pháp này? Yêu cầu sẽ được đóng</string>
+    <string name="title_dejcet_gp">Từ chối giải pháp</string>
+    <string name="request_access_success">Xác nhận và đóng yêu cầu thành công</string>
+    <string name="request_access_unsuccess">Xác nhận và đóng yêu cầu thất bại</string>
+    <string name="request_deject_success">Cập nhật thành công!</string>
+    <string name="request_deject_success2">Gửi yêu cầu lên cấp trên thành công</string>
+    <string name="request_deject_unsuccess">Từ chối giải pháp thất bại</string>
+    <string name="request_deject_no_comment">Đồng chí chưa nhập lý do từ chối</string>
+    <string name="text_title_deject2">Yêu cầu này sẽ được đẩy lên Lãnh đạo cấp trên xử lý, đ/c có muốn tiếp tục?</string>
+    <string name="lable_lydo_request"><Data>
+<![CDATA[
+			<b>Lý do (%1$s)<font color="#b11116">*</font>:</b>
+
+        ]]>
+</Data></string>
+    <string name="lable_close_success">Đóng yêu cầu thành công</string>
+    <string name="lable_close_error">Đóng yêu cầu không thành công</string>
+    <string name="chua_nhap_ly_do">Đ/c chưa nhập lý do</string>
+    <string name="confirm_delete_fillter">Đ/c có chắc chắn muốn xóa ?</string>
+    <string name="lable_confirm_send_request">Yêu cầu sẽ được gửi tới Lãnh đạo, và không được phép sửa xóa. Đ/c có muốn tiếp tục?</string>
+    <string name="lable_send_success">Đ/c đã thực hiện gửi yêu cầu thành công</string>
+    <string name="lable_send_error">Đ/c đã thực hiện gửi yêu cầu thất bại</string>
+    <string name="y_kien_chidao_sao"><Data>
+<![CDATA[
+			<b>Lý do</b>
+
+        ]]>
+</Data></string>
+    <string name="lable_error_send">Hạn xử lý tối thiểu 3 ngày kể từ ngày gửi</string>
+    <string name="request_sends">Gửi yêu cầu</string>
+    <string name="lable_sender_dipart_ferform">Đã chuyển đơn vị thực hiện</string>
+    <string name="text_security2"><Data><![CDATA[Mật   <font color="#FF0000"><i>Lưu ý: Kiểm tra độ mật của văn bản</i></font>]]></Data></string>
+    <string name="text_security2_doc">Mật</string>
+    <string name="text_security"><Data><![CDATA[Thường   <font color="#FF0000"><i>Lưu ý: Kiểm tra độ mật của văn bản</i></font>]]></Data></string>
+    <string name="text_security_doc">Thường</string>
+    <string name="chua_nhap_y_kien_bs">Đ/c chưa nhập ý kiến bổ sung</string>
+    <string name="chua_nhap_so_dk">Đ/c chưa nhập số đăng ký</string>
+    <string name="chua_nhap_so_ky_hieu_vb">Đ/c chưa nhập số, ký hiệu v/b</string>
+    <string name="chua_nhap_hinh_thuc_vb">Đ/c chưa chọn hình thức văn bản</string>
+    <string name="chua_nhap_linh_vuc">Đ/c chưa chọn ngành</string>
+    <string name="chua_nhap_do_mat">Đ/c chưa chọn độ mật</string>
+    <string name="chua_nhap_do_khan">Đ/c chưa chọn độ khẩn</string>
+    <string name="chua_nhap_co_quan_gui">Đ/c chưa nhập cơ quan gửi</string>
+    <!-- kien nghi de xuat -->
+    <string-array name="arr_pham_vi">
+        <item>Tập đoàn</item>
+        <item>Đơn vị khác</item>
+        <item>Đơn thư</item>
+    </string-array>
+    <string-array name="arr_loai_cv">
+        <item>Công văn đi</item>
+        <item>Công văn đến</item>
+    </string-array>
+
+    <string name="ban_hanh_thanh_cong">Ban hành thành công</string>
+    <string name="ban_hanh_khong_thanh_cong">Ban hành không thành công</string>
+    <string name="chua_nhap_trich_yeu_nd">Đ/c chưa nhập trích yếu nội dung</string>
+    <string name="ngay_den_nho_hon_ngay_ban_hanh">Ngày đến không được nhỏ hơn ngày ban hành</string>
+    <string name="han_cuoi_nho_hon_ngay_den">Hạn cuối không được nhỏ hơn ngày đến</string>
+    <string name="title_deject_enact">Hủy ban hành văn bản</string>
+    <string name="deject_enact_success">Hủy ban hành thành công</string>
+    <string name="deject_enact_unsuccess">Hủy ban hành thất bại</string>
+    <string name="deject_enact_no_comment">Đồng chí chưa nhập lý do hủy ban hành</string>
+    <string name="cancel_reason"><Data>
+<![CDATA[
+			<b>Lý do hủy:&#160;</b> %1$s
+        ]]>
+</Data></string>
+    <string name="nam_trong_danh_sach_loc"><Data><![CDATA[ %1$s<i><font color="#777777"> &#160;(Đã có trong danh sách lọc)</font></i>]]></Data></string>
+    <string name="title_system">Hệ thống</string>
+    <string name="document_enact_infor"><Data>
+<![CDATA[
+			<b>Nội dung:&#160;</b> %1$s <br> <br>
+       		<b>Ngày nhận:&#160;</b> %2$s <br>
+
+        ]]>
+</Data></string>
+    <string name="message_cf_no_setting_sf">Chức năng ký nhiều văn bản chỉ cho phép khi đ/c sử dụng Ký bằng Chứng thư. Đ/c vui lòng vào Cài đặt để chuyển sang chế độ Ký bằng chứng thư. Nếu chưa có chứng thư, đ/c vui lòng thực hiện cấp phát chứng thư (liên hệ CSKH: %1$s để được hỗ trợ)</string>
+    <string name="message_cf_no_select">Đ/c chưa chọn văn bản nào để ký</string>
+    <string name="title_enter_pass_multi">Ký nhiều văn bản</string>
+    <string name="sign_multi_fail">Ký nhiều văn bản không thành công</string>
+    <string name="sign_multi_success_1">Đã ký thành công %1$s văn bản</string>
+    <string name="sign_multi_success_2">Đã ký thành công %1$s văn bản, %2$s văn bản ký không thành công</string>
+    <string name="sign_multi_unsuccess">Ký văn bản thất bại</string>
+    <string name="title_multi_sign_cf">Đ/c đang chọn ký nhiều văn bản. Đ/c có muốn tiếp tục?</string>
+    <string name="cf_state_0">Ký không thành công. Đồng chí chưa gửi yêu cầu cấp phát chứng thư. Vui lòng liên hệ CSKH (%1$s) để được hướng dẫn đăng ký chứng thư.</string>
+    <string name="cf_state_1">Ký không thành công. Đồng chí chưa nhập mã OTP (từ tin nhắn) để hoàn thành cấp chứng thư. Vui lòng liên hệ CSKH (%1$s) để được hướng dẫn đăng ký chứng thư.</string>
+    <string name="cf_state_2">Ký không thành công. Đồng chí chưa nhập mã kích hoạt chứng thư (từ tin nhắn) để hoàn thành cấp chứng thư. Vui lòng liên hệ CSKH (%1$s) để được hướng dẫn đăng ký chứng thư.</string>
+    <string name="title_alert">(Văn bản mật chỉ được gửi đến Lãnh đạo và Văn thư)</string>
+    <string name="login_touchid_fail">Đăng nhập không thành công. Có thể mật khẩu của đ/c đã bị thay đổi, vui lòng nhập mật khẩu mới để sử dụng tính năng đăng nhập vân tay cho các lần tiếp theo</string>
+    <string name="str_title_request">Theo kiến nghị đề xuất</string>
+    <string name="error_no_permission_read">Đ/c không có quyền đọc văn bản này, để đọc được đồng chí phải thuộc danh sách người nhận văn bản.</string>
+
+    <!-- noi dung thang 5 -->
+    <!--  -->
+    <string name="them_ng_gui">Thêm người gửi</string>
+    <string name="fillter">Lọc</string>
+    <string name="title_save_pass">Lưu mật khẩu trong 30 phút</string>
+    <string name="alert_select_50">Đ/c chỉ được chọn tối đa 50 văn bản một lần ký</string>
+    <string name="title_multi_sign">Ký nhiều</string>
+    <string name="title_unmulti_sign">Hủy</string>
+
+    <!-- noi dung thang 6 -->
+
+    <string name="documetSign_itemdetail_title_list_user_enact">Danh sách ký ban hành&#160;</string>
+    <string name="documetSign_itemdetail_titledetail_list_sign">Danh sách ký duyệt&#160;</string>
+    <string name="documetSign_itemdetail_titledetail_listuser_review">Danh sách xét duyệt&#160;</string>
+    <string name="title_specialized_management">Chuyên quản</string>
+    <string name="title_my_assign">Tôi giao</string>
+
+    <string-array name="tab_work_specialized">
+        <item>Nhiệm vụ</item>
+        <item>Nhiệm vụ chuyên quản</item>
+        <item>Biên bản họp</item>
+    </string-array>
+
+    <string name="documetSign_itemdetail_infor_money_tranfer"><Data>
+<![CDATA[
+			<b>Ngày tạo:&#160;</b> %1$s <br> <br>
+			<b>Số, ký hiệu văn bản:&#160;</b> %2$s <br> <br>
+			<b>Độ mật:&#160;</b> %3$s <br> <br>
+			<b>Độ khẩn:&#160;</b> %4$s <br> <br>
+			<b>Lĩnh vực:&#160;</b> %5$s <br> <br>
+			<b>Hình thức văn bản:&#160;</b> %6$s <br> <br>
+				<b>Số tiền:&#160;</b> %7$s <br> <br>
+				<b>Đơn vị tiền tệ:&#160;</b> %8$s <br> <br>
+       		<b>Số đăng ký:&#160;</b> %9$s <br> <br>
+         	<b>Đơn vị ban hành:&#160;</b> %10$s <br> <br>
+            <b>Nơi nhận văn bản:&#160;</b> %11$s<br>
+        ]]>
+</Data></string>
+    <string name="in_value_send_text">Đồng chí chưa chọn cá nhân, nhóm cá nhân và đơn vị để chuyển văn bản</string>
+    <string name="title_send_text">Chuyển văn bản</string>
+    <string name="search_document_status0">Còn hiệu lực&#160;</string>
+    <string name="search_document_status1">Hết hiệu lực (đã huỷ)&#160;</string>
+    <string name="search_document_status2">Hết hiệu lực (đã thay thế)&#160;</string>
+    <string name="search_document_status3">Hết hiệu lực (hết thời gian hiệu lực)&#160;</string>
+    <string name="error_no_soucre_id">Không xác định được chi tiết văn bản</string>
+
+    <!-- noi dung thang 7 -->
+
+    <string name="documentSign_alert_sign_fail_814">Đang trong quá trình xử lý văn bản khác</string>
+    <string name="documentSign_alert_sign_fail_815">Đã giao việc cho nhân viên trong tháng</string>
+    <string name="documentSign_alert_sign_fail_816">Đã đánh giá công việc cho nhân viên trong tháng</string>
+
+    <integer-array name="defaut_icon">
+        <item>@drawable/ic_mail_defaut</item>
+        <item>@drawable/ic_typing_defaut</item>
+        <item>@drawable/ic_chat_defaut</item>
+        <item>@drawable/ic_code_defaut</item>
+        <item>@drawable/ic_done_defaut</item>
+    </integer-array>
+    <integer-array name="curent_icon">
+        <item>@drawable/ic_mail_curent</item>
+        <item>@drawable/ic_typing_curent</item>
+        <item>@drawable/ic_chat_curent</item>
+        <item>@drawable/ic_code_curent</item>
+        <item>@drawable/ic_done_curent</item>
+    </integer-array>
+    <integer-array name="done_icon">
+        <item>@drawable/ic_mail_done</item>
+        <item>@drawable/ic_typing_done</item>
+        <item>@drawable/ic_chat_done</item>
+        <item>@drawable/ic_code_done</item>
+        <item>@drawable/ic_done_done</item>
+    </integer-array>
+
+    <string-array name="des_icon">
+        <item>1. Yêu cầu cấp phát chứng thư</item>
+        <item>2. Nhập mã OTP đã được gửi về SĐT</item>
+        <item>3. LH chi nhánh gần nhất để hoàn thành thủ tục</item>
+        <item>4. Nhập mã kích hoạt chứng thư</item>
+        <item>5. Hoàn tất</item>
+    </string-array>
+
+    <string name="document_sign_arlert_choose_user_flash_sign">Đồng chí chưa chọn cá nhân chuyển ký nháy</string>
+    <string name="btn_close_reselect">Chọn lại</string>
+    <string name="title_user_foward_doc">DANH SÁCH LUÂN CHUYỂN</string>
+    <string name="user_send">Người chuyển: </string>
+    <string name="list_user_send">Danh sách luân chuyển: </string>
+    <string name="title_task_form_doc">Danh sách công việc&#160;</string>
+    <string name="title_meeting_form_doc">Danh sách nhiệm vụ&#160;</string>
+    <string name="info_document_detail1_button_with_money"><Data>
+<![CDATA[  <br><b>Nơi gửi:&#160;</b> %1$s <br><br>
+ 			<b>Số tiền:&#160;</b> %2$s <br><br>
+ 			<b>Đơn vị tiền tệ:&#160;</b> %3$s <br><br>
+ 			<b>Lĩnh vực:&#160;</b> %4$s <br><br>
+            <b>Trạng thái khóa:&#160;</b> %5$s <br>
+        ]]>
+</Data></string>
+    <string name="text_ban_hanh">Ban hành</string>
+    <string name="text_huy_ban_hanh">Hủy ban hành</string>
+    <string name="show_more">Xem thêm</string>
+    <string name="thu_gon">Thu gọn</string>
+    <string name="user_vip">,dungld,hungnm,hung_nm,hienlh,haint53,namtn,haily,ntdung,thanhtu,tonghanh,phuongdm,thehm,chiennd,nguyenhoangngan,hungpv,tungnm,anhvt,phantrung,lanthuy,quochung,vinhhc,hatd,quangtd,quocchinh,nguyenduytuan,hoadk,nghiemlm,haquanghuy,honghanh2007,nhinq,nguyenhung,thanglv,huongpham,ngocdieptn,hathanh,antq,hangviettelptc,thaidh,thanhhh,binhptc,hatt,huongdt,huytm,kimnh,hungtq,chilv,danghung,phandung,lap2008,cuongtc,daodainghia,quanghuy,hungbt,dt1408,nvquy,nghipv,mailt,tuanhm,thangtd,sangpt,haivt,halm,hung.ht,dunghc,hohieu,thoack@viettelpost.com.vn,nhiendv,tranxuan,luannd@viettelpost.com.vn,sonh,phanhoangviet,tinhtt,phamthanhvan,trungtv,vietdung,letuancuong,dungnt025,hainm,vudx,toannt,huong.giang,nhinp,dohai,ngupv,tanletung,duoclm,thonv,quangnguyen,trantrunghung,nghiepnx,tuanna2,dungnc,ducdc,hienbx,tuancx,liencp,linhnguyenngoc,thanhnc,tienvinh,loinc,phamvantoan,hoavt,anhhh,dungnh1,ducthanh,hoatv,trangdt3,tamhh,dungdm4,thanhtt10,hanv5,honm,nguyenthuyhanh,longh,hoannv5,nguyendat,thuytt18,trangntt21,haint29,dungnt29,huongtt13,ducna5,thuynvp,sonpn1,cuongnd9,huongltl2,quangnh12,hieppv1,hains2,thaibh,hoaina,truonglq1,phongvh,hattt2,thuypn,CuongNN,tuanhm8,hungnh10,ducpa1,khoann,duyvt1,quynm,hattt6,chungnv11,nhungtp,nghianv6,hoangtt2,vietnd5,lehoainam,huonghtt8,ngoctt7,ngantt25,yenpth6,vinhhx1,cuongtt4,viettq11,liennv1,thidd1,thoahq,sonnm7,haivt11,hann12,fernandesvs,ducpt7,hunglm11,000181,000182,000221,001487,001493,001625,001630,001649,001817,001834,001976,001986,002012,003450,003571,003971,004011,004031,004045,005050,005052,005214,005311,005316,005395,005545,005574,005594,005596,005623,005928,006038,006505,006552,007013,007053,007056,007592,007769,007979,008136,008387,008642,008644,008871,009162,009547,009646,009854,009897,010022,010226,010586,010594,010657,011238,011323,011351,011432,011489,011493,011551,011615,012721,013969,014311,014623,015282,016085,016929,017043,017617,017877,017885,018360,018583,018798,019917,019918,022601,022617,025679,028238,038071,039711,041671,042114,042971,044608,044621,044716,045153,045173,045176,045243,046219,046654,047546,048073,049473,050513,053014,057065,057197,057914,061261,061588,061748,062624,063766,063787,065185,065449,065505,066134,066471,066665,066987,066997,070858,074672,077110,077497,077501,078691,082331,082610,085840,086357,086370,086379,086443,087320,088319,088976,089196,089417,100996,101722,102977,106799,109112,110948,114098,119258,120496,122493,122713,122822,123126,123250,128383,131568,135469,136788,137429,176113,183246,183586,189034,197239,206867,207134,357481,dungld,hungnm,hienlh,tttt_haint53,namtn,haily,td_tt_ntdung ,td_tth_thanhtu,td_dt_tonghanh,phuongdm,vtm_kv2_thehm,chiennd,td_kh_ngannh,vt_bgd_hungpv,tungnm,anhvt,vttek_phantrung,td_kt,quochung,vinhhc,hatd,quangtd,ct_quocchinh,nguyenduytuan,td_pktnb_hoadk,ct_nghiemlm,bds_bgd_haquanghuy,td_dt_honghanh,nhinq,nguyenhung,xmcp_thanglv,bds_gd_huongpham,td_hvt_ngocdieptn,hathanh,td_ptc_antq,td_dttc_hangviettelptc,thaidh1,thanhhh,td_pktnb_binhptc,hatt,huongdt,huytm,bds_gd_kimnh,td_xd_hungtq,vt_chilv,vt_hungnd,td_ptc_phandung,vttek_lap2008,cuongtc,td_cn_daodainghia,vta_quanghuy,td_httc_hungbt,td_cn_thanhnd,vit3_bgd_nvquy,10657,td_tth_mailt,tktc_bgd_tuanhm,thangtd,m3_bgd_sangpt,media_bgd_haivt,vtg_bgd_halm,hung.ht,dunghc,hohieu_012721,vtp_bgd_thoack,nhiendv,tktc_th_tranxuan,vtp_bgd_luannd,sonh,vtg_pr_bgd_phanhoangviet,tinhtt_xnk,phamthanhvan,trungtv,vietdung,18360,idc_dungnt025,hainm,vtg_bgd_vudx,m3_bgd_toannt,td_xd,nhinp,dohai,td_vp_ngupv,tanletung,td_tt_duoclm,gp_thonv,vttek_quangnguyen,vtp_bgd_hungtt,td_tt,anm_tuanna2,dungnc,gp_ducdc,vtg_cntt_hienbx,tuancx,media_bgd_liencp,linhnguyenngoc,td_tcnl_thanhnc,,td_ptc_loinc,media_bgd_phamvantoan,td_vp_hoavt,gp_anhhh,td_tcnl_dungnh1,dlcl_ducthanh,vtg_kh_hoatv,td_dttc_trangdt3,tttt_tamhh,tttt_dungdm4,thanhtt10,hanv5,vtm_cntt_honm,nguyenthuyhanh,longh,td_ptc_hoannv5,nguyendat,td_pc,td_xtdtnn,tktc_bgd_haint29,td_cn_dungnt29,anm_khcl_huongtt13,td_tt_ducna,td_tcnl_phuongthuy,vt_vit4_sonpn1,cuongnd9,bds_kd_huongltl2,td_kd_quangnh12,hieppv1,anm_hains2,thaibh,m3_bgd_hoaina,m1_truonglq1,m3_bgd_phongvh,hattt2,vit4_thuypn,cuongnn,gp_tuanhm8,vtm_bgd_hungnh10,100996,td_kh_khoann,tvtk_duyvt,vttek_quynm,td_pktnb_hattt6,chungnv11,td_ktnb,nghianv6,hoangtt2,td_xtdtnn_vietnd5,idc_namlh,td_cntt,gp_hcc_ngoctt7,td_dttc_ngantt,td_cn,xmcp_vinhhx,cuongtt4,viettq11,td_pktnb_liennv1,thidd1,xmcp_thoahq,xmcp_sonnm,haivt11,td_tth_hann12,ducpt7,hunglm11,010993,ducnp,003630,td_pkh_trangnn,153216,cuonglc1,truonggiang,011583,vt_ds_giangdt,tt_hieu,011498,vt_vas_hieu,</string>
+    <string name="da_co_trong_cay_luan_chuyen">Đã có trong cây luân chuyển</string>
+    <string name="data_empty">Danh sách rỗng </string>
+
+    <!-- thang 9 -->
+    <string name="title_delete_ca">Hủy chứng thư</string>
+    <string name="title_cancel_create_ca">Hủy cấp chứng thư</string>
+    <string name="title_enter_pw2">Đ/c nhập mật khẩu đăng nhập để huỷ chứng thư</string>
+    <string name="title_enter_pw1">Đ/c nhập mật khẩu đăng nhập để huỷ cấp chứng thư</string>
+    <!-- xoa chung thu -->
+    <string name="delete_cert_errorcode_200">Huỷ thành công.</string>
+    <string name="delete_cert_errorcode_806">Huỷ không thành công,</string>
+    <string name="delete_cert_errorcode_1100">Huỷ không thành công. Chứng thư không tồn tại.</string>
+    <string name="thu_hoi_text">Thu hồi</string>
+    <string name="da_bi_thu_hoi_text">Đã bị thu hồi</string>
+    <string name="thu_hoi_van_ban_thanh_cong">Thu hồi văn bản thành công</string>
+    <string name="thu_hoi_van_ban_khong_thanh_cong">Thu hồi văn bản không thành công</string>
+    <string name="thu_hoi_van_ban_confirm">Đ/c có muốn thu hồi văn bản?</string>
+    <string name="select_user_to_recover">Đ/c chưa chọn cá nhân để thu hồi văn bản.</string>
+    <string name="da_thu_hoi_style"><Data><![CDATA[<i><font color="#777777"> &#160;(Đã thu hồi)</font></i>]]></Data></string>
+    <string name="thu_hoi_van_ban_title">THU HỒI VĂN BẢN</string>
+    <string name="nhap_tieu_de">Nhập tiêu đề</string>
+    <string name="ngay_ban_hanh_nho_hon_ngay_hien_tai">Ngày ban hành nhỏ hơn ngay hiện tại</string>
+    <string name="title_popup_attack_file">Danh sách file đính kèm</string>
+    <string name="no_pw2">Đ/c chưa nhập mật khẩu.</string>
+    <string name="time_bao_tri">Thời gian từ %1$s đến %2$s</string>
+    <string name="server_bao_tri">Hệ thống đang nâng cấp. %1$s. Vui lòng thử lại sau.</string>
+
+    <!-- thang 10 2016 -->
+    <string name="hint_text">Trích yếu, số ký hiệu</string>
+    <string name="hint_document">Trích yếu, số ký hiệu</string>
+    <string name="hint_searchsolr">Tiêu đề, nội dung file văn bản</string>
+    <string name="hint_contact">Mã, tên, SĐT, email, chức danh, đơn vị</string>
+    <string name="hint_mission">Tiêu đề, nội dung</string>
+    <string name="hint_cardassign">Mã nhân viên, họ tên, số điện thoại, email</string>
+    <string name="hint_ratting">Họ tên, mã, SĐT, email</string>
+    <string name="hint_work_personal">Tên công việc, nội dung</string>
+    <string name="hint_Motional">Tiêu đề, lý do, nội dung </string>
+    <string name="title_download_file_background">Tải file ngầm bằng wifi</string>
+    <string name="isPublic0">Dùng chung đơn vị</string>
+    <string name="isPublic1">Dùng chung Tập đoàn</string>
+    <string name="isPublic2">Dùng riêng cá nhân</string>
+    <string name="grouptype1">Loại: Nhóm cá nhân (%1$s)</string>
+    <string name="grouptype2">Loại: Nhóm vai trò (%1$s)</string>
+    <string name="numberPerforminGroup">Số người trong nhóm: %1$s</string>
+    <string name="select_DocumentTo">Công văn phải xử lý</string>
+    <string name="select_DocumentTo_end">Công văn phải xử lý (To): Chữ màu xanh</string>
+    <string name="select_DocumentCC">Công văn để biết</string>
+    <string name="select_DocumentCC_end">Công văn để biết (Cc): Chữ màu đen</string>
+    <string name="select_All_person">Lọc theo tất cả người gửi</string>
+    <string name="title_send_mail">Gửi email lịch họp</string>
+
+    <!-- tich hop smartOffice -->
+    <string name="cancel_bluetooth">Thoát</string>
+    <string name="binh_thuong">Bình thường</string>
+    <string name="khan">Khẩn</string>
+    <string name="thuong_khan">Thượng khẩn</string>
+    <string name="hoa_toc">Hỏa tốc</string>
+
+    <!-- thang 11 -->
+
+    <string name="log_type_vanban">Van ban</string>
+    <string name="log_type_congvan">Cong van</string>
+    <string name="log_type_congviec">Cong viec</string>
+    <string name="log_type_kiennghi">Kien nghi de xuat</string>
+    <string name="log_type_nhiemvu">Nhiem vu</string>
+    <string name="log_type_bienbanhop">Bien ban hop</string>
+    <string name="title_use_picture">Sử dụng ảnh</string>
+    <string name="cardassign_title_listtask">Danh sách công việc</string>
+    <string name="title_file_cardassign">File đã ký duyệt</string>
+    <string name="title_count_conten_source"><Data><![CDATA[Nội dung nguồn gốc<font color="#FF0000">*</font>: (%1$s)]]></Data></string>
+    <string name="alert_textemty_source_content">Đồng chí chưa nhập nội dung nguồn gốc</string>
+
+    <string-array name="array_status_card_assign">
+        <item>Tất cả</item>
+        <item>Chưa ký</item>
+        <item>Đã ký</item>
+    </string-array>
+
+    <string name="text_cf_create_multi_cv">Đ/c có muốn tạo việc tiếp không?</string>
+    <string name="type_text_mark_sync_title">Đồng bộ sang ERP</string>
+    <string name="type_text_mark_sync_title_dadanhdau">Đã đánh dấu đồng bộ sang ERP</string>
+    <string name="text_about_mark_sync">Văn bản sẽ được đồng bộ sang hệ thống ERP sau khi người ký cuối đã ký duyệt</string>
+    <string name="title_confirm_cancel_signed">Đ/c có muốn huỷ ký không?</string>
+    <string name="task_approval_cancel_title">Huỷ phê duyệt</string>
+    <string name="text_time_card_assign_title"><Data><![CDATA[Kỳ phê duyệt:&#160;<font color="#2680F6">%1$s</font>]]></Data></string>
+    <string name="text_time_card_assign_title_black"><Data><![CDATA[Kỳ phê duyệt:&#160;<font color="#000000">%1$s</font>]]></Data></string>
+    <string name="info_card_assign">+ Chỉ được chọn Kỳ phê duyệt để lọc với trạng thái Đã ký\n+ Chỉ được chọn lọc trạng thái với kỳ phê duyệt là kỳ hiện tại</string>
+    <string name="info_rating">+ Chỉ được chọn Kỳ đánh giá để lọc với trạng thái Đã ký\n+ Chỉ được chọn lọc trạng thái với kỳ đánh giá là kỳ hiện tại</string>
+    <string name="documentSign_alert_cancel_sign_sucess">Huỷ ký thành công</string>
+    <string name="documentSign_alert_cancel_sign_unsucess">Huỷ ký không thành công</string>
+    <string name="documentSign_alert_cancel_rating_sucess">Huỷ ký thành công</string>
+    <string name="documentSign_alert_cancel_rating_unsucess">Huỷ ký không thành công</string>
+    <string name="btn_curent_period">Kỳ hiện tại</string>
+    <string name="title_cf_period">Thời gian chọn không được lớn hơn kỳ hiện tại</string>
+    <string name="task_rating_cancel_title">Hủy đánh giá</string>
+    <string name="so_dang_ky_da_ton_tai">Số đăng ký đã tồn tại trên hệ thống, đề nghị đồng chí nhập số đăng ký khác tiếp theo</string>
+    <string name="task_rating_title">Ký đánh giá</string>
+    <string name="task_card_asign_title">Ký phê duyệt</string>
+    <string name="info_solt">+ Sử dụng dấu \"\" để tìm kiếm chính xác một cụm từ, ví dụ \"Nguyễn Văn A\"\n+ Sử dụng ký tự * để thay thế cho một chuỗi ký tự bất kỳ, ví dụ 0987* - để tìm các số bắt đầu bằng 0987</string>
+    <string name="info_solt_doc">- Chức năng tìm kiếm các văn bản đã ban hành, cũng như quy trình, quy định trong kho lưu trữ của hệ thống VOffice.\n- Kết quả tìm kiếm được sắp xếp theo thứ tự thời gian ban hành (mới nhất lên trước).\n- Đ/c nhập nội dung tìm kiếm là các từ có thể xuất hiện trong file văn bản, các kí tự đặc biệt sẽ bị bỏ qua. Để tìm kiếm chính xác theo cụm từ, đ/c hãy thêm dấu \"\". Ví dụ: \"SMS Spam\".</string>
+    <string name="them_moi_template">Thêm mẫu</string>
+    <string name="title_calendar">Tuần %1$s (%2$s - %3$s)</string>
+    <string name="title_calendar_curent_week">Hôm nay</string>
+    <string name="data_dv_download"><Data><![CDATA[Đơn vị tải file<font color="#2680F6"> (%1$s)</font>]]></Data></string>
+    <string name="info_sms_send_doc">Gửi tin nhắn cho những người được cấu hình không nhận tin nhắn</string>
+
+    <!-- thang 1 - 2017 -->
+    <string name="documetSign_infor_statis"><Data><![CDATA[<b>Nội dung:&#160;</b> %1$s <br> <br><b>Ngày từ chối ký:&#160;</b> %2$s <br>]]></Data></string>
+    <string name="title_doc_attack">Công văn đính kèm&#160;</string>
+    <string name="personal_create"><Data><![CDATA[  <i><font color="#555555">Người ký:</font> %1$s</i>]]></Data></string>
+    <string name="title_permisstion_overlay">Đ/c chưa phân quyền \"Cho phép vẽ lên trên ứng dụng khác\" cho ứng dụng VOffice, vui lòng mở quyền này.</string>
+    <string name="title_date_pro"><Data><![CDATA[  <i><font color="#555555">Ngày ban hành: %1$s</font></i>]]></Data></string>
+    <string name="error_login_205">Tài khoản bị khóa do nhập thông tin không chính xác nhiều lần. Đề nghị đồng chí đổi mật khẩu để mở khóa tài khoản.</string>
+    <string name="error_login_207">Tài khoản chưa kích hoạt hoặc đang bị khóa. Đề nghị đồng chí đổi mật khẩu để mở khóa hoặc kích hoạt tài khoản.</string>
+    <string name="error_login_204">Tài khoản chưa kích hoạt hoặc đang bị khóa.</string>
+    <string name="error_login_208">Tài khoản bị khóa do mật khẩu hết hiệu lực. Đề nghị đồng chí đổi mật khẩu để mở khóa tài khoản.</string>
+    <string name="txt_mes_alert">Thông báo</string>
+    <string name="title_forgot_password">Quên mật khẩu</string>
+    <string name="title_all_status">Tất cả trạng thái</string>
+    <string name="title_isprocessed_1">&#160;&#160;(Đã xử lý)</string>
+    <string name="title_isprocessed_0">&#160;&#160;(Chưa xử lý)</string>
+    <string name="find_in_group">Tìm toàn Tập đoàn</string>
+    <string name="find_in_group_2">Tìm trong đơn vị</string>
+    <string name="find_in_favorite">Tìm cá nhân hay chuyển</string>
+    <string name="srt_title_reciver_doc"><Data><![CDATA[<font color="#000000">- Chuyển đến <b>%1$s</b> lúc <b>%2$s</b><br><b>Ý kiến:</b> %3$s</font>]]></Data></string>
+    <string name="srt_title_reciver_doc_status0"><Data><![CDATA[<font color="#555555">- Chuyển đến <b>%1$s</b> lúc <b>%2$s</b><i> (Đã thu hồi)</i><br><b>Ý kiến:</b> %3$s</font>]]></Data></string>
+    <string name="srt_title_reciver_doc_to_group_user"><Data><![CDATA[<font color="#000000">- Chuyển đến nhóm <b>%1$s</b> lúc <b>%2$s</b><br><b>Ý kiến:</b> %3$s</font>]]></Data></string>
+    <string name="srt_title_mission_doc"><Data><![CDATA[<font color="#000000">- Giao <b>%1$s</b> lúc <b>%2$s</b> thực hiện nhiệm vụ: <b>%3$s</b></font>]]></Data></string>
+    <string name="srt_title_tast_doc"><Data><![CDATA[<font color="#000000">- Giao <b>%1$s</b> lúc <b>%2$s</b> thực hiện công việc: <b>%3$s</b></font>]]></Data></string>
+    <string name="title_tast_doc">Giao công việc (%1$s)</string>
+    <string name="text_no_favotite_user">Không tìm thấy cá nhân trong danh sách hay chuyển. Nhấn vào \"Tìm toàn Tập đoàn\" để tìm kiếm cá nhân trong Tập đoàn</string>
+    <string name="text_no_favotite_user2">Không tìm thấy cá nhân trong danh sách hay chuyển. Nhấn vào \"Tìm trong đơn vị\" để tìm kiếm cá nhân trong đơn vị</string>
+    <string name="text_no_find_in_group">Không có kết quả tìm kiếm trong Tập đoàn</string>
+    <string name="text_no_find_in_group2">Không có kết quả tìm kiếm trong đơn vị</string>
+    <string name="info_find_in_group">Bấm vào \"Tìm toàn Tập đoàn\" để hiển thị 10 kết quả tìm kiếm gần đúng nhất trong Tập đoàn</string>
+    <string name="info_find_in_group2">Bấm vào \"Tìm trong đơn vị\" để hiển thị 10 kết quả tìm kiếm gần đúng nhất trong đơn vị</string>
+    <string name="title_textState_0">Chưa trình ký</string>
+    <string name="title_textState_1">Đang xử lý</string>
+    <string name="title_textState_3">Đã ký duyệt</string>
+    <string name="title_textState_2">Bị từ chối</string>
+    <string name="title_textState_4">Đã ban hành</string>
+    <string name="title_textState_5">Đã ký nháy</string>
+    <string name="title_textState_6">Đã hủy luồng</string>
+    <string name="title_textState_27">Hủy ban hành</string>
+    <string name="text_comfirm_conclusion_sign">Đồng chí có muốn trình ký không?</string>
+    <string name="conclusion_sign_success">Trình ký thành công</string>
+    <string name="conclusion_sign_unsuccess">Trình ký không thành công</string>
+    <string name="title_setting_sms_send_document">Gửi tin nhắn cho những người được cấu hình không nhận tin nhắn</string>
+    <string name="title_isread_0">Trạng thái: Chưa đọc</string>
+    <string name="title_isread_1">Trạng thái: Đã đọc</string>
+    <string name="title_isprocessed1">Đã xử lý</string>
+    <string name="title_isprocessed2">Chưa xử lý</string>
+    <string name="title_is_no_permission_read">Đồng chí không thuộc đối tượng được đọc văn bản MẬT</string>
+    <string name="title_no_cert">Đ/c chưa được cấp chứng thư trên thiết bị này.\n</string>
+    <string name="title_valid_to_sim_1">Chứng thư trên SIM %1$s của đ/c sẽ hết hạn vào ngày %2$s. Để gia hạn đ/c vui lòng liên hệ chi nhánh Viettel gần nhất hoặc gọi&#160;</string>
+    <string name="title_valid_to_sim_11">Chứng thư trên SIM %1$s của đồng chí đã hết hạn. Để gia hạn đ/c vui lòng liên hệ chi nhánh Viettel gần nhất hoặc gọi&#160;</string>
+    <string name="title_valid_to_sim_2">1789 nhánh 2&#160;</string>
+    <string name="title_valid_to_sim_3">để được hỗ trợ\n</string>
+    <string name="title_valid_to_sim_4">Hoặc nhấn&#160;</string>
+    <string name="title_valid_to_sim_4_4">Nhấn&#160;</string>
+    <string name="title_valid_to_sim_5">vào đây&#160;</string>
+    <string name="title_valid_to_sim_6">để chuyển sang sử dụng chứng thư trên thiết bị này.</string>
+    <string name="title_valid_to_sim_6_6">để cấp phát chứng thư.</string>
+    <string name="title_valid_to_sim_6_62">để gia hạn chứng thư.</string>
+    <string name="title_valid_to_cert">Chứng thư trên thiết bị này của đồng chí sẽ hết hạn vào ngày %1$s.\n</string>
+    <string name="title_valid_to_cert_1">Chứng thư trên thiết bị này của đ/c đã hết hạn.\n</string>
+    <string name="title_no_cert_1"><Data><![CDATA[ Chứng thư trên SIM %1$s của đ/c đã hết hạn. Để gia hạn đ/c vui lòng liên hệ chi nhánh Viettel gần nhất hoặc gọi  <b>1789 nhánh 2</b> để được hỗ trợ. Đ/c có muốn chuyển sang sử dụng chứng thư trên thiết bị không?]]></Data></string>
+    <string name="title_no_cert_2">Đồng chí chưa có chứng thư SIM CA. Đ/c có muốn chuyển sang sử dụng chứng thư trên thiết bị không?</string>
+    <string name="title_alert_sim_sdt"><Data><![CDATA[  <b>SIM CA:&#160;</b> %1$s]]></Data></string>
+    <string name="title_alert_sim_time"><Data><![CDATA[  <b>Thời hạn:&#160;</b> %1$s - %2$s]]></Data></string>
+    <string name="title_alert_sim_1"><Data><![CDATA[  Chứng thư trên SIM %1$s của đ/c còn %2$s ngày sẽ hết hạn. Để gia hạn đ/c vui lòng liên hệ chi nhánh Viettel gần nhất hoặc gọi 1789 nhánh 2 để được hỗ trợ.]]></Data></string>
+    <string name="title_alert_sim_1_today"><Data><![CDATA[  Chứng thư trên SIM %1$s của đ/c trong hôm nay sẽ hết hạn. Để gia hạn đ/c vui lòng liên hệ chi nhánh Viettel gần nhất hoặc gọi 1789 nhánh 2 để được hỗ trợ.]]></Data></string>
+    <string name="title_alert_sim_2"><Data><![CDATA[  Chứng thư trên SIM %1$s của đ/c đã hết hạn. Để gia hạn đ/c vui lòng liên hệ chi nhánh Viettel gần nhất hoặc gọi 1789 nhánh 2 để được hỗ trợ.]]></Data></string>
+    <string name="change_method_cert_success">Chuyển phương thức ký thành công, đ/c có thể thực hiện lại thao tác để ký văn bản.</string>
+    <string name="title_setting_pdf">Gạt lên/xuống để đóng file</string>
+    <string name="title_chart_home">Biểu đồ trình chiếu</string>
+    <string name="title_confirm_enact_doc">Đồng chí có muốn ban hành văn bản này?</string>
+    <string name="title_select_Field">--Chọn--</string>
+    <string name="title_chart_depart_html"><Data><![CDATA[<font color="#2680F6">Đơn vị: </font><font color="#555555"> %1$s</font>]]></Data></string>
+    <string name="title_chart_indicator_html"><Data><![CDATA[<font color="#2680F6">Biểu đồ: </font><font color="#555555"> %1$s</font>]]></Data></string>
+    <string name="doc_send_getlistdepart"><Data><![CDATA[<i><font color="#000000">(Đã nhận)</font></i>]]></Data></string>
+    <string name="doc_send_getlistdepart_nohtml">(Đã nhận)</string>
+    <string name="doc_send"><Data><![CDATA[ %1$s<i><font color="#777777"> &#160;(Đã nhận)</font></i>]]></Data></string>
+    <string name="title_send_doc_fail_number_member_soit">Chuyển không thành công tới %1$s cá nhân do đã nhận được văn bản từ trước đó. Vui lòng nhập \"Nội dung chỉ đạo\" để chuyển lại.</string>
+    <string name="title_send_doc_fail_number_member_sonhieu">Chuyển không thành công tới %1$s cá nhân do đã nhận được văn bản từ trước đó. Vui lòng nhập \"Nội dung chỉ đạo\" để chuyển lại.</string>
+    <string name="btn_resend">Chuyển lại</string>
+    <string name="title_addtime2">Đ/c đang gia hạn chứng thư. Nhập mật khẩu chứng thư để xác nhận.</string>
+    <string name="error_request_extend_cert">Yêu cầu gia hạn chứng thư không thành công, do đang cấp chứng thư mới hoặc gia hạn trên thiết bị khác</string>
+    <string name="request_extend_cert_success">Yêu cầu gia hạn chứng thư thành công</string>
+    <string name="title_cancel_extend_ca">Hủy gia hạn chứng thư</string>
+    <string name="title_cancel_extend_cert_success">Hủy gia hạn chứng thư thành công</string>
+    <string name="title_cancel_extend_cert_unsuccess">Hủy gia hạn chứng thư không thành công</string>
+    <string name="title_enter_pw_cancel_extend_cert">Đ/c nhập mật khẩu để huỷ gia hạn chứng thư</string>
+
+    <integer-array name="defaut_icon_extend_cert">
+        <item>@drawable/ic_mail_defaut</item>
+        <item>@drawable/ic_chat_defaut</item>
+        <item>@drawable/ic_code_defaut</item>
+        <item>@drawable/ic_done_defaut</item>
+    </integer-array>
+    <integer-array name="curent_icon_extend_cert">
+        <item>@drawable/ic_mail_curent</item>
+        <item>@drawable/ic_chat_curent</item>
+        <item>@drawable/ic_code_curent</item>
+        <item>@drawable/ic_done_curent</item>
+    </integer-array>
+    <integer-array name="done_icon_extend_cert">
+        <item>@drawable/ic_mail_done</item>
+        <item>@drawable/ic_chat_done</item>
+        <item>@drawable/ic_code_done</item>
+        <item>@drawable/ic_done_done</item>
+    </integer-array>
+
+    <string-array name="des_icon_extend_cert">
+        <item>1. Yêu cầu gia hạn chứng thư</item>
+        <item>2. LH chi nhánh gần nhất để hoàn thành thủ tục</item>
+        <item>3. Nhập mã kích hoạt chứng thư</item>
+        <item>4. Hoàn tất</item>
+    </string-array>
+
+    <string name="title_version_old">Phiên bản đồng chí đang sử dụng không còn được hệ thống hỗ trợ. Đồng chí vui lòng cập nhập phiên bản mới để tiếp tục sử dụng.</string>
+    <string name="enter_pass2">Nhập mật khẩu chứng thư</string>
+    <string name="title_text_default">---Mặc định---</string>
+    <string name="TEXT_NO_CHART">Không có dữ liệu biểu đồ.</string>
+    <string name="TEXT_NO_DOWNLOAD_CHART">Không tải được ảnh biểu đồ.</string>
+    <string name="title_list_document_extent">Thông tin bổ sung văn bản</string>
+    <string name="appdate">Áp dụng từ ngày:&#160;</string>
+    <string name="documet_extent_detail"><Data>
+<![CDATA[
+			<b>Nội dung:&#160;</b> %1$s <br> <br>
+       		<b>Chi tiết:&#160;</b> %2$s <br> <br>
+       		<b>Áp dụng:&#160; từ&#160;</b> %3$s <b>đến ngày:&#160;</b>%4$s <br> <br>
+       		<b>Lý do:&#160;</b> %5$s <br> <br>
+         	<b>Đối tượng áp dụng:&#160;</b> %6$s <br> <br>
+       		<b>Người bổ sung:&#160;</b> %7$s <br> <br>
+       		<b>Ngày bổ sung:&#160;</b> %8$s <br>
+        ]]>
+</Data></string>
+    <string name="title_edited">(Đã bút phê)</string>
+    <string name="active_extent_ca_success">Chứng thư của đồng chí đã được gia hạn thành công</string>
+    <string name="extent_ca_5">Giao dịch bị hủy do nhập 5 lần không thành công. Đ/c nhấn vào \"gia hạn\" để xin gia hạn lại từ đầu</string>
+    <string name="enter_active_code">Nhập mã kích hoạt chứng thư</string>
+    <string name="enter_cmt">Nhập số chứng minh thư</string>
+    <string name="enter_pass_login">Nhập mật khẩu đăng nhập</string>
+    <string name="error_pass_login">mật khẩu đăng nhập không chính xác</string>
+    <string name="title_no_sign_by_edited">Văn bản đã bút phê. Đ/c chỉ có thể từ chối ký.</string>
+    <string name="reset_file_success">Lấy file gốc thành công</string>
+    <string name="reset_file_unsuccess">Lấy file gốc không thành công</string>
+    <string name="reset_file_confirm">Đồng chí có muốn lấy lại file gốc không?</string>
+    <string name="title_page">Trang&#160;</string>
+    <string name="TEXT_NOTE2">Ghi chú:</string>
+    <string name="title_list_note">Danh sách ghi chú</string>
+    <string name="title_all_note">Đọc tất cả note</string>
+    <string name="title_info_chart"><Data>
+<![CDATA[
+			<b>Mục đích:&#160;</b> <br>%1$s <br> <br>
+       		<b>Định nghĩa chỉ tiêu:&#160;</b> <br>%2$s <br><br>
+         	<b>Cách đánh giá:&#160;</b> <br>%3$s <br><br>
+         	<b>Quy mô biểu đồ:&#160;</b> <br>%4$s <br><br>
+         	<b>Định kỳ cập nhật số liệu:&#160;</b> <br>%5$s <br><br>
+         	<b>Bình luận:&#160;</b> <br>%6$s <br><br>
+        ]]>
+</Data></string>
+    <string name="title_mota">Mô tả</string>
+    <string name="title_send_doc_edited">Văn bản đã có bút phê, đồng chí có muốn chuyển không?</string>
+    <string name="title_tooltip_comment">Nhấn vào để xem file có bút phê</string>
+    <string name="title_old_change_signer">(Ký thay %1$s)</string>
+    <string name="description_button_reset_file">Chuyển về file gốc</string>
+    <string name="title_reload">Tải lại</string>
+    <string name="title_connecting">Đang kết nối...</string>
+
+    <!-- type log mobile -->
+    <string name="title_type_login">Đăng nhập</string>
+    <string name="voffice_log_version">VOffice Android 3.3.5</string>
+    <string name="title_type_ky">Ký</string>
+    <string name="title_type_xetduyet">Xét Duyệt</string>
+    <string name="title_type_congvan">Văn bản</string>
+    <string name="title_type_choncanhan">Chọn cá nhân</string>
+    <string name="title_type_chuyenvanban">Chuyển văn bản</string>
+    <string name="title_type_toolview">ToolView</string>
+    <string name="title_type_danhba">Danh bạ</string>
+    <string name="title_type_lichhop">Lịch họp</string>
+    <string name="title_type_bieudo">Biểu đồ</string>
+    <string name="title_type_thongke">Thống kê</string>
+    <string name="title_type_more">Xem thêm</string>
+    <string name="title_type_mission">Nhiệm vụ</string>
+    <string name="title_type_work">Công việc</string>
+    <string name="title_type_search">Thư viện quản lý</string>
+    <string name="title_documentsign_detail">Chi tiết văn bản</string>
+    <!-- action log mobile -->
+
+    <string name="enable_count_tab_above">Hiện số count menu bên trên</string>
+    <string name="enable_count_tab_below">Hiện số count menu bên dưới</string>
+    <string name="action_click_menu_above">Click chọn menu bên trên</string>
+    <string name="aciton_click_login">Click button login</string>
+    <string name="enable_list_data_ky">Hiển thị danh sách ký</string>
+    <string name="enable_list_data_congvan">Hiển thị danh sách văn bản</string>
+    <string name="action_click_item">Select một bản ghi trong danh sách</string>
+    <string name="action_open_file">Mở File</string>
+    <string name="aciton_click_menu">Nhấn vào menu</string>
+    <string name="tab_ky">Ký văn bản</string>
+    <string name="tab_ky_tai_chinh">Ký tài chính</string>
+    <string name="tab_revew_0">Văn bản chờ xét duyệt</string>
+    <string name="tab_revew_1">Văn bản đã xét duyệt</string>
+    <string name="tab_revew_2">Văn bản đã từ chối xét duyệt</string>
+    <string name="tab_ky_0">Văn bản chờ ký duyệt</string>
+    <string name="tab_ky_1">Văn bản chờ ký nháy</string>
+    <string name="tab_ky_2">Văn bản đã ký duyệt</string>
+    <string name="tab_ky_3">Văn bản đã ký nháy</string>
+    <string name="tab_ky_4">Văn bản đã từ chối ký duyệt</string>
+    <string name="tab_ky_5">Văn bản đã từ chối ký nháy</string>
+    <string name="tab_ky_6">Văn bản người ký sau từ chối</string>
+    <string name="tab_ky_7">Ban hành văn bản</string>
+    <string name="tab_ky_8">Tất cả</string>
+    <string name="tab_congvan_0">Chưa xử lý</string>
+    <string name="tab_congvan_1">Chưa Đọc</string>
+    <string name="tab_congvan_2">Đã xử lý</string>
+    <string name="tab_congvan_3">Đã lưu</string>
+    <string name="action_click_search">Tìm kiếm</string>
+    <string name="action_click_clear_search">Huỷ tìm kiếm</string>
+    <string name="action_refesh">Làm mới danh sách</string>
+    <string name="action_load_list_more">Tải thêm danh sách</string>
+    <string name="action_open_fillter_doc">Mở form lọc văn bản</string>
+    <string name="action_select_fillter">Chọn loại văn bản</string>
+    <string name="action_load_detail">Tải chi tết văn bản</string>
+    <string name="action_download_file_main">Đọc file trình ký</string>
+    <string name="action_download_file_attach">Đọc file đính kèm</string>
+    <string name="action_close_file">Đóng file</string>
+    <string name="action_pass_download_file">Bỏ qua tải file</string>
+    <string name="action_view_doc_attach">Xem công văn đính kèm</string>
+    <string name="action_click_file_doc_attach">Mở file của công văn đính kèm</string>
+    <string name="action_open_info_user">Mở form thông tin cá nhân</string>
+    <string name="action_open_form_sign">Nhấn mở form ký chi tiết</string>
+    <string name="action_open_form_template">Mở form chọn mẫu</string>
+    <string name="action_click_change_flash_sign">Nhất nút chuyển ký nháy</string>
+    <string name="action_click_view_all">Nhấn nút đọc tất cả</string>
+    <string name="action_click_send_sms_review">Chọn gửi tin nhắn xét duyệt</string>
+    <string name="action_click_unsend_sms_review">Bỏ chọn gửi tin nhắn xét duyệt</string>
+    <string name="action_click_check_erp">Chọn đồng bộ ERP</string>
+    <string name="action_click_uncheck_erp">Bỏ chọn đồng bộ ERP</string>
+    <string name="action_close_form_sign">Đóng form ký chi tiết</string>
+    <string name="action_click_sign">Nhấn nút ký</string>
+    <string name="action_click_sign_in_popup">Nhấn ký</string>
+    <string name="action_click_review_in_popup">Nhấn xét duyệt</string>
+    <string name="action_click_hide_by_sign_sim">Nhấn ẩn khi ký SIM</string>
+    <string name="action_click_save_pass_cert">Chọn lưu mật khẩu ký chứng thư mềm</string>
+    <string name="action_show_toolbar_viewpdf">Hiện tool bar của tool đọc PDF</string>
+    <string name="action_hide_toolbar_viewpdf">Ẩn tool bar của tool đọc PDF</string>
+    <string name="action_zoom_file">Zoom file</string>
+    <string name="action_enter_pass_cert">Nhập mật khẩu chứng thư mềm</string>
+    <string name="action_clear_pass_cert">Bỏ nhập mật khẩu chứng thư mềm</string>
+    <string name="action_click_tuchoi">Nhấn nút từ chối ký</string>
+    <string name="action_click_tuchoi_xetduyet">Nhấn nút từ chối xét duyệt</string>
+    <string name="action_click_huy_ky">Nhấn nút hủy ký</string>
+    <string name="action_click_huy_xetduyet">Nhấn nút hủy xét duyệt</string>
+    <string name="action_tuchoi_thanhcong">Từ chối ký thành công</string>
+    <string name="action_tuchoi_khongthanhcong">Từ chối ký thất bại</string>
+    <string name="action_open_form_chuyen_ky_nhay">Mở form chuyển ký nháy</string>
+    <string name="action_open_form_select_user">Mở form chọn cá nhân</string>
+    <string name="action_click_button_chuyen_ky_nhay">Nhấn nút chuyển ký nháy</string>
+    <string name="action_click_button_chuyen_truoc_ban_hanh">Nhấn nút chuyển văn bản trước khi ban hành</string>
+    <string name="action_click_button_email">Click gửi email</string>
+    <string name="action_click_button_sms">Click gửi tin nhắn</string>
+    <string name="action_click_button_phone">Click gọi điện</string>
+    <string name="action_click_button_chuyen">Nhấn nút chuyển văn bản</string>
+    <string name="action_click_button_taoviec_tuvb">Nhấn nút tạo việc từ văn bản</string>
+    <string name="action_click_button_taonv_tuvb">Nhấn nút tạo nhiệm vụ từ văn bản</string>
+    <string name="action_click_button_save_vb">Nhấn nút lưu văn bản</string>
+    <string name="action_close_form_send_document">Đóng form chuyển văn bản</string>
+    <string name="action_select_depart_on_favorite">Chọn đơn vị trong favourite</string>
+    <string name="action_delete_depart_on_form">Xoá đơn vị trên form</string>
+    <string name="action_open_form_select_depart">Mở form chọn đơn vị</string>
+    <string name="action_select_group_on_favorite">Chọn nhóm trong favourite</string>
+    <string name="action_delete_group_on_form">Xoá nhóm trên form</string>
+    <string name="action_select_user_on_favorite">Chọn cá nhân trong favourite</string>
+    <string name="action_delete_user_on_form">Xoá cá nhân trên form</string>
+    <string name="action_open_form_select_group">Mở form chọn nhóm</string>
+    <string name="action_send_doc">Chuyển văn bản</string>
+    <string name="action_open_detail_kybanhanh">Xem chi tiết ký ban hành</string>
+    <string name="action_open_detail_kyduyet">Xem chi tiết ký duyệt</string>
+    <string name="action_open_detail_xetduyet">Xem chi tiết xét duyệt</string>
+    <string name="action_open_detail_kynhay">Xem chi tiết ký nháy</string>
+    <string name="action_open_state_banhanh">Chọn trạng thái ban hành</string>
+    <string name="action_open_form_huybanhanh">Mở form huỷ ban hành</string>
+    <string name="action_huybanhanh">Huỷ ban hành</string>
+    <string name="action_close_form_huybanhanh">Đóng form huỷ ban hành</string>
+    <string name="action_open_form_banhanh">Mở form ban hành</string>
+    <string name="action_click_banhanh">Ban hành văn bản</string>
+    <string name="action_close_form_banhanh">Đóng form ban hành</string>
+    <string name="action_search_user">Tìm kiếm cá nhân</string>
+    <string name="action_cancel_search_user">Huỷ tìm kiếm cá nhân</string>
+    <string name="action_load_more_user">Tải thêm cá nhân</string>
+    <string name="action_select_user">Tích chọn cá nhân</string>
+    <string name="action_cancel_select_user">Bỏ tích chọn cá nhân</string>
+    <string name="action_select_user_to">Tích chọn cá nhân (To)</string>
+    <string name="action_cancel_select_user_to">Bỏ tích chọn cá nhân (To)</string>
+    <string name="action_select_user_cc">Tích chọn cá nhân (Cc) </string>
+    <string name="action_cancel_select_user_cc">Bỏ tích chọn cá nhân (Cc)</string>
+    <string name="action_select_user_all">Chọn tất cả cá nhân</string>
+    <string name="action_cancel_select_user_all">Bỏ chọn tất cả cá nhân</string>
+    <string name="action_ok_select_user">Đồng ý chọn cá nhân</string>
+    <string name="action_close_select_user">Đóng form chọn cá nhân</string>
+    <string name="action_close_select_user_change_sign">Đóng form chọn cá nhân ký nháy</string>
+    <string name="action_click_reset_file">Nhấn nút reset file</string>
+    <string name="action_click_select_depart">Click chọn đơn vị</string>
+    <string name="action_click_full_depart">Click chọn cây tập đoàn</string>
+    <string name="title_success">Thành công</string>
+    <string name="title_unSuccess">Thất bại</string>
+    <string name="title_popup_source">Nguồn gốc</string>
+    <string name="title_popup_source_html"><Data><![CDATA[Nguồn gốc<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="title_count_enter_source"><Data><![CDATA[Nguồn gốc (%1$s)<font color="#FF0000">*</font>]]></Data></string>
+    <string name="title_item_weight_html"><Data><![CDATA[Trọng số<font color="#FF0000">*</font>:]]></Data></string>
+
+    <string-array name="menu_type_source">
+        <item>Theo kế hoạch cá nhân</item>
+        <item>Theo công việc phối hợp</item>
+        <item>Theo văn bản</item>
+        <item>Theo nguồn gốc khác</item>
+        <item>Theo kiến nghị đề xuất</item>
+        <item>Theo nhiệm vụ đơn vị</item>
+    </string-array>
+
+    <string name="error_connect1">Có lỗi xảy ra trong quá trình lấy dữ liệu, vui lòng thử lại!</string>
+    <string name="error_connect2">Vẫn có lỗi xảy ra trong quá trình lấy dữ liệu, vui lòng đăng xuất, kiểm tra kết nối và thử lại!</string>
+    <string name="title_select_task">Chọn công việc</string>
+    <string name="title_select_doc">Chọn văn bản</string>
+    <string name="title_select_kiennghi">Chọn kiến nghị đề xuất</string>
+    <string name="title_select_mission">Chọn nhiệm vụ</string>
+    <string name="title_send_doc_fail_number_member_nopermission_soit">Chuyển không thành công tới %1$s cá nhân do không có quyền nhận văn bản mật.</string>
+    <string name="title_send_doc_fail_number_member_nopermission_sonhieu">Chuyển không thành công tới %1$s cá nhân do không có quyền nhận văn bản mật.</string>
+    <string name="title_send_doc_fail_number_member_nopermission_soit_1">Chuyển không thành công tới %1$s cá nhân do đã nhận được văn bản trước đó, %2$s cá nhân do không có quyền nhận văn bản mật. Vui lòng nhập nội dung chỉ đạo để chuyển lại cho cá nhân đã nhận được trước đó.</string>
+    <string name="title_send_doc_fail_number_member_nopermission_sonhieu_1">Chuyển không thành công tới %1$s cá nhân do đã nhận được văn bản trước đó, %2$s cá nhân do không có quyền nhận văn bản mật. Vui lòng nhập nội dung chỉ đạo để chuyển lại cho cá nhân đã nhận được trước đó.</string>
+    <string name="title_send_doc_fail_number_member_nopermission_soit_2">Chuyển không thành công tới %1$s cá nhân do đã nhận được văn bản trước đó, %2$s cá nhân do không có quyền nhận văn bản mật. Vui lòng nhập nội dung chỉ đạo để chuyển lại cho cá nhân đã nhận được trước đó.</string>
+    <string name="title_send_doc_fail_number_member_nopermission_sonhieu_2">Chuyển không thành công tới %1$s cá nhân do đã nhận được văn bản trước đó, %2$s cá nhân do không có quyền nhận văn bản mật. Vui lòng nhập nội dung chỉ đạo để chuyển lại cho cá nhân đã nhận được trước đó.</string>
+    <string name="title_nocontent_nguongockhac">Đồng chí chưa nhập nội dung nguồn gốc khác</string>
+    <string name="title_nonguongoc">Đồng chí chưa chọn nguồn gốc công việc</string>
+    <string name="hint_document1">Số ký hiệu, trích yếu, id văn bản, người ký</string>
+    <string name="hint_mission1">Tên, nội dung, mục tiêu, kết quả</string>
+    <string name="hint_nguongockhac">nhập nội dung nguồn gốc</string>
+    <string name="title_retry">Thử lại</string>
+    <string name="title_rejectBefor">Trình ký lại</string>
+    <string name="title_ngay_tuchoi_html"><Data><![CDATA[<b>Ngày từ chối:&#160;</b> %1$s]]></Data></string>
+    <string name="title_nguoi_tuchoi_html"><Data><![CDATA[<b>Người từ chối:&#160;</b> %1$s]]></Data></string>
+    <string name="title_noidung_tuchoi_html"><Data><![CDATA[<b>Nội dung từ chối:&#160;</b> %1$s]]></Data></string>
+    <string name="title_text_reject_befor">Văn bản đã bị từ chối %1$s lần</string>
+    <string name="title_text_reject_befor2">Văn bản đã bị từ chối %1$s lần</string>
+    <string name="doc_reject_befor_detail_title">Nội dung văn bản bị từ chối</string>
+
+    <string-array name="menu_weight_of_mission">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="missiontype1">Định kỳ hàng tháng</string>
+    <string name="missiontype2">Định kỳ hàng quý</string>
+    <string name="missiontype0">Không định kỳ</string>
+    <string name="title_tooltip_weight">+ 4: Mức độ quan trọng và khẩn cấp\n+ 3: Mức độ quan trọng nhưng không khẩn cấp\n+ 2: Mức độ không quan trọng nhưng khẩn cấp\n+ 1: Mức độ quan trọng và khẩn cấp không cao</string>
+    <string name="note_reject_null">Có bút phê trong file đính kèm</string>
+    <string name="title_rejected_reason">Nội dung từ chối</string>
+    <string name="documetSign_itemdetail_review1"><Data>
+<![CDATA[
+			<b>Ngày tạo:&#160;</b> %1$s <br> <br>
+			<b>Số, ký hiệu văn bản:&#160;</b> %2$s <br> <br>
+			<b>Độ mật:&#160;</b> %3$s
+        ]]>
+</Data></string>
+    <string name="title_dokhan">Độ khẩn:&#160;</string>
+    <string name="title_dokhan2">Độ khẩn</string>
+    <string name="documetSign_itemdetail_review2"><Data>
+<![CDATA[
+			<b>Lĩnh vực:&#160;</b> %1$s <br> <br>
+			<b>Hình thức văn bản:&#160;</b> %2$s <br> <br>
+       		<b>Số đăng ký:&#160;</b> %3$s
+        ]]>
+</Data></string>
+    <string name="title_donvibanhanh">Đơn vị ban hành:&#160;</string>
+    <string name="title_donvibanhanh2">Đơn vị ban hành</string>
+    <string name="documetSign_itemdetail_review3"><Data>
+<![CDATA[
+			<b>Nơi nhận văn bản:&#160;</b> %1$s <br> <br>
+        ]]>
+</Data></string>
+    <string name="title_ngayhieuluc"><Data>
+<![CDATA[
+			<b>Ngày hiệu lực:&#160;</b> %1$s <br> <br>
+        ]]>
+</Data></string>
+    <string name="title_ngayhethieuluc"><Data>
+<![CDATA[
+			<b>Ngày hết hiệu lực:&#160;</b> %1$s <br> <br>
+        ]]>
+</Data></string>
+    <string name="title_doianhchuky_thanhcong">Thay ảnh ký thành công</string>
+    <string name="title_doianhchuky_khong_thanhcong">Thay ảnh ký không thành công</string>
+    <string name="calendar_detail_tailieudinhkem">Tài liệu đính kèm:&#160;</string>
+    <string name="title_canhbao_download">Trạng thái mạng không ổn định, đồng chí vui lòng kiểm tra hoặc thử kết nối lại mạng</string>
+    <string name="title_popup_list_image_sign">Chọn ảnh ký: %1$s</string>
+    <string name="info_change_image_sign">+ Ảnh ký không có cấp bậc dùng cho văn bản Đảng, văn bản thị trường.\n\n+ Ảnh ký có cấp bậc dùng cho các loại văn bản còn lại.</string>
+    <!-- chua co tieng anh -->
+
+    <string-array name="menu_GroupOfWork">
+        <item>Công việc định tính</item>
+        <item>Công việc định lượng</item>
+    </string-array>
+    <string-array name="menu_WeightOfWork">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="menu_content_status1">
+        <item>Không đạt</item>
+        <item>Đạt mức tối thiểu</item>
+        <item>Đáp ứng yêu cầu</item>
+        <item>Vượt mức yêu cầu</item>
+        <item>Vượt xa mức yêu cầu</item>
+    </string-array>
+    <string-array name="menu_content_status2">
+        <item>Kém</item>
+        <item>Lỗi cần điều chỉnh</item>
+        <item>Chấp nhận được</item>
+        <item>Tốt</item>
+        <item>Xuất sắc</item>
+    </string-array>
+    <string-array name="menu_content_status3">
+        <item>Không thể hiện kỹ năng, kiến thức</item>
+        <item>Thể hiện hạn chế</item>
+        <item>Có kiến thức nền tảng</item>
+        <item>Tốt</item>
+        <item>Xuất sắc</item>
+    </string-array>
+    <string-array name="menu_content_status4">
+        <item>Kém</item>
+        <item>Còn hạn chế</item>
+        <item>Chấp nhận được</item>
+        <item>Tốt</item>
+        <item>Xuất sắc</item>
+    </string-array>
+    <string-array name="menu_content_status5">
+        <item>Không hợp tác</item>
+        <item>Hạn chế cần cải thiện</item>
+        <item>Có hợp tác cần chủ động</item>
+        <item>Tốt</item>
+        <item>Xuất sắc</item>
+    </string-array>
+    <string-array name="menu_rated">
+        <item>Tốt</item>
+        <item>Đạt</item>
+        <item>Không đạt</item>
+    </string-array>
+    <string-array name="menu_type_point">
+        <item>Điểm cộng</item>
+        <item>Điểm trừ</item>
+    </string-array>
+
+
+    <string name="diem">Điểm:</string>
+    <string name="nhan_xet">Nhận xét</string>
+    <string name="title_weight_html">-<Data><![CDATA[Trọng số<font color="#FF0000">*</font>:]]></Data></string>
+    <string name="title_weight_work">Khối lượng công việc</string>
+    <string name="title_quality_work">Chất lượng công việc</string>
+    <string name="title_skill_work">Kiến thức, kỹ năng</string>
+    <string name="title_skill_work2">Chủ động, sáng tạo</string>
+    <string name="title_skill_work3">Hợp tác, phối hợp</string>
+    <string name="title_danhgia_thaido">Đánh giá thái độ làm việc</string>
+    <string name="cf_rating_status1">Điểm đánh giá "Khối lượng công việc" phải nằm trong khoảng từ: %1$s - %2$s</string>
+    <string name="cf_rating_status2">Điểm đánh giá "Chất lượng công việc" phải nằm trong khoảng từ: %1$s - %2$s</string>
+    <string name="cf_rating_status3">Điểm đánh giá "Kiến thức kỹ năng" phải nằm trong khoảng từ: %1$s - %2$s</string>
+    <string name="cf_rating_status4">Điểm đánh giá "Chủ động, sáng tạo" phải nằm trong khoảng từ: %1$s - %2$s</string>
+    <string name="cf_rating_status5">Điểm đánh giá "Hợp tác, phối hợp" phải nằm trong khoảng từ: %1$s - %2$s</string>
+    <string name="title_type">Loại:</string>
+    <string name="save_task_rating_sucess">Lưu công việc thành công</string>
+    <string name="save_task_rating_unsucess">Lưu công việc không thành công</string>
+    <string name="title_longclick_save_task_rating">Lưu đánh giá</string>
+    <string name="title_longclick_tudanhgia">Tự đánh giá</string>
+    <string name="title_alert_addPoint">Điểm cộng phải nằm trong cấu hình cho phép [0,12]</string>
+
+
+    <!-- chua co tieng anh -->
+    <string name="title_ds_cau">Xem danh sách cầu</string>
+    <string name="title_popup_ds_cau">Danh sách cầu</string>
+    <string name="title_danhsach">Danh sách</string>
+    <string name="title_thanhphan_thamgia">Thành phần nội bộ</string>
+    <string name="title_thanhphan_thamgia_noibo">Thành phần tham gia nội bộ</string>
+    <string name="title_noibo">Nội bộ:&#160;</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

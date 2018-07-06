@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="100dp"
+            android:background="@drawable/tab_stroke_notselect_left"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@color/BLUE"
+            android:id="@+id/txt_vie"
+            android:text="@string/viet_nam_text"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textColor="@color/BLUE"
+            android:background="@drawable/tab_stroke_not_select_right"
+            android:id="@+id/txt_eng"
+            android:text="@string/english_text"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/produc_info"
+        android:layout_alignParentBottom="true"/>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:gravity="center"
+       android:orientation="vertical">
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/logo_home"/>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_marginTop="20dp"
+           android:background="@drawable/stroke_border_blue"
+           android:orientation="horizontal">
+           <ImageView
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:padding="5dp"
+               android:layout_gravity="center"
+               android:src="@drawable/ic_user_login"
+               android:scaleType="fitCenter"/>
+           <View
+               android:layout_width="0.5dp"
+               android:layout_height="match_parent"
+               android:background="@color/GRAY_COLOR"></View>
+           <EditText
+               android:layout_width="match_parent"
+                android:hint="@string/setting_modesecurity_username"
+
+               android:layout_marginLeft="5dp"
+               android:background="@color/TRANSPARENT"
+               android:layout_height="match_parent" />
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_marginTop="15dp"
+           android:layout_height="40dp"
+           android:background="@drawable/stroke_border_blue"
+           android:orientation="horizontal">
+           <ImageView
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:padding="5dp"
+               android:layout_gravity="center"
+               android:src="@drawable/ic_pass"
+               android:scaleType="fitCenter"/>
+           <View
+               android:layout_width="0.5dp"
+               android:layout_height="match_parent"
+               android:background="@color/GRAY_COLOR"></View>
+           <EditText
+               android:layout_width="match_parent"
+                android:layout_marginLeft="7dp"
+
+               android:hint="@string/setting_modesecurity_pass"
+               android:background="@color/TRANSPARENT"
+               android:layout_height="match_parent" />
+       </LinearLayout>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:text="@string/TEXT_LOGIN"
+           android:id="@+id/btn_login"
+           android:background="@color/toolbar_title_color"
+           android:textColor="@color/WHITE_COLOR"
+           android:layout_marginTop="10dp"/>
+   </LinearLayout>
+
+</RelativeLayout>

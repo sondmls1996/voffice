@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlTabDocument"
+    android:padding="@dimen/padding_icon_menu"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/rl_imagecenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imv_doc"
+            android:layout_width="@dimen/icon_menu_height"
+            android:layout_height="@dimen/icon_menu_height"
+
+            android:contentDescription="@string/logologin_alt"
+            android:scaleType="fitStart"
+            android:src="@drawable/menu_congvan_w" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tv_noti_document"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+
+            android:background="@drawable/ic_notification"
+            android:gravity="center"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_tiny_common1"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_title_document"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_imagecenter"
+        android:gravity="top|center_horizontal"
+        android:layout_marginTop="@dimen/margin10"
+        android:textColor="@color/WHITE_BG_FR"
+        android:textSize="@dimen/text_size_tiny_common"
+        android:textStyle="normal" />
+
+</RelativeLayout>

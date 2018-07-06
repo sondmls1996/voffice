@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlTabChart"
+    android:padding="@dimen/padding_icon_menu"
+    android:layout_width="wrap_content"
+    android:gravity="center"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/imv_Chart"
+        android:layout_width="@dimen/icon_menu_height"
+        android:layout_height="@dimen/icon_menu_height"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/margin"
+        android:contentDescription="@string/logologin_alt"
+        android:scaleType="fitStart"
+        android:src="@drawable/menu_bieudo" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tv_title_Chart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imv_Chart"
+        android:gravity="top|center_horizontal"
+        android:layout_marginTop="@dimen/margin10"
+        android:textColor="@color/WHITE_BG_FR"
+        android:textSize="@dimen/text_size_tiny_common"
+        android:textStyle="normal" />
+
+</RelativeLayout>
