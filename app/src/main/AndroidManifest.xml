@@ -10,12 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.viettel.voffice.tablet.activity.MainActivity"
+            android:name="com.viettel.voffice.tablet.activity.Login"
             android:configChanges="locale|orientation|keyboard|screenSize"
             android:exported="true"
             android:screenOrientation="landscape"
             android:launchMode="singleTop"
-            android:windowSoftInputMode="adjustPan">
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,6 +24,7 @@
         </activity>
         <activity android:name="com.viettel.voffice.tablet.activity.Voffice"
             android:screenOrientation="landscape"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden"
             ></activity>
     </application>
 

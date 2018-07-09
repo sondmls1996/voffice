@@ -2,21 +2,28 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:background="@color/GREY"
-    android:id="@+id/rightMenu"
+    android:id="@+id/left_menu"
     android:layout_width="wrap_content"
     android:layout_alignParentLeft="true"
+
     android:layout_height="match_parent">
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="match_parent">
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="wrap_content"
-            android:id="@+id/ll_menu_right"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/ll_menu_left"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
 
-        </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+
 
     </ScrollView>
 

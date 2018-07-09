@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -17,17 +18,19 @@ import com.viettel.voffice.tablet.fragment.RootContactFragment;
 import com.viettel.voffice.tablet.fragment.RootDocumentFragment;
 import com.viettel.voffice.tablet.fragment.RootMoreFragment;
 import com.viettel.voffice.tablet.fragment.RootSignFragment;
+import com.viettel.voffice.tablet.model.Constant;
 
 
 public class Voffice extends AppCompatActivity implements View.OnClickListener {
     LinearLayout llMenu;
     RelativeLayout rlMenuRight;
-    RelativeLayout rlTabSign,rlTabDoccument,rlTabMore,rlTabContact;
+    RelativeLayout rlTabSign,rlTabDoccument,rlTabMore,rlTabContact,rlTabCalendal,rlTabChart,rlTabTransImage;
     FrameLayout frameContent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_voffice);
+        Constant.WIDTH_LEFT_TITLE = getDisplayWidth();
         init();
 
     }
@@ -44,9 +47,19 @@ public class Voffice extends AppCompatActivity implements View.OnClickListener {
         rlTabMore = v.findViewById(R.id.rlTabMore);
         llMenu.addView(v);
         rlTabMore.setOnClickListener(this);
+        if(rlTabSign!=null){
+            rlTabSign.performClick();
+        }
 
     }
 
+    public Float getDisplayWidth(){
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+        int height = displayMetrics.heightPixels;
+        float width = displayMetrics.widthPixels;
+        return width;
+    }
     private void addTab(int i,LayoutInflater vi) {
 
         switch (i){
@@ -67,11 +80,13 @@ public class Voffice extends AppCompatActivity implements View.OnClickListener {
                 break;
             case 3:
                 View v2 = vi.inflate(R.layout.layout_tab_calendar, null);
+                rlTabCalendal = v2.findViewById(R.id.rlTabCalendar);
                 llMenu.addView(v2);
                 v2.setOnClickListener(this);
                 break;
             case 4:
                 View v3 = vi.inflate(R.layout.layout_tab_chart, null);
+                rlTabChart = v3.findViewById(R.id.rlTabChart);
                 llMenu.addView(v3);
                 v3.setOnClickListener(this);
                 break;
@@ -83,6 +98,7 @@ public class Voffice extends AppCompatActivity implements View.OnClickListener {
                 break;
             case 6:
                 View v5 = vi.inflate(R.layout.layout_tab_reiview, null);
+
                 llMenu.addView(v5);
                 v5.setOnClickListener(this);
                 break;
@@ -142,6 +158,11 @@ public class Voffice extends AppCompatActivity implements View.OnClickListener {
     }
 
     private void updateSelectTab() {
+        if(rlTabSign!=null){
+            rlTabSign.setBackgroundColor(getResources().getColor(R.color.BLUE_DARK));
+
+        }
+
     }
 
 

@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.viettel.voffice.tablet.R;
 
-public class MainActivity extends AppCompatActivity {
+public class Login extends AppCompatActivity {
     Button btnLogin;
     TextView txtVie, txtEng;
     @Override

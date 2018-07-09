@@ -12,7 +12,6 @@ import com.viettel.voffice.tablet.R;
 
 
 public class RootContactFragment extends Fragment {
-
     public RootContactFragment() {
         // Required empty public constructor
     }

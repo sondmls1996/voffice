@@ -10,7 +10,7 @@
 
 
     <!-- luannt26 new color -->
-
+    <color name="ORANGE">#F57C00</color>
     <color name="COLOR_BUTTON">#2680F6</color>
     <color name="COLOR_BUTTON_AlPHA">#662680F6</color>
     <color name="COLOR_BLUE">#2680F6</color>
