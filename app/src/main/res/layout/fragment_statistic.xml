@@ -6,9 +6,57 @@
     tools:context=".fragment.statistic.StatisticFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/margin10"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@drawable/tab_stroke_notselect_left"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:gravity="center"
+
+                android:textColor="@color/BLUE"
+                android:layout_weight="1"
+                android:id="@+id/txt_persion"
+                android:text="@string/statistic_user_refuse"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/BLUE"
+                android:background="@drawable/tab_stroke_not_select_right"
+                android:id="@+id/txt_doc"
+                android:text="@string/statistic_doc_refuse"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/GREY"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="MAY - 18"
+            android:textColor="@color/BLUE_DARK"
+            android:paddingBottom="@dimen/margin_day_static"
+            android:paddingTop="@dimen/margin_day_static"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/black"/>
+    </LinearLayout>
 
 </FrameLayout>

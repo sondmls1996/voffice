@@ -17,7 +17,6 @@ import java.util.ArrayList;
 
 public class ListDoccumentAdapter extends ArrayAdapter<ListDoccumentObj> {
     Context ct;
-    ArrayAdapter<ListSignObject> array;
 
     public ListDoccumentAdapter(Context context, int resource, ArrayList<ListDoccumentObj> items) {
 
@@ -30,7 +29,7 @@ public class ListDoccumentAdapter extends ArrayAdapter<ListDoccumentObj> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         View v = convertView;
-        ListDoccumentObj pill = getItem(position);
+        ListDoccumentObj doccumentObj = getItem(position);
         if(v==null){
             LayoutInflater inflater = LayoutInflater.from(getContext());
             v =  inflater.inflate(R.layout.item_doccument, null);

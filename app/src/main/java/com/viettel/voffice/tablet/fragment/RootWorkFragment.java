@@ -6,15 +6,17 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 
 import com.viettel.voffice.tablet.R;
+import com.viettel.voffice.tablet.model.Utils;
 
 /**
  * A simple {@link Fragment} subclass.
  */
 public class RootWorkFragment extends Fragment {
 
-
+    RelativeLayout rlLeft,rlRight;
     public RootWorkFragment() {
         // Required empty public constructor
     }
@@ -28,7 +30,15 @@ public class RootWorkFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_root_work, container, false);
+        View v = inflater.inflate(R.layout.fragment_root_work, container, false);
+        init(v);
+        return v;
+    }
+
+    private void init(View v) {
+        rlLeft = v.findViewById(R.id.rl_left);
+        rlRight = v.findViewById(R.id.rl_right);
+        Utils.setWidthLeft(rlLeft);
     }
 
 }

@@ -98,8 +98,6 @@ public class SignFragment extends Fragment implements View.OnClickListener {
                 case 6:
                 break;
 
-
-
         }
     }
 

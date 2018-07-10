@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+
+    >
+    <dimen name="height_item">90dp</dimen>
+    <dimen name="width_edt_login">300dp</dimen>
+    <dimen name="height_tip_contact">60dp</dimen>
+    <dimen name="margin_day_static">15dp</dimen>
+    <dimen name="margin_notice">25dp</dimen>
+</resources>

@@ -14,7 +14,7 @@
         android:layout_marginTop="@dimen/margin"
         android:contentDescription="@string/logologin_alt"
         android:scaleType="fitStart"
-        android:src="@drawable/icon_statis_menu_gray" >
+        android:src="@drawable/menu_thongke_w" >
     </ImageView>
 
     <TextView

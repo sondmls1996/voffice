@@ -11,6 +11,8 @@
     <dimen name="padding_small">2dp</dimen>
     <dimen name="padding_nomal">5dp</dimen>
     <dimen name="width_edt_land">300dp</dimen>
+    <dimen name="margin_day_static">10dp</dimen>
+    <dimen name="margin_notice">25dp</dimen>
     <dimen name="padding">8dp</dimen>
     <dimen name="margin5">5dp</dimen>
     <dimen name="margin10">10dp</dimen>

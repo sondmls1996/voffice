@@ -304,6 +304,8 @@
     <string name="setting_title">Cài đặt</string>
     <!-- setting - timeout -->
     <string name="setting_changepass_title">Đổi mật khẩu</string>
+    <string name="options">Cấu hình</string>
+    <string name="datausage">Lưu lượng sử dụng</string>
     <string name="setting_changeprogressbar_title">Cấu hình Progress bar</string>
     <string name="setting_progressbar">Trạng thái tải file theo tiến trình</string>
     <string name="setting_changepass_oldpass">Mật khẩu cũ:</string>
@@ -477,6 +479,7 @@
     <string name="statistic_user_refuse">Cá nhân</string>
     <string name="statistic_doc_refuse">Văn bản</string>
     <string name="statistic_title">Thống kê</string>
+
     <string name="statistic_title_listuser">Danh sách cá nhân đã ký văn bản bị từ chối</string>
     <string name="statistic_title_listdoc">Danh sách văn bản đã bị từ chối</string>
     <string name="statistic_commentreject">Lý do từ chối:&#160;</string>
@@ -827,6 +830,7 @@ Trực chỉ huy:&#160;%1$s
     <string name="add_time_ca">Gia hạn</string>
     <string name="serial_device"><Data><![CDATA[  <b>Serial Máy:&#160;</b> %1$s]]></Data></string>
     <string name="register_ca">Cấp phát chứng thư</string>
+    <string name="changePass">Thay đổi mật khẩu</string>
     <string name="active_ca">Kích hoạt chứng thư</string>
     <string name="confirm_root">Chức năng này không hỗ trợ máy Root</string>
     <string name="title_change_cmt">Thay đổi số CMT</string>

@@ -2,7 +2,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/sign_item_swipe"
     android:layout_width="match_parent"
-    android:layout_height="80dp">
+    android:layout_height="@dimen/height_item">
     <!-- Bottom View Start-->
     <LinearLayout
         android:background="#66ddff00"
