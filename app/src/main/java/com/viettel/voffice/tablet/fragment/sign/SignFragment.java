@@ -5,6 +5,8 @@ import android.content.Context;
 import android.os.Bundle;
 
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -24,12 +26,11 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class SignFragment extends Fragment implements View.OnClickListener {
-    ListView lvSign;
+
     LinearLayout llMenuLeft;
-    ListSignAdapter adapter;
-    LinearLayout ll_menu_left;
+
     LayoutInflater vi;
-    RelativeLayout rlWait,rlSigned,rlUnSign,rlAll,rlRelease;
+    RelativeLayout rlWait,rlSigned,rlUnSign,rlFlash,rlUnFlash,rlFlashed,rlUserUnsign,rlAll,rlRelease;
     ArrayList<ListSignObject> arraySign;
     View v;
     public SignFragment() {
@@ -47,55 +48,74 @@ public class SignFragment extends Fragment implements View.OnClickListener {
         // Inflate the layout for this fragment
         v = inflater.inflate(R.layout.fragment_sign, container, false);
         init(v);
+        rlWait.performClick();
         return v;
     }
 
     private void init(View v) {
          vi = (LayoutInflater) getActivity().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         llMenuLeft = v.findViewById(R.id.ll_menu_left);
-        lvSign = v.findViewById(R.id.lv_sign);
-        arraySign = new ArrayList<>();
-        adapter = new ListSignAdapter(getActivity(),R.layout.item_sign,arraySign);
-        ll_menu_left =  v.findViewById(R.id.ll_menu_left);
 
-        for (int i = 0; i<6;i++){
+        for (int i = 0; i<9;i++){
             addTab(i);
         }
-        lvSign.setAdapter(adapter);
-        arraySign.add(new ListSignObject());
-        arraySign.add(new ListSignObject());
-        arraySign.add(new ListSignObject());
-        arraySign.add(new ListSignObject());
-        adapter.notifyDataSetChanged();
     }
 
     private void addTab(int i) {
         switch (i){
             case 0:
                 View v = vi.inflate(R.layout.sign_item_wait, null);
-                rlWait = v.findViewById(R.id.rlWait);
+                rlWait = v.findViewById(R.id.rlMenuWait);
                 llMenuLeft.addView(v);
                 rlWait.setOnClickListener(this);
                 break;
             case 1:
-                View v2 = vi.inflate(R.layout.sign_item_wait, null);
-                rlWait = v2.findViewById(R.id.rlWait);
+                View v2 = vi.inflate(R.layout.sign_item_flash_sign, null);
+                rlFlash = v2.findViewById(R.id.rlMenuFlashSign);
                 llMenuLeft.addView(v2);
-                rlWait.setOnClickListener(this);
+                rlFlash.setOnClickListener(this);
                 break;
             case 2:
-                View v3 = vi.inflate(R.layout.sign_item_wait, null);
-                rlWait = v3.findViewById(R.id.rlWait);
+                View v3 = vi.inflate(R.layout.sign_item_has_sign, null);
+                rlSigned = v3.findViewById(R.id.rlMenuHasSign);
                 llMenuLeft.addView(v3);
-                rlWait.setOnClickListener(this);
+                rlSigned.setOnClickListener(this);
                 break;
             case 3:
+                View v4 = vi.inflate(R.layout.sign_item_has_flashsign, null);
+                rlFlashed = v4.findViewById(R.id.rlMenuHasFlashSign);
+                llMenuLeft.addView(v4);
+                rlFlashed.setOnClickListener(this);
                 break;
                 case 4:
+                    View v5 = vi.inflate(R.layout.sign_item_notsign, null);
+                    rlUnSign = v5.findViewById(R.id.rlMenuNotsign);
+                    llMenuLeft.addView(v5);
+                    rlUnSign.setOnClickListener(this);
                 break;
                 case 5:
+                    View v6 = vi.inflate(R.layout.sign_item_notflashsign, null);
+                    rlUnFlash = v6.findViewById(R.id.rlMenuNotFlashSign);
+                    llMenuLeft.addView(v6);
+                    rlUnFlash.setOnClickListener(this);
                 break;
                 case 6:
+                    View v7= vi.inflate(R.layout.sign_item_uer_notsign, null);
+                    rlUserUnsign = v7.findViewById(R.id.rlMenuUserNotSign);
+                    llMenuLeft.addView(v7);
+                    rlUserUnsign.setOnClickListener(this);
+                break;
+            case 7:
+                View v8= vi.inflate(R.layout.sign_item_release, null);
+                rlRelease = v8.findViewById(R.id.rlMenuRelease);
+                llMenuLeft.addView(v8);
+                rlRelease.setOnClickListener(this);
+                break;
+            case 8:
+                View v9= vi.inflate(R.layout.sign_item_all, null);
+                rlAll = v9.findViewById(R.id.rlMenuAll);
+                llMenuLeft.addView(v9);
+                rlAll.setOnClickListener(this);
                 break;
 
         }
@@ -103,6 +123,43 @@ public class SignFragment extends Fragment implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.rlMenuWait:
+                Class wait = FragmentSignWait.class;
+                replaceFragment(wait);
+                break;
+            case R.id.rlMenuFlashSign:
+
+                break;
+            case R.id.rlMenuHasSign:
+                break;
+            case R.id.rlMenuHasFlashSign:
+                break;
+            case R.id.rlMenuNotsign:
+                break;
+            case R.id.rlMenuNotFlashSign:
+                break;
+            case R.id.rlMenuUserNotSign:
+                break;
+            case R.id.rlMenuRelease:
+                break;
+            case R.id.rlMenuAll:
+                break;
+
+
+        }
+    }
+
+    public void replaceFragment(Class fragmentClass){
+
+                Fragment fragment = null;
+                try {
+                    fragment = (Fragment) fragmentClass.newInstance();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
+                fragmentManager.beginTransaction().replace(R.id.content_sign, fragment).commitAllowingStateLoss();
 
     }
 }

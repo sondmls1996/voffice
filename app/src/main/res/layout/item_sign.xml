@@ -4,46 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/height_item">
     <!-- Bottom View Start-->
-    <LinearLayout
-        android:background="#66ddff00"
-        android:id="@+id/bottom_wrapper"
-        android:layout_width="210dp"
-        android:orientation="horizontal"
-        android:weightSum="1"
-        android:layout_height="match_parent">
-        <RelativeLayout
-            android:layout_width="70dp"
-            android:gravity="center"
-            android:layout_height="match_parent"
-            android:background="@color/ORANGE">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_cong_03"/>
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_width="70dp"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:background="@color/BLUE_DARK">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_cong_03"/>
-        </RelativeLayout>
-        <RelativeLayout
-            android:layout_width="70dp"
-            android:gravity="center"
-            android:layout_height="match_parent"
-            android:background="@color/BLUE">
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_cong_03"/>
-        </RelativeLayout>
-
-        <!--What you want to show-->
-    </LinearLayout>
+    <include
+        layout="@layout/swip_item_menu"
+        ></include>
     <!-- Bottom View End-->
 
     <!-- Surface View Start -->
@@ -78,10 +41,22 @@
                 android:layout_width="match_parent"
                 android:gravity="right"
                 android:layout_height="match_parent">
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:src="@drawable/icon_info"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_marginRight="@dimen/margin10"
+                        android:src="@drawable/ic_cm"/>
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/icon_info"/>
+
+                </LinearLayout>
+
             </RelativeLayout>
 
         </LinearLayout>

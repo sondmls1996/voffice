@@ -1,50 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@color/WHITE_COLOR">
-    <LinearLayout
-        android:layout_width="match_parent"
+
+<com.daimajia.swipe.SwipeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sign_item_swipe"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_item">
+  <include
+      layout="@layout/swip_item_menu"
+      ></include>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/margin10"
-        android:orientation="horizontal">
-        <ImageView
-            android:layout_width="@dimen/image_contact_size"
-            android:layout_height="@dimen/image_contact_size"
-            android:id="@+id/img_avatar"
-            android:src="@drawable/female"/>
+        android:background="@color/WHITE_COLOR">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:layout_marginLeft="@dimen/margin10">
-            <TextView
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin10"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="@dimen/image_contact_size"
+                android:layout_height="@dimen/image_contact_size"
+                android:id="@+id/img_avatar"
+                android:src="@drawable/female"/>
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:textStyle="bold"
-                android:textSize="16sp"
-                android:textColor="@color/black"
-                android:text="sdsdsdsd"/>
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_weight="1"
-                android:gravity="bottom"
-                android:layout_height="match_parent">
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/margin10">
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textColor="@color/BLUE"
-                    android:text="sdsdsd"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
                     android:textColor="@color/black"
-                    android:layout_alignParentRight="true"
-                    android:text="sdsdsd"/>
+                    android:text="sdsdsdsd"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/BLUE"
+                        android:text="sdsdsd"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:layout_alignParentRight="true"
+                        android:text="sdsdsd"/>
 
-            </RelativeLayout>
+                </RelativeLayout>
 
+            </LinearLayout>
         </LinearLayout>
-    </LinearLayout>
-</RelativeLayout>
+    </RelativeLayout>
+</com.daimajia.swipe.SwipeLayout>

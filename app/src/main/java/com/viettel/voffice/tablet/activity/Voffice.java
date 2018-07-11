@@ -131,12 +131,6 @@ public class Voffice extends AppCompatActivity implements View.OnClickListener {
                 llMenu.addView(v4);
                 rlTabContact.setOnClickListener(this);
                 break;
-            case 6:
-                View v5 = vi.inflate(R.layout.layout_tab_reiview, null);
-
-                llMenu.addView(v5);
-              //  rlTabWork.setOnClickListener(this);
-                break;
             case 7:
                 View v7 = vi.inflate(R.layout.layout_tab_statistic, null);
                 rlTabStatic = v7.findViewById(R.id.rlTabStatistic);

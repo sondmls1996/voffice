@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 
 import com.daimajia.swipe.SwipeLayout;
 import com.squareup.picasso.Picasso;
@@ -41,6 +42,10 @@ public class ContactAdapter extends ArrayAdapter<ListContactObj> {
         }
         ImageView imgAvt = v.findViewById(R.id.img_avatar);
         Picasso.get().load(R.drawable.female).transform(new TransImage()).into(imgAvt);
+        RelativeLayout mail = v.findViewById(R.id.icon_mail);
+        RelativeLayout sms = v.findViewById(R.id.icon_sms);
+        mail.setVisibility(View.VISIBLE);
+        sms.setVisibility(View.VISIBLE);
         init();
 
         return v;
