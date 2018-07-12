@@ -12,11 +12,8 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 
 import com.viettel.voffice.tablet.R;
-import com.viettel.voffice.tablet.adapter.ListDoccumentAdapter;
-import com.viettel.voffice.tablet.adapter.ListSignAdapter;
-import com.viettel.voffice.tablet.fragment.RootSignFragment;
+import com.viettel.voffice.tablet.fragment.document.adapter.ListDoccumentAdapter;
 import com.viettel.voffice.tablet.model.Object.ListDoccumentObj;
-import com.viettel.voffice.tablet.model.Object.ListSignObject;
 
 import java.util.ArrayList;
 

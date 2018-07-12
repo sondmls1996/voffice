@@ -1,105 +1,106 @@
-<LinearLayout android:background="#66ddff00"
+<LinearLayout
+    android:background="#66ddff00"
     android:id="@+id/bottom_wrapper"
     android:layout_width="wrap_content"
 
     android:orientation="horizontal"
-    android:weightSum="1"
+
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <RelativeLayout
-        android:layout_width="70dp"
+        android:layout_width="@dimen/swipe_relative_size"
         android:visibility="gone"
         android:gravity="center"
         android:id="@+id/icon_save_cv"
         android:layout_height="match_parent"
         android:background="@color/lam2">
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/swip_image_size"
+            android:layout_height="@dimen/swip_image_size"
             android:src="@drawable/ic_luucongvan"/>
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="70dp"
+        android:layout_width="@dimen/swipe_relative_size"
         android:visibility="gone"
         android:gravity="center"
         android:id="@+id/icon_create_task"
         android:layout_height="match_parent"
         android:background="@color/ORANGE">
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/swip_image_size"
+            android:layout_height="@dimen/swip_image_size"
             android:src="@drawable/ic_giaoviec"/>
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="70dp"
+        android:layout_width="@dimen/swipe_relative_size"
         android:layout_height="match_parent"
         android:visibility="gone"
         android:id="@+id/icon_forward_cv"
         android:gravity="center"
         android:background="@color/toolbar_title_color">
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/swip_image_size"
+            android:layout_height="@dimen/swip_image_size"
             android:src="@drawable/ic_chuyen"/>
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="70dp"
+        android:layout_width="@dimen/swipe_relative_size"
         android:visibility="gone"
         android:gravity="center"
         android:id="@+id/icon_forward_sign"
         android:layout_height="match_parent"
         android:background="@color/ORANGE">
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/swip_image_size"
+            android:layout_height="@dimen/swip_image_size"
             android:src="@drawable/ic_chuyen"/>
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="70dp"
+        android:layout_width="@dimen/swipe_relative_size"
         android:layout_height="match_parent"
         android:visibility="gone"
         android:id="@+id/icon_sign"
         android:gravity="center"
         android:background="@color/toolbar_title_color">
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/swip_image_size"
+            android:layout_height="@dimen/swip_image_size"
             android:src="@drawable/ic_ky"/>
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="70dp"
+        android:layout_width="@dimen/swipe_relative_size"
         android:gravity="center"
         android:layout_height="match_parent"
         android:id="@+id/icon_attfile"
         android:visibility="gone"
         android:background="@color/BLUE">
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/swip_image_size"
+            android:layout_height="@dimen/swip_image_size"
             android:src="@drawable/ic_them"/>
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="70dp"
+        android:layout_width="@dimen/swipe_relative_size"
         android:gravity="center"
         android:visibility="gone"
         android:id="@+id/icon_mail"
         android:layout_height="match_parent"
         android:background="@color/lam">
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/ic_mail_nhanh"/>
     </RelativeLayout>
     <RelativeLayout
-        android:layout_width="70dp"
+        android:layout_width="@dimen/swipe_relative_size"
         android:layout_height="match_parent"
         android:gravity="center"
         android:id="@+id/icon_sms"
         android:visibility="gone"
         android:background="@color/ORANGE">
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
             android:src="@drawable/ic_sms_nhanh"/>
     </RelativeLayout>
     <!--What you want to show-->

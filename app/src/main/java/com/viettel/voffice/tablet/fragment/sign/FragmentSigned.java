@@ -10,22 +10,21 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import com.viettel.voffice.tablet.R;
-import com.viettel.voffice.tablet.fragment.sign.adapter.ListFlashSignAdapter;
-import com.viettel.voffice.tablet.fragment.sign.Obj.FlashSignListObj;
+import com.viettel.voffice.tablet.fragment.sign.Obj.SignedListObj;
+import com.viettel.voffice.tablet.fragment.sign.adapter.ListSignedAdapter;
 
 import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FragmentFlashSign extends Fragment {
+public class FragmentSigned extends Fragment {
     ListView lvSign;
     LinearLayout llMenuLeft;
-    ListFlashSignAdapter adapter;
-    ArrayList<FlashSignListObj> arraySign;
+    ListSignedAdapter adapter;
+    ArrayList<SignedListObj> arraySign;
 
-
-    public FragmentFlashSign() {
+    public FragmentSigned() {
         // Required empty public constructor
     }
 
@@ -34,29 +33,26 @@ public class FragmentFlashSign extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_flash_sign, container, false);
+        View v = inflater.inflate(R.layout.fragment__signed, container, false);
         init(v);
         return v;
     }
 
     private void init(View v) {
+
         lvSign = v.findViewById(R.id.rc_view);
         arraySign = new ArrayList<>();
-        adapter = new ListFlashSignAdapter(getActivity(),R.layout.item_sign,arraySign);
+        adapter = new ListSignedAdapter(getActivity(),R.layout.item_sign,arraySign);
 //
 //        LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
 //        lvSign.setLayoutManager(layoutManager);
         lvSign.setAdapter(adapter);
 
-        arraySign.add(new FlashSignListObj());
-        arraySign.add(new FlashSignListObj());
-        arraySign.add(new FlashSignListObj());
-        arraySign.add(new FlashSignListObj());
+        arraySign.add(new SignedListObj());
+        arraySign.add(new SignedListObj());
+        arraySign.add(new SignedListObj());
+        arraySign.add(new SignedListObj());
         adapter.notifyDataSetChanged();
     }
-
-
-
-
 
 }

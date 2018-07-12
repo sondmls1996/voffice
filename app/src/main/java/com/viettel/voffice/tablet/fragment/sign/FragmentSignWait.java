@@ -9,10 +9,10 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
-import com.handmark.pulltorefresh.library.PullToRefreshListView;
+
 import com.viettel.voffice.tablet.R;
-import com.viettel.voffice.tablet.adapter.ListSignAdapter;
-import com.viettel.voffice.tablet.model.Object.ListSignObject;
+import com.viettel.voffice.tablet.fragment.sign.adapter.ListSignAdapter;
+import com.viettel.voffice.tablet.fragment.sign.Obj.SignListObj;
 
 import java.util.ArrayList;
 
@@ -20,10 +20,10 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class FragmentSignWait extends Fragment {
-    PullToRefreshListView lvSign;
+    ListView lvSign;
     LinearLayout llMenuLeft;
     ListSignAdapter adapter;
-    ArrayList<ListSignObject> arraySign;
+    ArrayList<SignListObj> arraySign;
 
     public FragmentSignWait() {
         // Required empty public constructor
@@ -40,15 +40,19 @@ public class FragmentSignWait extends Fragment {
     }
 
     private void init(View v) {
-        lvSign = v.findViewById(R.id.lv_sign);
+
+        lvSign = v.findViewById(R.id.rc_view);
         arraySign = new ArrayList<>();
         adapter = new ListSignAdapter(getActivity(),R.layout.item_sign,arraySign);
-
+//
+//        LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
+//        lvSign.setLayoutManager(layoutManager);
         lvSign.setAdapter(adapter);
-        arraySign.add(new ListSignObject());
-        arraySign.add(new ListSignObject());
-        arraySign.add(new ListSignObject());
-        arraySign.add(new ListSignObject());
+
+        arraySign.add(new SignListObj());
+        arraySign.add(new SignListObj());
+        arraySign.add(new SignListObj());
+        arraySign.add(new SignListObj());
         adapter.notifyDataSetChanged();
     }
 

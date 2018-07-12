@@ -6,20 +6,15 @@ import android.os.Bundle;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 import android.widget.RelativeLayout;
 
 import com.viettel.voffice.tablet.R;
-import com.viettel.voffice.tablet.adapter.ListSignAdapter;
-import com.viettel.voffice.tablet.fragment.RootSignFragment;
-import com.viettel.voffice.tablet.model.Object.ListSignObject;
+import com.viettel.voffice.tablet.fragment.sign.Obj.SignListObj;
 
-import java.security.SignedObject;
 import java.util.ArrayList;
 
 /**
@@ -31,7 +26,7 @@ public class SignFragment extends Fragment implements View.OnClickListener {
 
     LayoutInflater vi;
     RelativeLayout rlWait,rlSigned,rlUnSign,rlFlash,rlUnFlash,rlFlashed,rlUserUnsign,rlAll,rlRelease;
-    ArrayList<ListSignObject> arraySign;
+    ArrayList<SignListObj> arraySign;
     View v;
     public SignFragment() {
         // Required empty public constructor
@@ -129,19 +124,32 @@ public class SignFragment extends Fragment implements View.OnClickListener {
                 replaceFragment(wait);
                 break;
             case R.id.rlMenuFlashSign:
-
+                Class flash = FragmentFlashSign.class;
+                replaceFragment(flash);
                 break;
             case R.id.rlMenuHasSign:
+                Class signed = FragmentSigned.class;
+                replaceFragment(signed);
                 break;
             case R.id.rlMenuHasFlashSign:
+                Class flashSigned = FragmentFlashSigned.class;
+                replaceFragment(flashSigned);
                 break;
             case R.id.rlMenuNotsign:
+                Class unsign = FragmentUnsign.class;
+                replaceFragment(unsign);
                 break;
             case R.id.rlMenuNotFlashSign:
+                Class unflashsign = FragmentUnflashSign.class;
+                replaceFragment(unflashsign);
                 break;
             case R.id.rlMenuUserNotSign:
+                Class signAfter = FragmentSignafter.class;
+                replaceFragment(signAfter);
                 break;
             case R.id.rlMenuRelease:
+                Class release = FragmentRelease.class;
+                replaceFragment(release);
                 break;
             case R.id.rlMenuAll:
                 break;

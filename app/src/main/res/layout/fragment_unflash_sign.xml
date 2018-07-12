@@ -3,11 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.sign.FragmentSignWait">
+    tools:context=".fragment.sign.FragmentUnflashSign">
 
     <!-- TODO: Update blank fragment layout -->
-    <include
-        layout="@layout/refresh_rcview"
-        ></include>
+   <include
+       layout="@layout/refresh_rcview"
+       ></include>
 
 </FrameLayout>

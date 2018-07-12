@@ -1,19 +1,20 @@
 <com.daimajia.swipe.SwipeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/sign_item_swipe"
+
     android:layout_width="match_parent"
     android:layout_height="@dimen/height_item">
     <!-- Bottom View Start-->
     <include
-        layout="@layout/swip_item_menu"
-        ></include>
+        layout="@layout/swip_item_menu">
+        </include>
     <!-- Bottom View End-->
 
     <!-- Surface View Start -->
     <LinearLayout
         android:padding="5dp"
-        android:background="#ffffff"
-        android:visibility="visible"
+
+        android:background="@color/WHITE_COLOR"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -25,34 +26,54 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/ln_content"
+            android:layout_marginTop="@dimen/margin10"
             android:orientation="horizontal">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
+                android:visibility="gone"
+                android:id="@+id/tv_thoigiantrinh"
                 android:text="Thời gian trình:"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:textColor="@color/red"
+                android:visibility="gone"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
+                android:id="@+id/tv_time"
                 android:text="255 giờ"/>
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:gravity="right"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
                     android:orientation="horizontal">
                     <ImageView
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
-                        android:layout_marginRight="@dimen/margin10"
+                        android:layout_width="@dimen/sign_icon_size"
+                        android:layout_height="@dimen/sign_icon_size"
+                        android:id="@+id/img_ngkycuoi"
+                        android:visibility="gone"
+                        android:layout_marginRight="@dimen/margin5"
+                        android:src="@drawable/ic_ngkycuoi"/>
+                    <ImageView
+                        android:layout_width="@dimen/sign_icon_size"
+                        android:layout_height="@dimen/sign_icon_size"
+                        android:id="@+id/img_cmt"
+                        android:visibility="gone"
+                        android:layout_marginRight="@dimen/margin5"
                         android:src="@drawable/ic_cm"/>
                     <ImageView
-                        android:layout_width="20dp"
-                        android:layout_height="20dp"
+                        android:layout_width="@dimen/sign_icon_size"
+                        android:layout_height="@dimen/sign_icon_size"
+                        android:id="@+id/img_info"
+                        android:visibility="gone"
+                        android:layout_marginRight="@dimen/margin5"
                         android:src="@drawable/icon_info"/>
 
                 </LinearLayout>
@@ -62,10 +83,12 @@
         </LinearLayout>
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="right"
+            android:layout_height="match_parent"
+            android:gravity="right|bottom"
             android:textColor="@color/black"
+            android:textSize="@dimen/text_date_sign"
             android:layout_marginTop="5dp"
+            android:layout_marginRight="@dimen/margin5"
             android:text="24/5/2018"/>
         <!--What you want to show in SurfaceView-->
     </LinearLayout>

@@ -10,22 +10,25 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import com.viettel.voffice.tablet.R;
-import com.viettel.voffice.tablet.fragment.sign.adapter.ListFlashSignAdapter;
 import com.viettel.voffice.tablet.fragment.sign.Obj.FlashSignListObj;
+import com.viettel.voffice.tablet.fragment.sign.Obj.FlashSignedListObj;
+import com.viettel.voffice.tablet.fragment.sign.Obj.SignedListObj;
+import com.viettel.voffice.tablet.fragment.sign.adapter.ListFlashSignAdapter;
+import com.viettel.voffice.tablet.fragment.sign.adapter.ListFlashSignedAdapter;
+import com.viettel.voffice.tablet.fragment.sign.adapter.ListSignedAdapter;
 
 import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FragmentFlashSign extends Fragment {
+public class FragmentFlashSigned extends Fragment {
     ListView lvSign;
     LinearLayout llMenuLeft;
-    ListFlashSignAdapter adapter;
-    ArrayList<FlashSignListObj> arraySign;
+    ListFlashSignedAdapter adapter;
+    ArrayList<FlashSignedListObj> arraySign;
 
-
-    public FragmentFlashSign() {
+    public FragmentFlashSigned() {
         // Required empty public constructor
     }
 
@@ -34,7 +37,7 @@ public class FragmentFlashSign extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_flash_sign, container, false);
+        View v = inflater.inflate(R.layout.fragment_flash_signed, container, false);
         init(v);
         return v;
     }
@@ -42,21 +45,19 @@ public class FragmentFlashSign extends Fragment {
     private void init(View v) {
         lvSign = v.findViewById(R.id.rc_view);
         arraySign = new ArrayList<>();
-        adapter = new ListFlashSignAdapter(getActivity(),R.layout.item_sign,arraySign);
+        adapter = new ListFlashSignedAdapter(getActivity(),R.layout.item_sign,arraySign);
 //
 //        LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
 //        lvSign.setLayoutManager(layoutManager);
         lvSign.setAdapter(adapter);
 
-        arraySign.add(new FlashSignListObj());
-        arraySign.add(new FlashSignListObj());
-        arraySign.add(new FlashSignListObj());
-        arraySign.add(new FlashSignListObj());
+        arraySign.add(new FlashSignedListObj());
+        arraySign.add(new FlashSignedListObj());
+        arraySign.add(new FlashSignedListObj());
+        arraySign.add(new FlashSignedListObj());
+        arraySign.add(new FlashSignedListObj());
+        arraySign.add(new FlashSignedListObj());
         adapter.notifyDataSetChanged();
     }
-
-
-
-
 
 }
