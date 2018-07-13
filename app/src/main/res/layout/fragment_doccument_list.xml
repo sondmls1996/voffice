@@ -70,10 +70,10 @@
 
 
             </LinearLayout>
-            <ListView
+            <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/lv_sign"></ListView>
+                android:id="@+id/content_doccument"></FrameLayout>
         </LinearLayout>
 
 

@@ -2,7 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
-    android:id="@+id/rlDoclibrary"
+    android:id="@+id/rlLichctBTGD"
     android:layout_height="wrap_content">
     <LinearLayout
         android:layout_width="wrap_content"
@@ -16,15 +16,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_search_gray"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="10"
-                android:layout_marginLeft="20dp"
-                android:paddingLeft="3dp"
-                android:paddingRight="3dp"
-                android:background="@drawable/border_stroke_gray"/>
+                android:src="@drawable/ic_congtac_btgd"/>
 
         </RelativeLayout>
         <RelativeLayout

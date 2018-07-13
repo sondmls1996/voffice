@@ -7,11 +7,17 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.alamkanak.weekview.MonthLoader;
+import com.alamkanak.weekview.WeekView;
+import com.alamkanak.weekview.WeekViewEvent;
 import com.viettel.voffice.tablet.R;
+
+import java.util.List;
 
 public class Login extends AppCompatActivity {
     Button btnLogin;
     TextView txtVie, txtEng;
+    WeekView wv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

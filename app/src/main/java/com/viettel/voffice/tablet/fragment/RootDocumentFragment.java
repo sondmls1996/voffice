@@ -11,8 +11,7 @@ import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 import com.viettel.voffice.tablet.R;
-import com.viettel.voffice.tablet.fragment.document.DoccumentListFragment;
-import com.viettel.voffice.tablet.fragment.sign.SignFragment;
+import com.viettel.voffice.tablet.fragment.document.Doccument;
 import com.viettel.voffice.tablet.model.Utils;
 
 
@@ -43,7 +42,7 @@ public class RootDocumentFragment extends Fragment {
         rlLeft = v.findViewById(R.id.rl_left);
         Utils.setWidthLeft(rlLeft);
 
-        Fragment listDoccument = DoccumentListFragment.newIntance();
+        Fragment listDoccument = Doccument.newIntance();
         changeTabLeft(listDoccument);
     }
     public void changeTabLeft(Fragment fragment) {

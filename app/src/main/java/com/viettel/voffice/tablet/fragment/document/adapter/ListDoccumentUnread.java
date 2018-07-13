@@ -7,17 +7,18 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 import com.viettel.voffice.tablet.R;
-import com.viettel.voffice.tablet.model.Object.ListDoccumentObj;
+import com.viettel.voffice.tablet.fragment.document.Object.ListDoccumentUnreadObj;
 
 import java.util.ArrayList;
 
-public class ListDoccumentAdapter extends ArrayAdapter<ListDoccumentObj> {
+public class ListDoccumentUnread extends ArrayAdapter<ListDoccumentUnreadObj> {
     Context ct;
 
-    public ListDoccumentAdapter(Context context, int resource, ArrayList<ListDoccumentObj> items) {
+    public ListDoccumentUnread(Context context, int resource, ArrayList<ListDoccumentUnreadObj> items) {
 
         super(context, resource, items);
         this.ct = context;
@@ -28,7 +29,7 @@ public class ListDoccumentAdapter extends ArrayAdapter<ListDoccumentObj> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         View v = convertView;
-        ListDoccumentObj doccumentObj = getItem(position);
+        ListDoccumentUnreadObj doccumentObj = getItem(position);
         if(v==null){
             LayoutInflater inflater = LayoutInflater.from(getContext());
             v =  inflater.inflate(R.layout.item_doccument, null);
@@ -44,10 +45,15 @@ public class ListDoccumentAdapter extends ArrayAdapter<ListDoccumentObj> {
         RelativeLayout rlCreateTask = v.findViewById(R.id.icon_create_task);
         RelativeLayout rlForwardCV = v.findViewById(R.id.icon_forward_cv);
         RelativeLayout rlAttFile = v.findViewById(R.id.icon_attfile);
-        rlSaveCV.setVisibility(View.VISIBLE);
+        ImageView imginfo = v.findViewById(R.id.img_info);
+        ImageView dot = v.findViewById(R.id.img_dot);
+     //   rlSaveCV.setVisibility(View.VISIBLE);
+        imginfo.setVisibility(View.VISIBLE);
+        dot.setVisibility(View.VISIBLE);
         rlCreateTask.setVisibility(View.VISIBLE);
         rlForwardCV.setVisibility(View.VISIBLE);
         rlAttFile.setVisibility(View.VISIBLE);
 
     }
 }
+

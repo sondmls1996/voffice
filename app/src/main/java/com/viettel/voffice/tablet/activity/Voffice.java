@@ -29,7 +29,6 @@ import com.viettel.voffice.tablet.fragment.RootSignFragment;
 import com.viettel.voffice.tablet.fragment.RootStatisticFragment;
 import com.viettel.voffice.tablet.fragment.RootTransMoney;
 import com.viettel.voffice.tablet.fragment.RootWorkFragment;
-import com.viettel.voffice.tablet.fragment.calendal.CalendalFragment;
 import com.viettel.voffice.tablet.model.Constant;
 
 

@@ -10,7 +10,7 @@ import android.widget.ListView;
 
 import com.viettel.voffice.tablet.R;
 import com.viettel.voffice.tablet.fragment.contact.adapter.ContactAdapter;
-import com.viettel.voffice.tablet.model.Object.ListContactObj;
+import com.viettel.voffice.tablet.fragment.contact.Object.ListContactObj;
 
 import java.util.ArrayList;
 

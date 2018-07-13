@@ -5,7 +5,7 @@
     <dimen name="width_edt_login">250dp</dimen>
     <dimen name="swipe_relative_size">50dp</dimen>
     <dimen name="sign_icon_size">17dp</dimen>
-    <dimen name="text_date_sign">13sp</dimen>
+    <dimen name="text_date_sign">12sp</dimen>
     <dimen name="height_tip_contact">50dp</dimen>
     <dimen name="image_contact_size">50dp</dimen>
     <dimen name="margin_day_static">10dp</dimen>

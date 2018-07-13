@@ -10,12 +10,9 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.daimajia.swipe.SwipeLayout;
 import com.squareup.picasso.Picasso;
 import com.viettel.voffice.tablet.R;
-import com.viettel.voffice.tablet.model.Object.ListContactObj;
-import com.viettel.voffice.tablet.model.Object.ListDoccumentObj;
-import com.viettel.voffice.tablet.model.Object.ListContactObj;
+import com.viettel.voffice.tablet.fragment.contact.Object.ListContactObj;
 import com.viettel.voffice.tablet.model.TransImage;
 
 import java.util.ArrayList;
