@@ -3,14 +3,16 @@ package com.viettel.voffice.tablet.fragment.document;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 
 import com.viettel.voffice.tablet.R;
-import com.viettel.voffice.tablet.fragment.document.adapter.ListDoccument;
+import com.viettel.voffice.tablet.fragment.document.adapter.ListDoccumentAdapter;
 import com.viettel.voffice.tablet.fragment.document.Object.ListDoccumentObj;
 
 import java.util.ArrayList;
@@ -19,9 +21,9 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class FragmentDocWait extends Fragment {
-    ListView lvSign;
+    RecyclerView lvSign;
     LinearLayout llMenuLeft;
-    ListDoccument adapter;
+    ListDoccumentAdapter adapter;
     ArrayList<ListDoccumentObj> arraySign;
 
     public FragmentDocWait() {
@@ -38,13 +40,7 @@ public class FragmentDocWait extends Fragment {
         return v;
     }
     private void init(View v) {
-        lvSign = v.findViewById(R.id.rc_view);
-        arraySign = new ArrayList<>();
-        adapter = new ListDoccument(getActivity(),R.layout.item_doccument,arraySign);
-//
-//        LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
-//        lvSign.setLayoutManager(layoutManager);
-        lvSign.setAdapter(adapter);
+        setRecycle(v);
 
         arraySign.add(new ListDoccumentObj());
         arraySign.add(new ListDoccumentObj());
@@ -52,4 +48,16 @@ public class FragmentDocWait extends Fragment {
         arraySign.add(new ListDoccumentObj());
         adapter.notifyDataSetChanged();
     }
+
+    private void setRecycle(View v) {
+        lvSign = v.findViewById(R.id.rc_view);
+        lvSign.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL));
+        lvSign.setHasFixedSize(true);
+        lvSign.setLayoutManager(new LinearLayoutManager(getActivity()));
+        arraySign = new ArrayList<>();
+        adapter = new ListDoccumentAdapter(getActivity(),arraySign);
+        lvSign.setAdapter(adapter);
+
+    }
+
 }

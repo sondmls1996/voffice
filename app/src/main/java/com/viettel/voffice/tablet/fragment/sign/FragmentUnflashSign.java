@@ -3,17 +3,17 @@ package com.viettel.voffice.tablet.fragment.sign;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 
 import com.viettel.voffice.tablet.R;
 import com.viettel.voffice.tablet.fragment.sign.Obj.UnFlashsignObj;
-import com.viettel.voffice.tablet.fragment.sign.Obj.UnsignListObj;
-import com.viettel.voffice.tablet.fragment.sign.adapter.ListUnFlashsignAdapter;
-import com.viettel.voffice.tablet.fragment.sign.adapter.ListUnsignAdapter;
+import com.viettel.voffice.tablet.fragment.sign.adapter.UnFlashsignAdapter;
 
 import java.util.ArrayList;
 
@@ -22,9 +22,9 @@ import java.util.ArrayList;
  */
 public class FragmentUnflashSign extends Fragment {
 
-    ListView lvSign;
+    RecyclerView lvSign;
     LinearLayout llMenuLeft;
-    ListUnFlashsignAdapter adapter;
+    UnFlashsignAdapter adapter;
     ArrayList<UnFlashsignObj> arraySign;
     public FragmentUnflashSign() {
         // Required empty public constructor
@@ -41,14 +41,7 @@ public class FragmentUnflashSign extends Fragment {
     }
 
     private void init(View v) {
-        lvSign = v.findViewById(R.id.rc_view);
-        arraySign = new ArrayList<>();
-        adapter = new ListUnFlashsignAdapter(getActivity(),R.layout.item_sign,arraySign);
-//
-//        LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
-//        lvSign.setLayoutManager(layoutManager);
-        lvSign.setAdapter(adapter);
-
+       setRecycle(v);
         arraySign.add(new UnFlashsignObj());
         arraySign.add(new UnFlashsignObj());
         arraySign.add(new UnFlashsignObj());
@@ -60,5 +53,14 @@ public class FragmentUnflashSign extends Fragment {
         adapter.notifyDataSetChanged();
 
     }
+    private void setRecycle(View v) {
+        lvSign = v.findViewById(R.id.rc_view);
+        lvSign.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL));
+        lvSign.setHasFixedSize(true);
+        lvSign.setLayoutManager(new LinearLayoutManager(getActivity()));
+        arraySign = new ArrayList<>();
+        adapter = new UnFlashsignAdapter(getActivity(),arraySign);
+        lvSign.setAdapter(adapter);
 
+    }
 }

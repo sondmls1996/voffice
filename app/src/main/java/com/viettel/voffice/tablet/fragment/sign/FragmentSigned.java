@@ -3,15 +3,17 @@ package com.viettel.voffice.tablet.fragment.sign;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.ListView;
 
 import com.viettel.voffice.tablet.R;
 import com.viettel.voffice.tablet.fragment.sign.Obj.SignedListObj;
-import com.viettel.voffice.tablet.fragment.sign.adapter.ListSignedAdapter;
+import com.viettel.voffice.tablet.fragment.sign.adapter.SignedAdapter;
 
 import java.util.ArrayList;
 
@@ -19,9 +21,9 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class FragmentSigned extends Fragment {
-    ListView lvSign;
+    RecyclerView lvSign;
     LinearLayout llMenuLeft;
-    ListSignedAdapter adapter;
+    SignedAdapter adapter;
     ArrayList<SignedListObj> arraySign;
 
     public FragmentSigned() {
@@ -40,13 +42,7 @@ public class FragmentSigned extends Fragment {
 
     private void init(View v) {
 
-        lvSign = v.findViewById(R.id.rc_view);
-        arraySign = new ArrayList<>();
-        adapter = new ListSignedAdapter(getActivity(),R.layout.item_sign,arraySign);
-//
-//        LinearLayoutManager layoutManager = new LinearLayoutManager(getActivity());
-//        lvSign.setLayoutManager(layoutManager);
-        lvSign.setAdapter(adapter);
+         setRecycle(v);
 
         arraySign.add(new SignedListObj());
         arraySign.add(new SignedListObj());
@@ -54,5 +50,13 @@ public class FragmentSigned extends Fragment {
         arraySign.add(new SignedListObj());
         adapter.notifyDataSetChanged();
     }
-
+    private void setRecycle(View v) {
+        lvSign = v.findViewById(R.id.rc_view);
+        lvSign.addItemDecoration(new DividerItemDecoration(getActivity(), DividerItemDecoration.VERTICAL));
+        lvSign.setHasFixedSize(true);
+        lvSign.setLayoutManager(new LinearLayoutManager(getActivity()));
+        arraySign = new ArrayList<>();
+        adapter = new SignedAdapter(getActivity(),arraySign);
+        lvSign.setAdapter(adapter);
+    }
 }

@@ -152,6 +152,8 @@ public class SignFragment extends Fragment implements View.OnClickListener {
                 replaceFragment(release);
                 break;
             case R.id.rlMenuAll:
+                Class all = FragmentSignAll.class;
+                replaceFragment(all);
                 break;
 
 

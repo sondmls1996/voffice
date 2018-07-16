@@ -13,7 +13,7 @@ import android.widget.ListView;
 import android.widget.RelativeLayout;
 
 import com.viettel.voffice.tablet.R;
-import com.viettel.voffice.tablet.fragment.document.adapter.ListDoccument;
+import com.viettel.voffice.tablet.fragment.document.adapter.ListDoccumentAdapter;
 import com.viettel.voffice.tablet.fragment.document.Object.ListDoccumentObj;
 
 import java.util.ArrayList;
@@ -23,7 +23,7 @@ import java.util.ArrayList;
  */
 public class Doccument extends Fragment implements View.OnClickListener {
     ListView lvDoccument;
-    ListDoccument adapter;
+    ListDoccumentAdapter adapter;
     RelativeLayout rlDocWait,rlDocunread,rlDocdone,rlDocsave,rlDocall,rlLibrary;
 
     ArrayList<ListDoccumentObj> arrayDoccument;

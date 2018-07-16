@@ -2123,7 +2123,7 @@ Trực chỉ huy:&#160;%1$s
     <string name="update_pos_template_success">Sắp xếp mẫu thành công</string>
     <string name="update_pos_template_unsuccess">Sắp xếp mẫu không thành công</string>
     <string name="doc_type">Loại văn bản:</string>
-    <string name="doc_status">Trạng thái:</string>
+    <string name="doc_status">Trạng thái: </string>
     <string name="cho_ban_hanh">Chờ ban hành </string>
     <string name="da_ban_hanh">Đã ban hành </string>
     <string name="da_huy_ban_hanh">Đã hủy ban hành </string>

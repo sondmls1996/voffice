@@ -119,10 +119,9 @@
                     android:layout_alignParentRight="true"
                     android:src="@drawable/close_w"/>
             </RelativeLayout>
-            <ListView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/lv_contact"></ListView>
+            <include
+                layout="@layout/refresh_rcview"
+                ></include>
         </LinearLayout>
 
 

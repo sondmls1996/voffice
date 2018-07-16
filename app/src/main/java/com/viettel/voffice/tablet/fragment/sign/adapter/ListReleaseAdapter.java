@@ -3,6 +3,7 @@ package com.viettel.voffice.tablet.fragment.sign.adapter;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,48 +13,82 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.daimajia.swipe.SwipeLayout;
+import com.daimajia.swipe.adapters.RecyclerSwipeAdapter;
+import com.daimajia.swipe.implments.SwipeItemRecyclerMangerImpl;
 import com.viettel.voffice.tablet.R;
+import com.viettel.voffice.tablet.fragment.sign.Obj.ReleaseListObj;
 import com.viettel.voffice.tablet.fragment.sign.Obj.ReleaseListObj;
 
 import java.util.ArrayList;
 
-public class ListReleaseAdapter extends ArrayAdapter<ReleaseListObj> {
-    Context ct;
-    ArrayAdapter<ReleaseListObj> array;
+public class ListReleaseAdapter extends RecyclerSwipeAdapter<ListReleaseAdapter.SimpleViewHolder> {
 
-    public ListReleaseAdapter(Context context, int resource, ArrayList<ReleaseListObj> items) {
+    public static class SimpleViewHolder extends RecyclerView.ViewHolder {
+        ImageView img_ngkycuoi;
+        ImageView img_cmt;
+        LinearLayout lnContent;
+        RelativeLayout rlSign;
+        RelativeLayout rlAttFile;
+        RelativeLayout rlForward;
+        TextView tv_thoigiantrinh;
+        TextView tv_time;
+        SwipeLayout swipeLayout;
+        public SimpleViewHolder(View v) {
+            super(v);
+             tv_thoigiantrinh = v.findViewById(R.id.tv_thoigiantrinh);
+             tv_time= v.findViewById(R.id.tv_time);
+             img_ngkycuoi = v.findViewById(R.id.img_ngkycuoi);
+             lnContent = v.findViewById(R.id.ln_content);
 
-        super(context, resource, items);
-        this.ct = context;
+             rlForward = v.findViewById(R.id.icon_forward_sign);
+             rlSign = v.findViewById(R.id.icon_sign);
+             rlAttFile = v.findViewById(R.id.icon_attfile);
+            swipeLayout = v.findViewById(R.id.sign_item_swipe);
 
-    }
 
-    @NonNull
-    @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        View v = convertView;
-        ReleaseListObj pill = getItem(position);
-        if(v==null){
-            LayoutInflater inflater = LayoutInflater.from(getContext());
-            v =  inflater.inflate(R.layout.item_sign, null);
+//            itemView.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+//                    Log.d(getClass().getSimpleName(), "onItemSelected: " + textViewData.getText().toString());
+//                    Toast.makeText(view.getContext(), "onItemSelected: " + textViewData.getText().toString(), Toast.LENGTH_SHORT).show();
+//                }
+//            });
         }
-        init(v);
-
-//        SwipeLayout swipe = v.findViewById(R.id.sign_item_swipe);
-//        swipe.addDrag(SwipeLayout.DragEdge.Right, v.findViewById(R.id.bottom_wrapper));
-        return v;
     }
 
-    private void init(View v) {
-        TextView tv_thoigiantrinh = v.findViewById(R.id.tv_thoigiantrinh);
-        TextView tv_time= v.findViewById(R.id.tv_time);
-        ImageView img_ngkycuoi = v.findViewById(R.id.img_ngkycuoi);
-        LinearLayout lnContent = v.findViewById(R.id.ln_content);
+    private Context mContext;
+    private ArrayList<ReleaseListObj> mDataset;
 
-        RelativeLayout rlForward = v.findViewById(R.id.icon_forward_sign);
-        RelativeLayout rlSign = v.findViewById(R.id.icon_sign);
-        RelativeLayout rlAttFile = v.findViewById(R.id.icon_attfile);
+    //protected SwipeItemRecyclerMangerImpl mItemManger = new SwipeItemRecyclerMangerImpl(this);
+    protected SwipeItemRecyclerMangerImpl mItemManger = new SwipeItemRecyclerMangerImpl(this);
+    public ListReleaseAdapter(Context context, ArrayList<ReleaseListObj> objects) {
+        this.mContext = context;
+        this.mDataset = objects;
+    }
 
+    @Override
+    public ListReleaseAdapter.SimpleViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_sign, parent, false);
+        return new ListReleaseAdapter.SimpleViewHolder(view);
+    }
 
+    @Override
+    public void onBindViewHolder(final ListReleaseAdapter.SimpleViewHolder viewHolder, final int position) {
+        ReleaseListObj item = mDataset.get(position);
+
+        viewHolder.swipeLayout.setShowMode(SwipeLayout.ShowMode.LayDown);
+
+        mItemManger.bindView(viewHolder.itemView, position);
+    }
+
+    @Override
+    public int getItemCount() {
+        return mDataset.size();
+    }
+
+    @Override
+    public int getSwipeLayoutResourceId(int position) {
+        return R.id.sign_item_swipe;
     }
 }

@@ -1,4 +1,4 @@
 package com.viettel.voffice.tablet.fragment.document.adapter;
 
-public class ListDoccumentDone {
+public class ListDoccumentDoneAdapter {
 }
